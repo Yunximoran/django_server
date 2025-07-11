@@ -23,13 +23,15 @@ class DataBase:
             raise "MYSQL detialindex 表 不存在"
         
         self.table_detialindex = self.database.workbook("detialindex")
+        self.table_userdata = self.database.workbook("userdata")
 
     def __check_tables(self, table):
         return table in self.database.tables()
     
+    # 文章数据处理
     def get_detial_message(self, detial) -> dict:
         logger.record(1, f"read detial:{detial} information from detialindex")
-        detialdata = self._get_cache_(detial)
+        detialdata = self._hget_cache_(detial)
         if detialdata is None:
             # 缓存相关数据时，该从MySQL读取数据
             detialdata = self._get_detial_message(detial)
@@ -65,7 +67,7 @@ class DataBase:
     def set_detial_message(self, detial, data):
         # 获取当前数据
         logger.record(1, f"update detial:{detial} data from detialindex")
-        self._set_cache_(detial, data)
+        self._hset_cache_(detial, data)
 
         # 异步 更新MYSQL 保存数据到磁盘
         mysql_update_queue.put((detial, data, time.time()))
@@ -99,22 +101,49 @@ class DataBase:
                     )
                 )
 
+    def check_now_userdata(self): # 获取全部用户数据
+        userids = self.cache.lrange("usrids")
+        if userids is None:
+            userids = self.table_userdata.select("usrid")
+            # 初始化全部缓存
+            self.cache.rpush("usrids", *userids)
+            # 如果十秒没有查询，从redis中删除
+            self.cache.expire("usrids", 10)
+        if not isinstance(userids, list):
+            userids = list(userids)
+        return self.jsondumps(userids)
+
+    def check_now_detials(self): # 获取全部文章索引
+        detials = self.cache.lrange("detials")
+        if detials is None:
+            detials = self.table_detialindex.select("detial")
+            # 初始化全部缓存
+            self.cache.rpush("detial", *detials)
+            # 如果十秒没有查询，从redis中删除
+            self.cache.expire("detials", 10)
+        if not isinstance(detials, list):
+            detials = list(detials)
+        return self.jsonloads(detials)
+
+    # 数据转换模块: JSON <=> Python
     def jsonloads(self, strdata):
         return self.cache.loads(strdata)
 
     def jsondumps(self, data):
         return json.dumps(data, ensure_ascii=False, indent=4)
     
+
     # 实现读写缓存数据， 设置异常捕获
+    # 设置异常回调函数时，保证 回调函数参数与被装饰函数参数 一致
     @catch.DataBase(cache=cache, disk=database, error_callback=_get_detial_message)
-    def _get_cache_(self, name):
+    def _hget_cache_(self, name):
         # raise TimeoutError("测试分级效果")
         label = "detialindex"
         data = self.cache.hget(label, name)
         return self.jsonloads(data)
     
     @catch.DataBase(cache=cache, disk=database, error_callback=_set_detial_data)
-    def _set_cache_(self,name, data):
+    def _hset_cache_(self,name, data):
         # raise TimeoutError("测试分级效果")
         label = "detialindex"
         self.cache.hset(label, name, self.jsondumps(data))

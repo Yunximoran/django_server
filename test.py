@@ -5,32 +5,30 @@ import random
 baseurl = "http://localhost:8000/"
 
 # baseurl + demodetial/{test_detial[:]}
-test_detial = "abcdefghijklmn"
+
+def get_detial():
+    test_detial = "abcdefghijklmn"
+    return "".join([
+        test_detial[random.randint(0, 13)],
+        test_detial[random.randint(0, 13)],
+        test_detial[random.randint(0, 13)],
+        test_detial[random.randint(0, 13)]
+    ])
     # 测试用户页面
 
+def get_params():
+    return {"usrid": random.randint(100, 199)}
 
-# data in test_users
-test_users = [
-    {
-        "usrid": 123
-    },
-    {
-        "usrid": 234
-    },
-    {
-        "usrid": 345
-    }
-]
-
-def test_api(x):
-    detial = test_detial[random.randint(0, len(test_detial)) - 1] * 4
-    params = test_users[random.randint(0, 2)] 
+def test_api(x=0):
+    detial = get_detial()
+    params = get_params()
+    print(detial)
     print(params)
-    return requests.get(f"{baseurl}demopage/{detial}", params=params)
+    return requests.get(f"{baseurl}demopage/eeee", params=params)
 
 if __name__ == "__main__":
     with Pool() as pool:
-        results = pool.map_async(test_api, range(0, 100)).get()
+        results = pool.map_async(test_api, range(0, 50)).get()
     
     for res in results:
-        print(res)
+        print(res.text)

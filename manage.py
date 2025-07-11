@@ -4,8 +4,10 @@ import os
 import sys
 from lib import resolver
 from lib.sys.processing import Process, Pool, Queue
-from view._actions.config import usedb
-from database import mysql_update_queue
+from database import mysql_update_queue, DataBase
+
+
+usedb = DataBase()
 
 def main(argv=sys.argv):
     """Run administrative tasks."""
@@ -19,7 +21,6 @@ def main(argv=sys.argv):
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(argv)
-
 
 def dispose_updateserver(param):
     detial, data = param
