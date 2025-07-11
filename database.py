@@ -13,8 +13,7 @@ catch = Catch(logger)
 mysql_update_queue: Queue =  Queue()
 
 class DataBase:
-
-    cache = Redis(connect=False, timeout=False, data=False)
+    cache = Redis(connect=False, timeout=False, data=False) # 参数设置捕获取消异常捕获
     database = MySQL()
 
     def __init__(self):
@@ -30,14 +29,12 @@ class DataBase:
     
     def get_detial_message(self, detial) -> dict:
         logger.record(1, f"read detial:{detial} information from detialindex")
-        detialdata = self._get_cache_("detialindex", detial)
+        detialdata = self._get_cache_(detial)
         if detialdata is None:
             # 缓存相关数据时，该从MySQL读取数据
             detialdata = self._get_detial_message(detial)
-
             # 将数据写入缓存, 供下次读取使用
             self.set_detial_message(detial, detialdata)
-
         return self.jsonloads(detialdata)
     
     def _get_detial_message(self, detial):
@@ -68,10 +65,10 @@ class DataBase:
     def set_detial_message(self, detial, data):
         # 获取当前数据
         logger.record(1, f"update detial:{detial} data from detialindex")
-        data = self._set_cache_("detialindex", data, detial)
+        self._set_cache_(detial, data)
+
         # 异步 更新MYSQL 保存数据到磁盘
-        mysql_update_queue.put((detial, data))
-        # self._set_detial_data(detial, data)
+        mysql_update_queue.put((detial, data, time.time()))
 
     def _set_detial_data(self, detial, data):        # 异步更新数据策略 redis 数据 写入 mysql
         # 获取view链接表
@@ -108,21 +105,19 @@ class DataBase:
     def jsondumps(self, data):
         return json.dumps(data, ensure_ascii=False, indent=4)
     
+    # 实现读写缓存数据， 设置异常捕获
     @catch.DataBase(cache=cache, disk=database, error_callback=_get_detial_message)
-    def _get_cache_(self, label, name=None):
-        if name is None:
-            data = self.cache.get(label)
-        else:
-            data = self.cache.hget(label, name)
+    def _get_cache_(self, name):
+        # raise TimeoutError("测试分级效果")
+        label = "detialindex"
+        data = self.cache.hget(label, name)
         return self.jsonloads(data)
     
     @catch.DataBase(cache=cache, disk=database, error_callback=_set_detial_data)
-    def _set_cache_(self, label, data, name=None):
-        if name is None:
-            status = self.cache.set(label, self.jsondumps(data))
-        else:
-            status = self.cache.hset(label, name, self.jsondumps(data))
-        return status
+    def _set_cache_(self,name, data):
+        # raise TimeoutError("测试分级效果")
+        label = "detialindex"
+        self.cache.hset(label, name, self.jsondumps(data))
     
     
     def hitrate(self):            # 缓存命中率
@@ -133,30 +128,3 @@ class DataBase:
     
 if __name__ == "__main__":
     db = DataBase()
-    # data = db.hget("userdata", "uname")
-
-    # print("", data)
-    # db = MySQL("djangodata")
-    # table = db.workbook("userdata")
-    # # print(table.usrid)
-    # # print(table.uname)
-    # name = table.select(condition=Condition("usrid = 66"))
-
-    # d = {1: 2}
-    # if name:
-    #     print(d)
-    d = {1: 2}
-    print(tuple(d.items()))
-
-    print(db.cache.keys())
-    # print(type(name[0][0]))
-    # print(name)
-    # # ls = db.tables()
-    # print(ls)
-    # print(table.information())
-    # info = Redis().info("stats")
-    # hits = info['keyspace_hits']
-    # misses = info['keyspace_misses']
-    # print(f"{round(hits / (hits + misses), 2) * 100}%")
-    # data = Redis().loads(None)
-    # print(data)

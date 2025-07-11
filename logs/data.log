@@ -1270,3 +1270,4335 @@ edee
 2025-07-11 22:49:17,589 - data - INFO - detialindex
 {'views': {'126636': 34}, 'count': 34} edee
 
+2025-07-11 23:09:17,769 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:09:17,772 - data - INFO - detialindex
+edee
+
+2025-07-11 23:09:17,772 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:09:17,773 - data - INFO - detialindex
+{'views': {'126636': 35}, 'count': 35} edee
+
+2025-07-11 23:09:24,664 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:09:24,666 - data - INFO - detialindex
+edee
+
+2025-07-11 23:09:24,667 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:09:24,668 - data - INFO - detialindex
+{'views': {'126636': 36}, 'count': 36} edee
+
+2025-07-11 23:30:15,056 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:30:15,060 - data - INFO - edee
+
+
+2025-07-11 23:30:15,060 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:30:15,061 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:30:15,061 - data - INFO - edee
+{'views': {'126636': 37}, 'count': 37}
+
+2025-07-11 23:30:15,061 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:32:35,411 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:32:35,414 - data - INFO - edee
+
+
+2025-07-11 23:32:35,414 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:32:35,415 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:32:35,416 - data - INFO - edee
+{'views': {'126636': 38}, 'count': 38}
+
+2025-07-11 23:32:35,416 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:32,231 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:33:32,232 - data - INFO - edee
+
+
+2025-07-11 23:33:32,232 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:32,233 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:33:32,233 - data - INFO - edee
+{'views': {'126636': 39}, 'count': 39}
+
+2025-07-11 23:33:32,233 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:57,650 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:33:57,651 - data - INFO - edee
+
+
+2025-07-11 23:33:57,651 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:57,652 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:33:57,652 - data - INFO - edee
+{'views': {'126636': 40}, 'count': 40}
+
+2025-07-11 23:33:57,652 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:58,872 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:33:58,873 - data - INFO - edee
+
+
+2025-07-11 23:33:58,873 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:33:58,874 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:33:58,874 - data - INFO - edee
+{'views': {'126636': 41}, 'count': 41}
+
+2025-07-11 23:33:58,874 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:34:06,418 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:34:06,419 - data - INFO - edee
+
+
+2025-07-11 23:34:06,419 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:34:06,420 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:34:06,421 - data - INFO - edee
+{'views': {'126636': 42}, 'count': 42}
+
+2025-07-11 23:34:06,421 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:34:17,362 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:34:17,364 - data - INFO - edee
+
+
+2025-07-11 23:34:17,364 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:34:17,365 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:34:17,366 - data - INFO - edee
+{'views': {'126636': 43}, 'count': 43}
+
+2025-07-11 23:34:17,366 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:36:31,669 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:36:31,671 - data - INFO - edee
+
+
+2025-07-11 23:36:31,671 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:38:31,391 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:38:31,393 - data - INFO - edee
+
+
+2025-07-11 23:38:31,393 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:38:31,400 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:38:31,401 - data - INFO - edee
+{'views': {'126636': 44}, 'count': 44}
+
+2025-07-11 23:38:31,401 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:38:51,484 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:38:51,487 - data - INFO - edee
+
+
+2025-07-11 23:38:51,487 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:38:51,491 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:38:51,491 - data - INFO - edee
+{'views': {'126636': 45}, 'count': 45}
+
+2025-07-11 23:38:51,491 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:43,830 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:43,834 - data - INFO - edee
+
+
+2025-07-11 23:46:43,834 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:43,840 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:43,841 - data - INFO - edee
+{'views': {'126636': 46}, 'count': 46}
+
+2025-07-11 23:46:43,841 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:54,717 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:54,718 - data - INFO - edee
+
+
+2025-07-11 23:46:54,718 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:54,722 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:54,722 - data - INFO - edee
+{'views': {'126636': 47}, 'count': 47}
+
+2025-07-11 23:46:54,722 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:56,291 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:56,292 - data - INFO - edee
+
+
+2025-07-11 23:46:56,292 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:56,297 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:56,298 - data - INFO - edee
+{'views': {'126636': 48}, 'count': 48}
+
+2025-07-11 23:46:56,298 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:56,978 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:56,980 - data - INFO - edee
+
+
+2025-07-11 23:46:56,980 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:56,985 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:56,985 - data - INFO - edee
+{'views': {'126636': 49}, 'count': 49}
+
+2025-07-11 23:46:56,985 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:57,451 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:57,452 - data - INFO - edee
+
+
+2025-07-11 23:46:57,452 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:57,456 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:57,457 - data - INFO - edee
+{'views': {'126636': 50}, 'count': 50}
+
+2025-07-11 23:46:57,457 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:57,872 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:57,873 - data - INFO - edee
+
+
+2025-07-11 23:46:57,873 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:57,878 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:57,879 - data - INFO - edee
+{'views': {'126636': 51}, 'count': 51}
+
+2025-07-11 23:46:57,879 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:58,474 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 23:46:58,476 - data - INFO - edee
+
+
+2025-07-11 23:46:58,476 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:46:58,481 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 23:46:58,482 - data - INFO - edee
+{'views': {'126636': 52}, 'count': 52}
+
+2025-07-11 23:46:58,482 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:06,278 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:06,278 - data - INFO - ee
+
+
+2025-07-11 23:47:06,279 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:06,295 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:06,296 - data - INFO - ee
+{'views': {}, 'count': 0}
+
+2025-07-11 23:47:06,296 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:06,299 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:06,300 - data - INFO - ee
+{'views': {'126636': 1}, 'count': 1}
+
+2025-07-11 23:47:06,300 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:10,655 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:10,656 - data - INFO - ee
+
+
+2025-07-11 23:47:10,656 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:10,661 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:10,662 - data - INFO - ee
+{'views': {'126636': 2}, 'count': 2}
+
+2025-07-11 23:47:10,662 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:49,070 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:49,071 - data - INFO - ee
+
+
+2025-07-11 23:47:49,071 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:49,075 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:49,075 - data - INFO - ee
+{'views': {'126636': 3}, 'count': 3}
+
+2025-07-11 23:47:49,075 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:52,605 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:52,606 - data - INFO - ee
+
+
+2025-07-11 23:47:52,606 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:52,612 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:52,612 - data - INFO - ee
+{'views': {'126636': 4}, 'count': 4}
+
+2025-07-11 23:47:52,612 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:53,418 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:53,419 - data - INFO - ee
+
+
+2025-07-11 23:47:53,419 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:53,424 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:53,424 - data - INFO - ee
+{'views': {'126636': 5}, 'count': 5}
+
+2025-07-11 23:47:53,424 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:55,420 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:47:55,421 - data - INFO - ee
+
+
+2025-07-11 23:47:55,421 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:47:55,425 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:47:55,425 - data - INFO - ee
+{'views': {'126636': 6}, 'count': 6}
+
+2025-07-11 23:47:55,425 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:48:10,535 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:48:10,537 - data - INFO - ee
+
+
+2025-07-11 23:48:10,537 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:48:10,542 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:48:10,542 - data - INFO - ee
+{'views': {'126636': 7}, 'count': 7}
+
+2025-07-11 23:48:10,542 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:12,213 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:49:12,215 - data - INFO - ee
+
+
+2025-07-11 23:49:12,215 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:12,219 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:49:12,219 - data - INFO - ee
+{'views': {'126636': 8}, 'count': 8}
+
+2025-07-11 23:49:12,219 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:13,648 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:49:13,649 - data - INFO - ee
+
+
+2025-07-11 23:49:13,649 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:13,654 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:49:13,655 - data - INFO - ee
+{'views': {'126636': 9}, 'count': 9}
+
+2025-07-11 23:49:13,655 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:24,518 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:49:24,521 - data - INFO - ee
+
+
+2025-07-11 23:49:24,521 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:24,527 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:49:24,527 - data - INFO - ee
+{'views': {'126636': 10}, 'count': 10}
+
+2025-07-11 23:49:24,527 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:26,718 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:49:26,719 - data - INFO - ee
+
+
+2025-07-11 23:49:26,719 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:49:26,725 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:49:26,725 - data - INFO - ee
+{'views': {'126636': 11}, 'count': 11}
+
+2025-07-11 23:49:26,725 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:18,499 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:18,501 - data - INFO - ee
+
+
+2025-07-11 23:56:18,501 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:18,508 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:18,508 - data - INFO - ee
+{'views': {'126636': 12}, 'count': 12}
+
+2025-07-11 23:56:18,508 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:19,314 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:19,315 - data - INFO - ee
+
+
+2025-07-11 23:56:19,315 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:19,320 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:19,321 - data - INFO - ee
+{'views': {'126636': 13}, 'count': 13}
+
+2025-07-11 23:56:19,321 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:20,031 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:20,033 - data - INFO - ee
+
+
+2025-07-11 23:56:20,033 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:20,037 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:20,037 - data - INFO - ee
+{'views': {'126636': 14}, 'count': 14}
+
+2025-07-11 23:56:20,037 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:20,550 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:20,552 - data - INFO - ee
+
+
+2025-07-11 23:56:20,552 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:20,555 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:20,556 - data - INFO - ee
+{'views': {'126636': 15}, 'count': 15}
+
+2025-07-11 23:56:20,556 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:20,999 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:21,000 - data - INFO - ee
+
+
+2025-07-11 23:56:21,000 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:21,006 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:21,007 - data - INFO - ee
+{'views': {'126636': 16}, 'count': 16}
+
+2025-07-11 23:56:21,007 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:21,397 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:21,398 - data - INFO - ee
+
+
+2025-07-11 23:56:21,398 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:21,403 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:21,403 - data - INFO - ee
+{'views': {'126636': 17}, 'count': 17}
+
+2025-07-11 23:56:21,403 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:23,251 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:23,252 - data - INFO - ee
+
+
+2025-07-11 23:56:23,252 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:23,258 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:23,259 - data - INFO - ee
+{'views': {'126636': 18}, 'count': 18}
+
+2025-07-11 23:56:23,259 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:23,678 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:23,680 - data - INFO - ee
+
+
+2025-07-11 23:56:23,680 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:23,685 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:23,685 - data - INFO - ee
+{'views': {'126636': 19}, 'count': 19}
+
+2025-07-11 23:56:23,685 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:24,119 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:24,120 - data - INFO - ee
+
+
+2025-07-11 23:56:24,120 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:24,125 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:24,126 - data - INFO - ee
+{'views': {'126636': 20}, 'count': 20}
+
+2025-07-11 23:56:24,126 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:24,548 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:24,549 - data - INFO - ee
+
+
+2025-07-11 23:56:24,549 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:24,553 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:24,554 - data - INFO - ee
+{'views': {'126636': 21}, 'count': 21}
+
+2025-07-11 23:56:24,554 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:26,016 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:56:26,017 - data - INFO - ee
+
+
+2025-07-11 23:56:26,017 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:56:26,023 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:56:26,024 - data - INFO - ee
+{'views': {'126636': 22}, 'count': 22}
+
+2025-07-11 23:56:26,024 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:11,458 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:11,461 - data - INFO - ee
+
+
+2025-07-11 23:57:11,461 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:11,467 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:11,467 - data - INFO - ee
+{'views': {'126636': 23}, 'count': 23}
+
+2025-07-11 23:57:11,468 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:11,954 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:11,955 - data - INFO - ee
+
+
+2025-07-11 23:57:11,955 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:11,962 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:11,962 - data - INFO - ee
+{'views': {'126636': 24}, 'count': 24}
+
+2025-07-11 23:57:11,962 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:12,472 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:12,473 - data - INFO - ee
+
+
+2025-07-11 23:57:12,473 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:12,478 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:12,479 - data - INFO - ee
+{'views': {'126636': 25}, 'count': 25}
+
+2025-07-11 23:57:12,479 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:12,843 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:12,844 - data - INFO - ee
+
+
+2025-07-11 23:57:12,844 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:12,848 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:12,849 - data - INFO - ee
+{'views': {'126636': 26}, 'count': 26}
+
+2025-07-11 23:57:12,849 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:13,259 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:13,260 - data - INFO - ee
+
+
+2025-07-11 23:57:13,260 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:13,266 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:13,266 - data - INFO - ee
+{'views': {'126636': 27}, 'count': 27}
+
+2025-07-11 23:57:13,266 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:13,666 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:13,667 - data - INFO - ee
+
+
+2025-07-11 23:57:13,667 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:13,671 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:13,672 - data - INFO - ee
+{'views': {'126636': 28}, 'count': 28}
+
+2025-07-11 23:57:13,672 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:14,107 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:14,108 - data - INFO - ee
+
+
+2025-07-11 23:57:14,108 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:14,112 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:14,113 - data - INFO - ee
+{'views': {'126636': 29}, 'count': 29}
+
+2025-07-11 23:57:14,113 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:14,498 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:14,499 - data - INFO - ee
+
+
+2025-07-11 23:57:14,499 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:14,502 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:14,503 - data - INFO - ee
+{'views': {'126636': 30}, 'count': 30}
+
+2025-07-11 23:57:14,503 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:15,503 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:15,504 - data - INFO - ee
+
+
+2025-07-11 23:57:15,504 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:15,509 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:15,510 - data - INFO - ee
+{'views': {'126636': 31}, 'count': 31}
+
+2025-07-11 23:57:15,510 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:30,977 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:30,978 - data - INFO - ee
+
+
+2025-07-11 23:57:30,979 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:30,985 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:30,985 - data - INFO - ee
+{'views': {'126636': 32}, 'count': 32}
+
+2025-07-11 23:57:30,985 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:33,856 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:33,857 - data - INFO - ee
+
+
+2025-07-11 23:57:33,857 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:33,863 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:33,863 - data - INFO - ee
+{'views': {'126636': 33}, 'count': 33}
+
+2025-07-11 23:57:33,863 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:35,094 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:35,096 - data - INFO - ee
+
+
+2025-07-11 23:57:35,096 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:35,100 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:35,100 - data - INFO - ee
+{'views': {'126636': 34}, 'count': 34}
+
+2025-07-11 23:57:35,100 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:43,564 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:57:43,565 - data - INFO - ee
+
+
+2025-07-11 23:57:43,565 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:57:43,570 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:57:43,571 - data - INFO - ee
+{'views': {'126636': 35}, 'count': 35}
+
+2025-07-11 23:57:43,571 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:58:19,007 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:58:19,007 - data - INFO - ee
+
+
+2025-07-11 23:58:19,008 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:58:19,013 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:58:19,013 - data - INFO - ee
+{'views': {'126636': 36}, 'count': 36}
+
+2025-07-11 23:58:19,013 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:58:29,154 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:58:29,155 - data - INFO - ee
+
+
+2025-07-11 23:58:29,155 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:58:29,159 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:58:29,159 - data - INFO - ee
+{'views': {'126636': 37}, 'count': 37}
+
+2025-07-11 23:58:29,159 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:59:41,025 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:59:41,027 - data - INFO - ee
+
+
+2025-07-11 23:59:41,027 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:59:41,032 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:59:41,033 - data - INFO - ee
+{'views': {'126636': 38}, 'count': 38}
+
+2025-07-11 23:59:41,033 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:59:50,237 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-11 23:59:50,239 - data - INFO - ee
+
+
+2025-07-11 23:59:50,239 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-11 23:59:50,245 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-11 23:59:50,245 - data - INFO - ee
+{'views': {'126636': 39}, 'count': 39}
+
+2025-07-11 23:59:50,245 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:00:23,943 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:00:23,945 - data - INFO - ee
+
+
+2025-07-12 00:00:23,946 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:00:23,952 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:00:23,952 - data - INFO - ee
+{'views': {'126636': 40}, 'count': 40}
+
+2025-07-12 00:00:23,952 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:00:35,110 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:00:35,111 - data - INFO - ee
+
+
+2025-07-12 00:00:35,111 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:00:35,118 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:00:35,118 - data - INFO - ee
+{'views': {'126636': 41}, 'count': 41}
+
+2025-07-12 00:00:35,118 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:02,885 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:02,887 - data - INFO - ee
+
+
+2025-07-12 00:01:02,887 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:02,891 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:02,891 - data - INFO - ee
+{'views': {'126636': 42}, 'count': 42}
+
+2025-07-12 00:01:02,891 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:05,246 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:05,247 - data - INFO - ee
+
+
+2025-07-12 00:01:05,247 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:05,252 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:05,252 - data - INFO - ee
+{'views': {'126636': 43}, 'count': 43}
+
+2025-07-12 00:01:05,252 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:14,392 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:14,395 - data - INFO - ee
+
+
+2025-07-12 00:01:14,395 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:14,402 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:14,403 - data - INFO - ee
+{'views': {'126636': 44}, 'count': 44}
+
+2025-07-12 00:01:14,403 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:16,500 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:16,501 - data - INFO - ee
+
+
+2025-07-12 00:01:16,501 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:16,507 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:16,507 - data - INFO - ee
+{'views': {'126636': 45}, 'count': 45}
+
+2025-07-12 00:01:16,507 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:19,944 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:19,945 - data - INFO - ee
+
+
+2025-07-12 00:01:19,945 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:19,950 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:19,951 - data - INFO - ee
+{'views': {'126636': 46}, 'count': 46}
+
+2025-07-12 00:01:19,951 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:20,540 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:01:20,542 - data - INFO - ee
+
+
+2025-07-12 00:01:20,542 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:01:20,546 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:01:20,546 - data - INFO - ee
+{'views': {'126636': 47}, 'count': 47}
+
+2025-07-12 00:01:20,546 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:19,665 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:19,667 - data - INFO - ee
+
+
+2025-07-12 00:02:19,667 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:19,674 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:19,674 - data - INFO - ee
+{'views': {'126636': 48}, 'count': 48}
+
+2025-07-12 00:02:19,675 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:22,056 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:22,058 - data - INFO - ee
+
+
+2025-07-12 00:02:22,058 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:22,062 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:22,063 - data - INFO - ee
+{'views': {'126636': 49}, 'count': 49}
+
+2025-07-12 00:02:22,063 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:22,520 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:22,522 - data - INFO - ee
+
+
+2025-07-12 00:02:22,522 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:22,526 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:22,526 - data - INFO - ee
+{'views': {'126636': 50}, 'count': 50}
+
+2025-07-12 00:02:22,526 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:23,031 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:23,032 - data - INFO - ee
+
+
+2025-07-12 00:02:23,032 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:23,037 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:23,037 - data - INFO - ee
+{'views': {'126636': 51}, 'count': 51}
+
+2025-07-12 00:02:23,037 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:23,522 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:23,523 - data - INFO - ee
+
+
+2025-07-12 00:02:23,523 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:23,527 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:23,528 - data - INFO - ee
+{'views': {'126636': 52}, 'count': 52}
+
+2025-07-12 00:02:23,528 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:24,674 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:24,675 - data - INFO - ee
+
+
+2025-07-12 00:02:24,675 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:24,678 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:24,678 - data - INFO - ee
+{'views': {'126636': 53}, 'count': 53}
+
+2025-07-12 00:02:24,678 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:25,536 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:25,537 - data - INFO - ee
+
+
+2025-07-12 00:02:25,537 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:25,540 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:25,541 - data - INFO - ee
+{'views': {'126636': 54}, 'count': 54}
+
+2025-07-12 00:02:25,541 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:26,196 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:02:26,197 - data - INFO - ee
+
+
+2025-07-12 00:02:26,197 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:02:26,202 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:02:26,203 - data - INFO - ee
+{'views': {'126636': 55}, 'count': 55}
+
+2025-07-12 00:02:26,203 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:21,201 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:21,202 - data - INFO - ee
+
+
+2025-07-12 00:03:21,202 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:21,208 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:21,208 - data - INFO - ee
+{'views': {'126636': 56}, 'count': 56}
+
+2025-07-12 00:03:21,208 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:52,104 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:52,105 - data - INFO - ee
+
+
+2025-07-12 00:03:52,105 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:52,109 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:52,111 - data - INFO - ee
+{'views': {'126636': 57}, 'count': 57}
+
+2025-07-12 00:03:52,111 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:53,317 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:53,318 - data - INFO - ee
+
+
+2025-07-12 00:03:53,318 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:53,323 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:53,323 - data - INFO - ee
+{'views': {'126636': 58}, 'count': 58}
+
+2025-07-12 00:03:53,323 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:54,023 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:54,024 - data - INFO - ee
+
+
+2025-07-12 00:03:54,024 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:54,030 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:54,030 - data - INFO - ee
+{'views': {'126636': 59}, 'count': 59}
+
+2025-07-12 00:03:54,030 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:54,704 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:54,705 - data - INFO - ee
+
+
+2025-07-12 00:03:54,705 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:54,709 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:54,709 - data - INFO - ee
+{'views': {'126636': 60}, 'count': 60}
+
+2025-07-12 00:03:54,709 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:55,948 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:55,949 - data - INFO - ee
+
+
+2025-07-12 00:03:55,949 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:55,953 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:55,954 - data - INFO - ee
+{'views': {'126636': 61}, 'count': 61}
+
+2025-07-12 00:03:55,954 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:56,399 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:56,401 - data - INFO - ee
+
+
+2025-07-12 00:03:56,401 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:56,406 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:56,407 - data - INFO - ee
+{'views': {'126636': 62}, 'count': 62}
+
+2025-07-12 00:03:56,407 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:56,866 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:56,867 - data - INFO - ee
+
+
+2025-07-12 00:03:56,867 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:56,871 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:56,872 - data - INFO - ee
+{'views': {'126636': 63}, 'count': 63}
+
+2025-07-12 00:03:56,872 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:57,286 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:57,288 - data - INFO - ee
+
+
+2025-07-12 00:03:57,288 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:57,292 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:57,293 - data - INFO - ee
+{'views': {'126636': 64}, 'count': 64}
+
+2025-07-12 00:03:57,293 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:57,707 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:57,708 - data - INFO - ee
+
+
+2025-07-12 00:03:57,708 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:57,713 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:57,713 - data - INFO - ee
+{'views': {'126636': 65}, 'count': 65}
+
+2025-07-12 00:03:57,713 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:58,162 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:03:58,163 - data - INFO - ee
+
+
+2025-07-12 00:03:58,163 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:03:58,167 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:03:58,168 - data - INFO - ee
+{'views': {'126636': 66}, 'count': 66}
+
+2025-07-12 00:03:58,168 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:24,267 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:24,269 - data - INFO - ee
+
+
+2025-07-12 00:04:24,269 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:24,275 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:24,276 - data - INFO - ee
+{'views': {'126636': 67}, 'count': 67}
+
+2025-07-12 00:04:24,276 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:25,224 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:25,225 - data - INFO - ee
+
+
+2025-07-12 00:04:25,225 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:25,229 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:25,230 - data - INFO - ee
+{'views': {'126636': 68}, 'count': 68}
+
+2025-07-12 00:04:25,230 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:28,531 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:28,532 - data - INFO - ee
+
+
+2025-07-12 00:04:28,532 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:28,538 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:28,538 - data - INFO - ee
+{'views': {'126636': 69}, 'count': 69}
+
+2025-07-12 00:04:28,538 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:29,324 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:29,325 - data - INFO - ee
+
+
+2025-07-12 00:04:29,325 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:29,331 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:29,332 - data - INFO - ee
+{'views': {'126636': 70}, 'count': 70}
+
+2025-07-12 00:04:29,332 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:29,704 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:29,705 - data - INFO - ee
+
+
+2025-07-12 00:04:29,705 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:29,709 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:29,709 - data - INFO - ee
+{'views': {'126636': 71}, 'count': 71}
+
+2025-07-12 00:04:29,709 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,039 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:30,040 - data - INFO - ee
+
+
+2025-07-12 00:04:30,040 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,045 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:30,045 - data - INFO - ee
+{'views': {'126636': 72}, 'count': 72}
+
+2025-07-12 00:04:30,046 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,391 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:30,392 - data - INFO - ee
+
+
+2025-07-12 00:04:30,392 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,397 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:30,398 - data - INFO - ee
+{'views': {'126636': 73}, 'count': 73}
+
+2025-07-12 00:04:30,398 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,698 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:30,699 - data - INFO - ee
+
+
+2025-07-12 00:04:30,699 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:30,703 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:30,703 - data - INFO - ee
+{'views': {'126636': 74}, 'count': 74}
+
+2025-07-12 00:04:30,703 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:31,030 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:31,032 - data - INFO - ee
+
+
+2025-07-12 00:04:31,032 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:31,036 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:31,037 - data - INFO - ee
+{'views': {'126636': 75}, 'count': 75}
+
+2025-07-12 00:04:31,037 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:31,389 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:31,390 - data - INFO - ee
+
+
+2025-07-12 00:04:31,390 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:31,396 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:31,397 - data - INFO - ee
+{'views': {'126636': 76}, 'count': 76}
+
+2025-07-12 00:04:31,397 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:50,063 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:04:50,064 - data - INFO - ee
+
+
+2025-07-12 00:04:50,064 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:04:50,068 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:04:50,068 - data - INFO - ee
+{'views': {'126636': 77}, 'count': 77}
+
+2025-07-12 00:04:50,068 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:10:22,238 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:10:22,240 - data - INFO - ee
+
+
+2025-07-12 00:10:22,244 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:10:22,245 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:10:22,246 - data - INFO - ee
+{'views': {'126636': 78}, 'count': 78}
+
+2025-07-12 00:10:22,250 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:11:59,104 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:12:04,540 - data - INFO - ee
+
+
+2025-07-12 00:12:04,546 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:12:18,567 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:12:26,382 - data - INFO - ee
+{'views': {'126636': 79}, 'count': 79}
+
+2025-07-12 00:12:49,882 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:15:17,024 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:15:17,026 - data - INFO - ee
+
+
+2025-07-12 00:15:17,030 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:15:17,031 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:15:17,032 - data - INFO - ee
+{'views': {'126636': 80}, 'count': 80}
+
+2025-07-12 00:15:17,037 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:15:59,397 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:16:04,705 - data - INFO - ee
+
+
+2025-07-12 00:16:17,818 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:16:17,820 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:16:17,821 - data - INFO - ee
+{'views': {'126636': 81}, 'count': 81}
+
+2025-07-12 00:16:17,827 - data - WARNING - 捕获到缓存异常，做降级处理， 数据写入MySQL
+
+
+2025-07-12 00:18:35,598 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:35,599 - data - INFO - eded
+
+
+2025-07-12 00:18:35,600 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:35,600 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 15}, 'count': 23}
+
+2025-07-12 00:18:45,421 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:45,422 - data - INFO - eded
+
+
+2025-07-12 00:18:45,423 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:45,423 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 16}, 'count': 24}
+
+2025-07-12 00:18:50,199 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:50,200 - data - INFO - eded
+
+
+2025-07-12 00:18:50,201 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:50,201 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 17}, 'count': 25}
+
+2025-07-12 00:18:50,574 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:50,575 - data - INFO - eded
+
+
+2025-07-12 00:18:50,575 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:50,576 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 18}, 'count': 26}
+
+2025-07-12 00:18:50,932 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:50,934 - data - INFO - eded
+
+
+2025-07-12 00:18:50,934 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:50,934 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 19}, 'count': 27}
+
+2025-07-12 00:18:51,287 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:51,288 - data - INFO - eded
+
+
+2025-07-12 00:18:51,289 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:51,289 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 20}, 'count': 28}
+
+2025-07-12 00:18:51,661 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:51,663 - data - INFO - eded
+
+
+2025-07-12 00:18:51,663 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:51,664 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 21}, 'count': 29}
+
+2025-07-12 00:18:52,031 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:52,032 - data - INFO - eded
+
+
+2025-07-12 00:18:52,033 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:52,034 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 22}, 'count': 30}
+
+2025-07-12 00:18:52,375 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:52,376 - data - INFO - eded
+
+
+2025-07-12 00:18:52,376 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:52,377 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 23}, 'count': 31}
+
+2025-07-12 00:18:52,727 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:52,728 - data - INFO - eded
+
+
+2025-07-12 00:18:52,729 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:52,729 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 24}, 'count': 32}
+
+2025-07-12 00:18:53,155 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:53,156 - data - INFO - eded
+
+
+2025-07-12 00:18:53,157 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:53,158 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 25}, 'count': 33}
+
+2025-07-12 00:18:55,001 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:18:55,002 - data - INFO - eded
+
+
+2025-07-12 00:18:55,003 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:18:55,003 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 26}, 'count': 34}
+
+2025-07-12 00:19:07,629 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:07,630 - data - INFO - eded
+
+
+2025-07-12 00:19:07,631 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:07,632 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 27}, 'count': 35}
+
+2025-07-12 00:19:08,028 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:08,030 - data - INFO - eded
+
+
+2025-07-12 00:19:08,030 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:08,031 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 28}, 'count': 36}
+
+2025-07-12 00:19:08,403 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:08,404 - data - INFO - eded
+
+
+2025-07-12 00:19:08,404 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:08,405 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 29}, 'count': 37}
+
+2025-07-12 00:19:08,739 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:08,740 - data - INFO - eded
+
+
+2025-07-12 00:19:08,741 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:08,742 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 30}, 'count': 38}
+
+2025-07-12 00:19:09,069 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:09,070 - data - INFO - eded
+
+
+2025-07-12 00:19:09,071 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:09,072 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 31}, 'count': 39}
+
+2025-07-12 00:19:09,286 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:09,287 - data - INFO - eded
+
+
+2025-07-12 00:19:09,288 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:09,288 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 32}, 'count': 40}
+
+2025-07-12 00:19:09,789 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:09,791 - data - INFO - eded
+
+
+2025-07-12 00:19:09,792 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:09,792 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 33}, 'count': 41}
+
+2025-07-12 00:19:10,163 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:10,165 - data - INFO - eded
+
+
+2025-07-12 00:19:10,166 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:10,166 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 34}, 'count': 42}
+
+2025-07-12 00:19:10,535 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:10,536 - data - INFO - eded
+
+
+2025-07-12 00:19:10,537 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:10,538 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 35}, 'count': 43}
+
+2025-07-12 00:19:10,847 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:10,847 - data - INFO - eded
+
+
+2025-07-12 00:19:10,849 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:10,850 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 36}, 'count': 44}
+
+2025-07-12 00:19:29,293 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:29,296 - data - INFO - eded
+
+
+2025-07-12 00:19:29,297 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:29,298 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 37}, 'count': 45}
+
+2025-07-12 00:19:29,990 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:29,991 - data - INFO - eded
+
+
+2025-07-12 00:19:29,991 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:29,992 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 38}, 'count': 46}
+
+2025-07-12 00:19:30,739 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:30,740 - data - INFO - eded
+
+
+2025-07-12 00:19:30,741 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:30,742 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 39}, 'count': 47}
+
+2025-07-12 00:19:31,295 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:31,296 - data - INFO - eded
+
+
+2025-07-12 00:19:31,297 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:31,297 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 40}, 'count': 48}
+
+2025-07-12 00:19:32,132 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:32,133 - data - INFO - eded
+
+
+2025-07-12 00:19:32,134 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:32,135 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 41}, 'count': 49}
+
+2025-07-12 00:19:32,582 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:32,583 - data - INFO - eded
+
+
+2025-07-12 00:19:32,584 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:32,586 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 42}, 'count': 50}
+
+2025-07-12 00:19:32,980 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:32,981 - data - INFO - eded
+
+
+2025-07-12 00:19:32,982 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:32,982 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 43}, 'count': 51}
+
+2025-07-12 00:19:33,357 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:33,358 - data - INFO - eded
+
+
+2025-07-12 00:19:33,359 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:33,360 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 44}, 'count': 52}
+
+2025-07-12 00:19:33,783 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:33,784 - data - INFO - eded
+
+
+2025-07-12 00:19:33,784 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:33,786 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 45}, 'count': 53}
+
+2025-07-12 00:19:34,187 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:34,188 - data - INFO - eded
+
+
+2025-07-12 00:19:34,189 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:34,189 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 46}, 'count': 54}
+
+2025-07-12 00:19:34,826 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:34,827 - data - INFO - eded
+
+
+2025-07-12 00:19:34,828 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:34,828 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 47}, 'count': 55}
+
+2025-07-12 00:19:37,941 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:37,942 - data - INFO - eded
+
+
+2025-07-12 00:19:37,943 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:37,943 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 48}, 'count': 56}
+
+2025-07-12 00:19:38,642 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:38,643 - data - INFO - eded
+
+
+2025-07-12 00:19:38,644 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:38,644 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 49}, 'count': 57}
+
+2025-07-12 00:19:39,002 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:39,004 - data - INFO - eded
+
+
+2025-07-12 00:19:39,006 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:39,007 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 50}, 'count': 58}
+
+2025-07-12 00:19:39,310 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:39,311 - data - INFO - eded
+
+
+2025-07-12 00:19:39,313 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:39,313 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 51}, 'count': 59}
+
+2025-07-12 00:19:39,594 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:39,595 - data - INFO - eded
+
+
+2025-07-12 00:19:39,596 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:39,596 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 52}, 'count': 60}
+
+2025-07-12 00:19:39,985 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:39,986 - data - INFO - eded
+
+
+2025-07-12 00:19:39,987 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:39,988 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 53}, 'count': 61}
+
+2025-07-12 00:19:40,382 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:40,383 - data - INFO - eded
+
+
+2025-07-12 00:19:40,384 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:40,385 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 54}, 'count': 62}
+
+2025-07-12 00:19:40,809 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:40,810 - data - INFO - eded
+
+
+2025-07-12 00:19:40,811 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:40,812 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 55}, 'count': 63}
+
+2025-07-12 00:19:41,215 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:19:41,216 - data - INFO - eded
+
+
+2025-07-12 00:19:41,218 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:19:41,218 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 56}, 'count': 64}
+
+2025-07-12 00:20:42,215 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:42,217 - data - INFO - eded
+
+
+2025-07-12 00:20:42,218 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:42,219 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 57}, 'count': 65}
+
+2025-07-12 00:20:42,686 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:42,687 - data - INFO - eded
+
+
+2025-07-12 00:20:42,688 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:42,689 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 58}, 'count': 66}
+
+2025-07-12 00:20:43,143 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:43,146 - data - INFO - eded
+
+
+2025-07-12 00:20:43,147 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:43,148 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 59}, 'count': 67}
+
+2025-07-12 00:20:43,540 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:43,541 - data - INFO - eded
+
+
+2025-07-12 00:20:43,542 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:43,542 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 60}, 'count': 68}
+
+2025-07-12 00:20:43,953 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:43,956 - data - INFO - eded
+
+
+2025-07-12 00:20:43,956 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:43,957 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 61}, 'count': 69}
+
+2025-07-12 00:20:44,328 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:44,329 - data - INFO - eded
+
+
+2025-07-12 00:20:44,330 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:44,331 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 62}, 'count': 70}
+
+2025-07-12 00:20:44,735 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:44,737 - data - INFO - eded
+
+
+2025-07-12 00:20:44,738 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:44,738 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 63}, 'count': 71}
+
+2025-07-12 00:20:45,108 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:45,110 - data - INFO - eded
+
+
+2025-07-12 00:20:45,111 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:45,112 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 64}, 'count': 72}
+
+2025-07-12 00:20:45,506 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:45,508 - data - INFO - eded
+
+
+2025-07-12 00:20:45,509 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:45,509 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 65}, 'count': 73}
+
+2025-07-12 00:20:45,881 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:20:45,882 - data - INFO - eded
+
+
+2025-07-12 00:20:45,882 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:20:45,883 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66}, 'count': 74}
+
+2025-07-12 00:22:16,261 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:16,264 - data - INFO - eeee
+
+
+2025-07-12 00:22:16,265 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:16,266 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 1}, 'count': 28}
+
+2025-07-12 00:22:18,947 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:18,948 - data - INFO - eeee
+
+
+2025-07-12 00:22:18,949 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:18,950 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 2}, 'count': 29}
+
+2025-07-12 00:22:19,331 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:19,333 - data - INFO - eeee
+
+
+2025-07-12 00:22:19,333 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:19,334 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 3}, 'count': 30}
+
+2025-07-12 00:22:19,652 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:19,653 - data - INFO - eeee
+
+
+2025-07-12 00:22:19,655 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:19,655 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 4}, 'count': 31}
+
+2025-07-12 00:22:20,035 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:20,036 - data - INFO - eeee
+
+
+2025-07-12 00:22:20,037 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:20,038 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 5}, 'count': 32}
+
+2025-07-12 00:22:20,379 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:20,381 - data - INFO - eeee
+
+
+2025-07-12 00:22:20,381 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:20,382 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 6}, 'count': 33}
+
+2025-07-12 00:22:20,739 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:20,740 - data - INFO - eeee
+
+
+2025-07-12 00:22:20,741 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:20,741 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 7}, 'count': 34}
+
+2025-07-12 00:22:21,122 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:21,123 - data - INFO - eeee
+
+
+2025-07-12 00:22:21,123 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:21,125 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 8}, 'count': 35}
+
+2025-07-12 00:22:21,450 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:21,451 - data - INFO - eeee
+
+
+2025-07-12 00:22:21,452 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:21,452 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 9}, 'count': 36}
+
+2025-07-12 00:22:21,806 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:21,807 - data - INFO - eeee
+
+
+2025-07-12 00:22:21,808 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:21,809 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 10}, 'count': 37}
+
+2025-07-12 00:22:22,270 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:22,271 - data - INFO - eeee
+
+
+2025-07-12 00:22:22,272 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:22,272 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 11}, 'count': 38}
+
+2025-07-12 00:22:37,345 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:37,346 - data - INFO - eeee
+
+
+2025-07-12 00:22:37,347 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:37,348 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 12}, 'count': 39}
+
+2025-07-12 00:22:37,817 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:37,818 - data - INFO - eeee
+
+
+2025-07-12 00:22:37,819 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:37,819 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 13}, 'count': 40}
+
+2025-07-12 00:22:38,215 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:38,216 - data - INFO - eeee
+
+
+2025-07-12 00:22:38,217 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:38,217 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 14}, 'count': 41}
+
+2025-07-12 00:22:38,603 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:38,604 - data - INFO - eeee
+
+
+2025-07-12 00:22:38,605 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:38,606 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 15}, 'count': 42}
+
+2025-07-12 00:22:38,996 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:38,997 - data - INFO - eeee
+
+
+2025-07-12 00:22:38,998 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:38,999 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 16}, 'count': 43}
+
+2025-07-12 00:22:39,400 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:39,401 - data - INFO - eeee
+
+
+2025-07-12 00:22:39,402 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:39,403 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 17}, 'count': 44}
+
+2025-07-12 00:22:39,820 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:39,821 - data - INFO - eeee
+
+
+2025-07-12 00:22:39,822 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:39,823 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 18}, 'count': 45}
+
+2025-07-12 00:22:40,211 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:40,212 - data - INFO - eeee
+
+
+2025-07-12 00:22:40,212 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:40,213 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 19}, 'count': 46}
+
+2025-07-12 00:22:40,608 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:40,609 - data - INFO - eeee
+
+
+2025-07-12 00:22:40,610 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:40,611 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 20}, 'count': 47}
+
+2025-07-12 00:22:41,021 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:41,022 - data - INFO - eeee
+
+
+2025-07-12 00:22:41,023 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:41,023 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 21}, 'count': 48}
+
+2025-07-12 00:22:42,602 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:42,603 - data - INFO - eeee
+
+
+2025-07-12 00:22:42,604 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:42,605 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 22}, 'count': 49}
+
+2025-07-12 00:22:43,346 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:43,347 - data - INFO - eeee
+
+
+2025-07-12 00:22:43,348 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:43,349 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 23}, 'count': 50}
+
+2025-07-12 00:22:43,833 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:43,835 - data - INFO - eeee
+
+
+2025-07-12 00:22:43,835 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:43,836 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 24}, 'count': 51}
+
+2025-07-12 00:22:44,216 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:44,217 - data - INFO - eeee
+
+
+2025-07-12 00:22:44,218 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:44,218 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 25}, 'count': 52}
+
+2025-07-12 00:22:44,649 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:44,651 - data - INFO - eeee
+
+
+2025-07-12 00:22:44,652 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:44,652 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 26}, 'count': 53}
+
+2025-07-12 00:22:45,054 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:22:45,055 - data - INFO - eeee
+
+
+2025-07-12 00:22:45,056 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:22:45,056 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 27}, 'count': 54}
+
+2025-07-12 00:23:47,107 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:47,109 - data - INFO - eeee
+
+
+2025-07-12 00:23:47,110 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:47,110 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 28}, 'count': 55}
+
+2025-07-12 00:23:47,644 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:47,645 - data - INFO - eeee
+
+
+2025-07-12 00:23:47,646 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:47,647 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 29}, 'count': 56}
+
+2025-07-12 00:23:48,050 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:48,051 - data - INFO - eeee
+
+
+2025-07-12 00:23:48,052 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:48,053 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 30}, 'count': 57}
+
+2025-07-12 00:23:48,408 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:48,409 - data - INFO - eeee
+
+
+2025-07-12 00:23:48,410 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:48,411 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 31}, 'count': 58}
+
+2025-07-12 00:23:48,776 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:48,777 - data - INFO - eeee
+
+
+2025-07-12 00:23:48,778 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:48,778 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 32}, 'count': 59}
+
+2025-07-12 00:23:49,151 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:49,152 - data - INFO - eeee
+
+
+2025-07-12 00:23:49,153 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:49,154 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 33}, 'count': 60}
+
+2025-07-12 00:23:49,541 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:49,542 - data - INFO - eeee
+
+
+2025-07-12 00:23:49,543 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:49,543 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 34}, 'count': 61}
+
+2025-07-12 00:23:49,916 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:49,917 - data - INFO - eeee
+
+
+2025-07-12 00:23:49,918 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:49,918 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 35}, 'count': 62}
+
+2025-07-12 00:23:50,268 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:50,269 - data - INFO - eeee
+
+
+2025-07-12 00:23:50,270 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:50,271 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 36}, 'count': 63}
+
+2025-07-12 00:23:50,636 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 00:23:50,637 - data - INFO - eeee
+
+
+2025-07-12 00:23:50,638 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 00:23:50,638 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 37}, 'count': 64}
+
+2025-07-12 00:24:23,746 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:23,747 - data - INFO - ee
+
+
+2025-07-12 00:24:23,748 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:23,748 - data - INFO - ee
+{'views': {'126636': 81, '123': 1}, 'count': 82}
+
+2025-07-12 00:24:29,262 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:29,263 - data - INFO - ee
+
+
+2025-07-12 00:24:29,264 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:29,264 - data - INFO - ee
+{'views': {'126636': 81, '123': 2}, 'count': 83}
+
+2025-07-12 00:24:29,734 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:29,735 - data - INFO - ee
+
+
+2025-07-12 00:24:29,736 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:29,737 - data - INFO - ee
+{'views': {'126636': 81, '123': 3}, 'count': 84}
+
+2025-07-12 00:24:30,162 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:30,163 - data - INFO - ee
+
+
+2025-07-12 00:24:30,164 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:30,164 - data - INFO - ee
+{'views': {'126636': 81, '123': 4}, 'count': 85}
+
+2025-07-12 00:24:30,573 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:30,574 - data - INFO - ee
+
+
+2025-07-12 00:24:30,575 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:30,576 - data - INFO - ee
+{'views': {'126636': 81, '123': 5}, 'count': 86}
+
+2025-07-12 00:24:30,943 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:30,945 - data - INFO - ee
+
+
+2025-07-12 00:24:30,947 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:30,948 - data - INFO - ee
+{'views': {'126636': 81, '123': 6}, 'count': 87}
+
+2025-07-12 00:24:31,323 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:31,324 - data - INFO - ee
+
+
+2025-07-12 00:24:31,325 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:31,326 - data - INFO - ee
+{'views': {'126636': 81, '123': 7}, 'count': 88}
+
+2025-07-12 00:24:31,687 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:31,687 - data - INFO - ee
+
+
+2025-07-12 00:24:31,688 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:31,689 - data - INFO - ee
+{'views': {'126636': 81, '123': 8}, 'count': 89}
+
+2025-07-12 00:24:32,050 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:32,051 - data - INFO - ee
+
+
+2025-07-12 00:24:32,051 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:32,052 - data - INFO - ee
+{'views': {'126636': 81, '123': 9}, 'count': 90}
+
+2025-07-12 00:24:32,405 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:32,406 - data - INFO - ee
+
+
+2025-07-12 00:24:32,407 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:32,407 - data - INFO - ee
+{'views': {'126636': 81, '123': 10}, 'count': 91}
+
+2025-07-12 00:24:32,921 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:24:32,922 - data - INFO - ee
+
+
+2025-07-12 00:24:32,924 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:24:32,924 - data - INFO - ee
+{'views': {'126636': 81, '123': 11}, 'count': 92}
+
+2025-07-12 00:25:18,099 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:18,101 - data - INFO - ee
+
+
+2025-07-12 00:25:18,102 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:18,102 - data - INFO - ee
+{'views': {'126636': 81, '123': 12}, 'count': 93}
+
+2025-07-12 00:25:18,613 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:18,614 - data - INFO - ee
+
+
+2025-07-12 00:25:18,614 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:18,615 - data - INFO - ee
+{'views': {'126636': 81, '123': 13}, 'count': 94}
+
+2025-07-12 00:25:19,131 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:19,132 - data - INFO - ee
+
+
+2025-07-12 00:25:19,133 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:19,133 - data - INFO - ee
+{'views': {'126636': 81, '123': 14}, 'count': 95}
+
+2025-07-12 00:25:19,488 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:19,489 - data - INFO - ee
+
+
+2025-07-12 00:25:19,490 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:19,490 - data - INFO - ee
+{'views': {'126636': 81, '123': 15}, 'count': 96}
+
+2025-07-12 00:25:19,820 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:19,821 - data - INFO - ee
+
+
+2025-07-12 00:25:19,822 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:19,822 - data - INFO - ee
+{'views': {'126636': 81, '123': 16}, 'count': 97}
+
+2025-07-12 00:25:20,120 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:20,121 - data - INFO - ee
+
+
+2025-07-12 00:25:20,122 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:20,123 - data - INFO - ee
+{'views': {'126636': 81, '123': 17}, 'count': 98}
+
+2025-07-12 00:25:20,503 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:20,504 - data - INFO - ee
+
+
+2025-07-12 00:25:20,504 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:20,505 - data - INFO - ee
+{'views': {'126636': 81, '123': 18}, 'count': 99}
+
+2025-07-12 00:25:20,825 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:20,826 - data - INFO - ee
+
+
+2025-07-12 00:25:20,826 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:20,827 - data - INFO - ee
+{'views': {'126636': 81, '123': 19}, 'count': 100}
+
+2025-07-12 00:25:21,175 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:21,176 - data - INFO - ee
+
+
+2025-07-12 00:25:21,177 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:21,177 - data - INFO - ee
+{'views': {'126636': 81, '123': 20}, 'count': 101}
+
+2025-07-12 00:25:21,530 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:21,531 - data - INFO - ee
+
+
+2025-07-12 00:25:21,532 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:21,532 - data - INFO - ee
+{'views': {'126636': 81, '123': 21}, 'count': 102}
+
+2025-07-12 00:25:21,992 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:25:21,993 - data - INFO - ee
+
+
+2025-07-12 00:25:21,994 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:25:21,995 - data - INFO - ee
+{'views': {'126636': 81, '123': 22}, 'count': 103}
+
+2025-07-12 00:26:20,591 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:20,594 - data - INFO - ee
+
+
+2025-07-12 00:26:20,595 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:20,596 - data - INFO - ee
+{'views': {'126636': 81, '123': 23}, 'count': 104}
+
+2025-07-12 00:26:21,980 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:21,982 - data - INFO - ee
+
+
+2025-07-12 00:26:21,983 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:21,984 - data - INFO - ee
+{'views': {'126636': 81, '123': 24}, 'count': 105}
+
+2025-07-12 00:26:22,371 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:22,373 - data - INFO - ee
+
+
+2025-07-12 00:26:22,373 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:22,374 - data - INFO - ee
+{'views': {'126636': 81, '123': 25}, 'count': 106}
+
+2025-07-12 00:26:22,730 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:22,732 - data - INFO - ee
+
+
+2025-07-12 00:26:22,733 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:22,735 - data - INFO - ee
+{'views': {'126636': 81, '123': 26}, 'count': 107}
+
+2025-07-12 00:26:23,039 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:23,040 - data - INFO - ee
+
+
+2025-07-12 00:26:23,041 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:23,041 - data - INFO - ee
+{'views': {'126636': 81, '123': 27}, 'count': 108}
+
+2025-07-12 00:26:23,294 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:23,295 - data - INFO - ee
+
+
+2025-07-12 00:26:23,296 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:23,297 - data - INFO - ee
+{'views': {'126636': 81, '123': 28}, 'count': 109}
+
+2025-07-12 00:26:23,465 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:23,465 - data - INFO - ee
+
+
+2025-07-12 00:26:23,468 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:23,468 - data - INFO - ee
+{'views': {'126636': 81, '123': 29}, 'count': 110}
+
+2025-07-12 00:26:23,684 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:23,685 - data - INFO - ee
+
+
+2025-07-12 00:26:23,686 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:23,686 - data - INFO - ee
+{'views': {'126636': 81, '123': 30}, 'count': 111}
+
+2025-07-12 00:26:23,898 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:23,899 - data - INFO - ee
+
+
+2025-07-12 00:26:23,900 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:23,901 - data - INFO - ee
+{'views': {'126636': 81, '123': 31}, 'count': 112}
+
+2025-07-12 00:26:24,357 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:24,358 - data - INFO - ee
+
+
+2025-07-12 00:26:24,359 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:24,359 - data - INFO - ee
+{'views': {'126636': 81, '123': 32}, 'count': 113}
+
+2025-07-12 00:26:24,853 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:26:24,854 - data - INFO - ee
+
+
+2025-07-12 00:26:24,855 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:26:24,856 - data - INFO - ee
+{'views': {'126636': 81, '123': 33}, 'count': 114}
+
+2025-07-12 00:29:25,297 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:29:25,300 - data - INFO - ee
+
+
+2025-07-12 00:29:25,301 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:29:25,301 - data - INFO - ee
+{'views': {'126636': 81, '123': 34}, 'count': 115}
+
+2025-07-12 00:29:27,663 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:29:27,664 - data - INFO - ee
+
+
+2025-07-12 00:29:27,665 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:29:27,666 - data - INFO - ee
+{'views': {'126636': 81, '123': 35}, 'count': 116}
+
+2025-07-12 00:29:28,030 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:29:28,031 - data - INFO - ee
+
+
+2025-07-12 00:29:28,032 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:29:28,032 - data - INFO - ee
+{'views': {'126636': 81, '123': 36}, 'count': 117}
+
+2025-07-12 00:29:28,495 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:29:28,496 - data - INFO - ee
+
+
+2025-07-12 00:29:28,497 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:29:28,497 - data - INFO - ee
+{'views': {'126636': 81, '123': 37}, 'count': 118}
+
+2025-07-12 00:30:09,029 - data - INFO - read detial:ee information from detialindex
+
+
+2025-07-12 00:30:09,030 - data - INFO - ee
+
+
+2025-07-12 00:30:09,031 - data - INFO - update detial:ee data from detialindex
+
+
+2025-07-12 00:30:09,031 - data - INFO - ee
+{'views': {'126636': 81, '123': 38}, 'count': 119}
+
+2025-07-12 00:30:15,337 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:30:15,338 - data - INFO - eded
+
+
+2025-07-12 00:30:15,339 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:30:15,340 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 1}, 'count': 75}
+
+2025-07-12 00:30:19,496 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:30:19,497 - data - INFO - eded
+
+
+2025-07-12 00:30:19,498 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:30:19,499 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 2}, 'count': 76}
+
+2025-07-12 00:33:24,830 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:33:24,832 - data - INFO - eded
+
+
+2025-07-12 00:33:24,833 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:33:24,833 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 3}, 'count': 77}
+
+2025-07-12 00:33:25,267 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:33:25,269 - data - INFO - eded
+
+
+2025-07-12 00:33:25,269 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:33:25,270 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 4}, 'count': 78}
+
+2025-07-12 00:33:25,739 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:33:25,740 - data - INFO - eded
+
+
+2025-07-12 00:33:25,741 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:33:25,742 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 5}, 'count': 79}
+
+2025-07-12 00:33:26,198 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:33:26,200 - data - INFO - eded
+
+
+2025-07-12 00:33:26,201 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:33:26,201 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 6}, 'count': 80}
+
+2025-07-12 00:34:33,140 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:34:33,142 - data - INFO - eded
+
+
+2025-07-12 00:34:33,142 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:34:33,143 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 7}, 'count': 81}
+
+2025-07-12 00:34:33,481 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:34:33,482 - data - INFO - eded
+
+
+2025-07-12 00:34:33,482 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:34:33,483 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 8}, 'count': 82}
+
+2025-07-12 00:34:33,901 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:34:33,904 - data - INFO - eded
+
+
+2025-07-12 00:34:33,905 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:34:33,905 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 9}, 'count': 83}
+
+2025-07-12 00:34:34,418 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:34:34,419 - data - INFO - eded
+
+
+2025-07-12 00:34:34,420 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:34:34,421 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 10}, 'count': 84}
+
+2025-07-12 00:35:10,544 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:35:10,546 - data - INFO - eded
+
+
+2025-07-12 00:35:10,547 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:35:10,548 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 11}, 'count': 85}
+
+2025-07-12 00:35:14,244 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:35:14,246 - data - INFO - eded
+
+
+2025-07-12 00:35:14,246 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:35:14,247 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 12}, 'count': 86}
+
+2025-07-12 00:35:14,588 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:35:14,590 - data - INFO - eded
+
+
+2025-07-12 00:35:14,590 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:35:14,591 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 13}, 'count': 87}
+
+2025-07-12 00:35:15,047 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:35:15,048 - data - INFO - eded
+
+
+2025-07-12 00:35:15,048 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:35:15,049 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 14}, 'count': 88}
+
+2025-07-12 00:36:00,783 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:00,785 - data - INFO - eded
+
+
+2025-07-12 00:36:00,785 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:00,786 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 15}, 'count': 89}
+
+2025-07-12 00:36:01,247 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:01,249 - data - INFO - eded
+
+
+2025-07-12 00:36:01,250 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:01,250 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 16}, 'count': 90}
+
+2025-07-12 00:36:01,736 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:01,737 - data - INFO - eded
+
+
+2025-07-12 00:36:01,738 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:01,739 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 17}, 'count': 91}
+
+2025-07-12 00:36:02,215 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:02,216 - data - INFO - eded
+
+
+2025-07-12 00:36:02,217 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:02,217 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 18}, 'count': 92}
+
+2025-07-12 00:36:32,775 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:32,777 - data - INFO - eded
+
+
+2025-07-12 00:36:32,778 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:32,778 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 19}, 'count': 93}
+
+2025-07-12 00:36:33,281 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:33,282 - data - INFO - eded
+
+
+2025-07-12 00:36:33,283 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:33,283 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 20}, 'count': 94}
+
+2025-07-12 00:36:34,736 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:34,737 - data - INFO - eded
+
+
+2025-07-12 00:36:34,738 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:34,738 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 21}, 'count': 95}
+
+2025-07-12 00:36:52,608 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:36:52,610 - data - INFO - eded
+
+
+2025-07-12 00:36:52,610 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:36:52,611 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 22}, 'count': 96}
+
+2025-07-12 00:37:00,933 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:37:00,934 - data - INFO - eded
+
+
+2025-07-12 00:37:00,935 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:37:00,936 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 23}, 'count': 97}
+
+2025-07-12 00:37:02,014 - data - INFO - read detial:eded information from detialindex
+
+
+2025-07-12 00:37:02,014 - data - INFO - eded
+
+
+2025-07-12 00:37:02,015 - data - INFO - update detial:eded data from detialindex
+
+
+2025-07-12 00:37:02,015 - data - INFO - eded
+{'views': {'126': 2, '126222': 6, '126636': 66, '123': 24}, 'count': 98}
+
+2025-07-12 01:18:13,700 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:18:13,702 - data - INFO - gggg
+
+
+2025-07-12 01:18:13,716 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:18:13,716 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:13,717 - data - INFO - aaaa
+
+
+2025-07-12 01:18:13,717 - data - INFO - gggg
+{'views': {}, 'count': 0}
+
+2025-07-12 01:18:13,718 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:13,719 - data - INFO - gggg
+{'views': {'345': 1}, 'count': 1}
+
+2025-07-12 01:18:13,728 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:13,729 - data - INFO - aaaa
+{'views': {}, 'count': 0}
+
+2025-07-12 01:18:13,729 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:13,729 - data - INFO - aaaa
+{'views': {'234': 1}, 'count': 1}
+
+2025-07-12 01:18:13,731 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:18:13,731 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:13,732 - data - INFO - kkkk
+
+
+2025-07-12 01:18:13,733 - data - INFO - read detial:hhhh information from detialindex
+
+
+2025-07-12 01:18:13,733 - data - INFO - ffff
+
+
+2025-07-12 01:18:13,734 - data - INFO - hhhh
+
+
+2025-07-12 01:18:17,809 - data - INFO - read detial:hhhh information from detialindex
+
+
+2025-07-12 01:18:17,810 - data - INFO - hhhh
+
+
+2025-07-12 01:18:17,828 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 01:18:17,829 - data - INFO - eeee
+
+
+2025-07-12 01:18:17,830 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 01:18:17,830 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 37, '234': 1}, 'count': 65}
+
+2025-07-12 01:18:17,871 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:18:17,871 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:17,873 - data - INFO - cccc
+
+
+2025-07-12 01:18:17,874 - data - INFO - dddd
+
+
+2025-07-12 01:18:17,908 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:18:17,909 - data - INFO - gggg
+
+
+2025-07-12 01:18:17,910 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:17,911 - data - INFO - gggg
+{'views': {'345': 1, '123': 1}, 'count': 2}
+
+2025-07-12 01:18:21,914 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:21,915 - data - INFO - read detial:iiii information from detialindex
+
+
+2025-07-12 01:18:21,915 - data - INFO - ffff
+
+
+2025-07-12 01:18:21,919 - data - INFO - iiii
+
+
+2025-07-12 01:18:21,992 - data - INFO - read detial:iiii information from detialindex
+
+
+2025-07-12 01:18:21,993 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:18:21,995 - data - INFO - read detial:iiii information from detialindex
+
+
+2025-07-12 01:18:21,995 - data - INFO - aaaa
+
+
+2025-07-12 01:18:21,995 - data - INFO - iiii
+
+
+2025-07-12 01:18:21,996 - data - INFO - iiii
+
+
+2025-07-12 01:18:22,001 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:22,005 - data - INFO - aaaa
+{'views': {'234': 1, '123': 1}, 'count': 2}
+
+2025-07-12 01:18:26,025 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:18:26,026 - data - INFO - bbbb
+
+
+2025-07-12 01:18:26,044 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:26,045 - data - INFO - dddd
+
+
+2025-07-12 01:18:26,102 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:26,103 - data - INFO - nnnn
+
+
+2025-07-12 01:18:26,121 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:18:26,122 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:26,122 - data - INFO - jjjj
+
+
+2025-07-12 01:18:26,123 - data - INFO - ffff
+
+
+2025-07-12 01:18:30,132 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:30,133 - data - INFO - nnnn
+
+
+2025-07-12 01:18:30,150 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:30,151 - data - INFO - dddd
+
+
+2025-07-12 01:18:30,194 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:18:30,195 - data - INFO - jjjj
+
+
+2025-07-12 01:18:30,241 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:18:30,242 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:18:30,242 - data - INFO - gggg
+
+
+2025-07-12 01:18:30,243 - data - INFO - aaaa
+
+
+2025-07-12 01:18:30,243 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:30,244 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:30,244 - data - INFO - gggg
+{'views': {'345': 2, '123': 1}, 'count': 3}
+
+2025-07-12 01:18:30,244 - data - INFO - aaaa
+{'views': {'234': 1, '123': 1, '345': 1}, 'count': 3}
+
+2025-07-12 01:18:34,241 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:18:34,242 - data - INFO - cccc
+
+
+2025-07-12 01:18:34,262 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:18:34,263 - data - INFO - kkkk
+
+
+2025-07-12 01:18:34,286 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:34,286 - data - INFO - dddd
+
+
+2025-07-12 01:18:34,317 - data - INFO - read detial:hhhh information from detialindex
+
+
+2025-07-12 01:18:34,318 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:34,318 - data - INFO - hhhh
+
+
+2025-07-12 01:18:34,319 - data - INFO - ffff
+
+
+2025-07-12 01:18:38,339 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:18:38,340 - data - INFO - gggg
+
+
+2025-07-12 01:18:38,341 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:38,341 - data - INFO - gggg
+{'views': {'345': 3, '123': 1}, 'count': 4}
+
+2025-07-12 01:18:38,370 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 01:18:38,371 - data - INFO - eeee
+
+
+2025-07-12 01:18:38,371 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 01:18:38,373 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 37, '234': 1, '345': 1}, 'count': 66}
+
+2025-07-12 01:18:38,386 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:18:38,386 - data - INFO - aaaa
+
+
+2025-07-12 01:18:38,387 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:38,387 - data - INFO - aaaa
+{'views': {'234': 1, '123': 1, '345': 2}, 'count': 4}
+
+2025-07-12 01:18:38,447 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:38,448 - data - INFO - ffff
+
+
+2025-07-12 01:18:38,468 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:18:38,469 - data - INFO - mmmm
+
+
+2025-07-12 01:18:42,442 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:42,443 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:42,443 - data - INFO - nnnn
+
+
+2025-07-12 01:18:42,444 - data - INFO - nnnn
+
+
+2025-07-12 01:18:42,487 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:18:42,488 - data - INFO - kkkk
+
+
+2025-07-12 01:18:42,581 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:18:42,582 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:18:42,582 - data - INFO - mmmm
+
+
+2025-07-12 01:18:42,583 - data - INFO - gggg
+
+
+2025-07-12 01:18:42,587 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:18:42,588 - data - INFO - gggg
+{'views': {'345': 3, '123': 2}, 'count': 5}
+
+2025-07-12 01:18:46,560 - data - INFO - read detial:llll information from detialindex
+
+
+2025-07-12 01:18:46,561 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:18:46,561 - data - INFO - llll
+
+
+2025-07-12 01:18:46,562 - data - INFO - aaaa
+
+
+2025-07-12 01:18:46,566 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:18:46,567 - data - INFO - aaaa
+{'views': {'234': 1, '123': 1, '345': 3}, 'count': 5}
+
+2025-07-12 01:18:46,590 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:18:46,591 - data - INFO - kkkk
+
+
+2025-07-12 01:18:46,684 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:46,685 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:46,685 - data - INFO - dddd
+
+
+2025-07-12 01:18:46,686 - data - INFO - nnnn
+
+
+2025-07-12 01:18:50,640 - data - INFO - read detial:llll information from detialindex
+
+
+2025-07-12 01:18:50,641 - data - INFO - llll
+
+
+2025-07-12 01:18:50,661 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:18:50,662 - data - INFO - bbbb
+
+
+2025-07-12 01:18:50,688 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:18:50,688 - data - INFO - kkkk
+
+
+2025-07-12 01:18:50,798 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:50,799 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:18:50,799 - data - INFO - nnnn
+
+
+2025-07-12 01:18:50,799 - data - INFO - jjjj
+
+
+2025-07-12 01:18:54,757 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:18:54,758 - data - INFO - mmmm
+
+
+2025-07-12 01:18:54,776 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:18:54,778 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 01:18:54,778 - data - INFO - ffff
+
+
+2025-07-12 01:18:54,783 - data - INFO - eeee
+
+
+2025-07-12 01:18:54,783 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 01:18:54,784 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 38, '234': 1, '345': 1}, 'count': 67}
+
+2025-07-12 01:18:54,913 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 01:18:54,914 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:18:54,915 - data - INFO - eeee
+
+
+2025-07-12 01:18:54,916 - data - INFO - dddd
+
+
+2025-07-12 01:18:54,920 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 01:18:54,920 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 38, '234': 1, '345': 2}, 'count': 68}
+
+2025-07-12 01:18:58,838 - data - INFO - read detial:iiii information from detialindex
+
+
+2025-07-12 01:18:58,839 - data - INFO - iiii
+
+
+2025-07-12 01:18:58,857 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:18:58,859 - data - INFO - cccc
+
+
+2025-07-12 01:18:58,859 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:58,864 - data - INFO - nnnn
+
+
+2025-07-12 01:18:58,980 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:18:58,981 - data - INFO - mmmm
+
+
+2025-07-12 01:18:59,012 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:18:59,012 - data - INFO - nnnn
+
+
+2025-07-12 01:19:02,935 - data - INFO - read detial:llll information from detialindex
+
+
+2025-07-12 01:19:02,935 - data - INFO - llll
+
+
+2025-07-12 01:19:02,966 - data - INFO - read detial:llll information from detialindex
+
+
+2025-07-12 01:19:02,967 - data - INFO - llll
+
+
+2025-07-12 01:19:02,967 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:19:02,972 - data - INFO - cccc
+
+
+2025-07-12 01:19:03,061 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:19:03,062 - data - INFO - mmmm
+
+
+2025-07-12 01:19:03,094 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:19:03,094 - data - INFO - bbbb
+
+
+2025-07-12 01:19:07,012 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:19:07,013 - data - INFO - bbbb
+
+
+2025-07-12 01:19:07,058 - data - INFO - read detial:iiii information from detialindex
+
+
+2025-07-12 01:19:07,059 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:07,059 - data - INFO - iiii
+
+
+2025-07-12 01:19:07,060 - data - INFO - jjjj
+
+
+2025-07-12 01:19:07,153 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:19:07,154 - data - INFO - bbbb
+
+
+2025-07-12 01:19:07,196 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:19:07,196 - data - INFO - aaaa
+
+
+2025-07-12 01:19:07,197 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:19:07,197 - data - INFO - aaaa
+{'views': {'234': 1, '123': 2, '345': 3}, 'count': 6}
+
+2025-07-12 01:19:11,129 - data - INFO - read detial:llll information from detialindex
+
+
+2025-07-12 01:19:11,131 - data - INFO - llll
+
+
+2025-07-12 01:19:11,189 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:11,190 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:19:11,190 - data - INFO - jjjj
+
+
+2025-07-12 01:19:11,191 - data - INFO - kkkk
+
+
+2025-07-12 01:19:11,268 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:19:11,269 - data - INFO - ffff
+
+
+2025-07-12 01:19:11,298 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:19:11,299 - data - INFO - gggg
+
+
+2025-07-12 01:19:11,299 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:19:11,299 - data - INFO - gggg
+{'views': {'345': 3, '123': 2, '234': 1}, 'count': 6}
+
+2025-07-12 01:19:15,237 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:19:15,238 - data - INFO - nnnn
+
+
+2025-07-12 01:19:15,301 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-12 01:19:15,302 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:15,302 - data - INFO - eeee
+
+
+2025-07-12 01:19:15,303 - data - INFO - jjjj
+
+
+2025-07-12 01:19:15,308 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-12 01:19:15,309 - data - INFO - eeee
+{'views': {'126': 23, '126636': 25, '123': 38, '234': 1, '345': 3}, 'count': 69}
+
+2025-07-12 01:19:15,361 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:19:15,362 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:15,362 - data - INFO - nnnn
+
+
+2025-07-12 01:19:15,363 - data - INFO - jjjj
+
+
+2025-07-12 01:19:19,326 - data - INFO - read detial:dddd information from detialindex
+
+
+2025-07-12 01:19:19,327 - data - INFO - dddd
+
+
+2025-07-12 01:19:19,405 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:19:19,406 - data - INFO - mmmm
+
+
+2025-07-12 01:19:19,426 - data - INFO - read detial:hhhh information from detialindex
+
+
+2025-07-12 01:19:19,427 - data - INFO - hhhh
+
+
+2025-07-12 01:19:19,514 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:19:19,515 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:19:19,516 - data - INFO - nnnn
+
+
+2025-07-12 01:19:19,516 - data - INFO - mmmm
+
+
+2025-07-12 01:19:23,448 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:19:23,449 - data - INFO - kkkk
+
+
+2025-07-12 01:19:23,495 - data - INFO - read detial:aaaa information from detialindex
+
+
+2025-07-12 01:19:23,496 - data - INFO - aaaa
+
+
+2025-07-12 01:19:23,497 - data - INFO - update detial:aaaa data from detialindex
+
+
+2025-07-12 01:19:23,497 - data - INFO - aaaa
+{'views': {'234': 1, '123': 3, '345': 3}, 'count': 7}
+
+2025-07-12 01:19:23,526 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:19:23,527 - data - INFO - cccc
+
+
+2025-07-12 01:19:23,604 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:19:23,605 - data - INFO - ffff
+
+
+2025-07-12 01:19:23,624 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:19:23,625 - data - INFO - gggg
+
+
+2025-07-12 01:19:23,625 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:19:23,626 - data - INFO - gggg
+{'views': {'345': 3, '123': 3, '234': 1}, 'count': 7}
+
+2025-07-12 01:19:27,521 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:27,521 - data - INFO - jjjj
+
+
+2025-07-12 01:19:27,552 - data - INFO - read detial:ffff information from detialindex
+
+
+2025-07-12 01:19:27,553 - data - INFO - ffff
+
+
+2025-07-12 01:19:27,613 - data - INFO - read detial:cccc information from detialindex
+
+
+2025-07-12 01:19:27,614 - data - INFO - cccc
+
+
+2025-07-12 01:19:27,708 - data - INFO - read detial:jjjj information from detialindex
+
+
+2025-07-12 01:19:27,709 - data - INFO - read detial:bbbb information from detialindex
+
+
+2025-07-12 01:19:27,709 - data - INFO - jjjj
+
+
+2025-07-12 01:19:27,714 - data - INFO - bbbb
+
+
+2025-07-12 01:19:31,596 - data - INFO - read detial:hhhh information from detialindex
+
+
+2025-07-12 01:19:31,597 - data - INFO - hhhh
+
+
+2025-07-12 01:19:31,673 - data - INFO - read detial:nnnn information from detialindex
+
+
+2025-07-12 01:19:31,674 - data - INFO - nnnn
+
+
+2025-07-12 01:19:31,735 - data - INFO - read detial:gggg information from detialindex
+
+
+2025-07-12 01:19:31,735 - data - INFO - gggg
+
+
+2025-07-12 01:19:31,736 - data - INFO - update detial:gggg data from detialindex
+
+
+2025-07-12 01:19:31,737 - data - INFO - gggg
+{'views': {'345': 3, '123': 3, '234': 2}, 'count': 8}
+
+2025-07-12 01:19:31,846 - data - INFO - read detial:kkkk information from detialindex
+
+
+2025-07-12 01:19:31,846 - data - INFO - read detial:mmmm information from detialindex
+
+
+2025-07-12 01:19:31,847 - data - INFO - kkkk
+
+
+2025-07-12 01:19:31,847 - data - INFO - mmmm
+
+

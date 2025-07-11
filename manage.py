@@ -3,7 +3,7 @@
 import os
 import sys
 from lib import resolver
-from lib.sys.processing import Process, Queue
+from lib.sys.processing import Process, Pool, Queue
 from view._actions.config import usedb
 from database import mysql_update_queue
 
@@ -20,11 +20,34 @@ def main(argv=sys.argv):
         ) from exc
     execute_from_command_line(argv)
 
+
+def dispose_updateserver(param):
+    detial, data = param
+    usedb._set_detial_data(detial, data)
+    return detial
+
 def updataserver(queue:Queue):
+    tasks = {}  # 参数表
+    tasktimes = {}  # 时间戳
+    # 异常分级，写入MySQL，插队
+    items = 0
     while True:
-        detial, data = queue.get()
-        print(f"run update {detial} ....")
-        usedb._set_detial_data(detial, data)
+        # 添加时间戳校验，防止写入旧的数据
+        detial, data, time = queue.get()
+        items += 1
+        if detial in tasktimes and time > tasktimes[detial]:
+            tasktimes[detial] = time
+            tasks[detial] = data
+        else:
+            tasktimes[detial] = time
+            tasks[detial] = data
+
+        if items >= 30:
+            with Pool() as pool:
+                pool.map_async(dispose_updateserver, tasks.items()).get()
+            items = 0
+        
+
 
 if __name__ == "__main__":
     """ 场景

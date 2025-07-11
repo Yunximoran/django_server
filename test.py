@@ -1,46 +1,36 @@
 import requests
-import asyncio
-from asgiref.sync import sync_to_async
+from lib.sys.processing import Pool
+import random
 
 baseurl = "http://localhost:8000/"
 
 # baseurl + demodetial/{test_detial[:]}
-test_detial = [
+test_detial = "abcdefghijklmn"
     # 测试用户页面
-    "eeee",
-    "aaaa",
-    "cccc"
-]
+
 
 # data in test_users
 test_users = [
     {
-        "uanme": "yumo_1",
         "usrid": 123
     },
     {
-        "uanme": "yumo_2",
         "usrid": 234
     },
     {
-        "uanme": "yumo_3",
         "usrid": 345
     }
 ]
-from lib.sys.processing import Process
-import time
 
-def worker():
-    time.sleep(10)
+def test_api(x):
+    detial = test_detial[random.randint(0, len(test_detial)) - 1] * 4
+    params = test_users[random.randint(0, 2)] 
+    print(params)
+    return requests.get(f"{baseurl}demopage/{detial}", params=params)
 
-Process(target=worker).start()
 if __name__ == "__main__":
-    from lib.sys.processing import Process
-    async def worker():
-        print("hello")
-        await asyncio.sleep(10)
+    with Pool() as pool:
+        results = pool.map_async(test_api, range(0, 100)).get()
     
-    asyncio.run(worker())
-
-    print("hello")
-    # get.run_forever()
+    for res in results:
+        print(res)
