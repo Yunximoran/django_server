@@ -22,7 +22,7 @@ def demopage(request:HttpRequest, detialname:str):
     if request.method == "GET":
         uname = request.GET.get("uname")
         usrid = request.GET.get('usrid')
-        count.add_user_count(detialname, uname, usrid)
+        count.add_count(detialname, uname, usrid)
         # count.add_user_count(uname)
         print(detialname, uname, usrid)
     return HttpResponse("这是一个文章详情页")

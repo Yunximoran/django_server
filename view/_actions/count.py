@@ -13,10 +13,9 @@ class Count:
     def init_detialdata(self, detial):
         pass
 
-    def get_userdata(self, detial, usrid):              # 读取缓存中的用户数据
+    def getinfo(self, detial, usrid):              # 读取缓存中的用户数据
         # 获取数据
         detialdata = self.usedb.hget("detialtable", detial)
-        userdata = self.usedb.hget("userdata", usrid)
         return detialdata
         # 校验数据是否存在
         # 初始化数据
@@ -24,7 +23,7 @@ class Count:
 
     def add_count(self, detial, uname, usrid):            # 更新用户浏览次数
         # 获取数据
-        detialdata = self.get_userdata(detial, uname, usrid)
+        detialdata = self.getinfo(detial, usrid)
         # 更新浏览次数
         detialdata['view'][usrid] += 1
         # 更新redis数据
@@ -45,6 +44,6 @@ class Count:
         return count
 
     def count_detial_touser_readtimes(self, detial, usrid):  # 统计单用户阅读次数
-        detialdata = self.get_userdata(detial, usrid)
+        detialdata = self.getinfo(detial, usrid)
         return detialdata['view'][usrid]
     
