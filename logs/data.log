@@ -580,3 +580,693 @@
 2025-07-11 20:38:01,876 - data - INFO - detialindex
 {'views': {'126': 23, '126636': 2}, 'count': 4} eeee
 
+2025-07-11 21:44:46,693 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:44:46,695 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:44:46,696 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:44:46,697 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 3}, 'count': 5} eeee
+
+2025-07-11 21:48:07,723 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:48:07,724 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:48:07,724 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:48:07,725 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 4}, 'count': 6} eeee
+
+2025-07-11 21:55:55,343 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:55:55,346 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:55:55,347 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:55:55,348 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 5}, 'count': 7} eeee
+
+2025-07-11 21:56:20,431 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:56:20,432 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:56:20,433 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:56:20,433 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 6}, 'count': 8} eeee
+
+2025-07-11 21:56:42,584 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:56:42,587 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:56:42,588 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:56:42,588 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 7}, 'count': 9} eeee
+
+2025-07-11 21:57:23,050 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:57:23,053 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:57:23,054 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:57:23,054 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 8}, 'count': 10} eeee
+
+2025-07-11 21:57:32,557 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:57:32,558 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:57:32,558 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:57:32,559 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 9}, 'count': 11} eeee
+
+2025-07-11 21:57:36,046 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:57:36,047 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:57:36,047 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:57:36,048 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 10}, 'count': 12} eeee
+
+2025-07-11 21:57:46,827 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:57:46,829 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:57:46,830 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:57:46,830 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 11}, 'count': 13} eeee
+
+2025-07-11 21:57:50,057 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:57:50,058 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:57:50,058 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:57:50,059 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 12}, 'count': 14} eeee
+
+2025-07-11 21:58:40,319 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:58:40,321 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:58:40,323 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:58:40,323 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 13}, 'count': 15} eeee
+
+2025-07-11 21:58:47,458 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:58:47,459 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:58:47,460 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:58:47,460 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 14}, 'count': 16} eeee
+
+2025-07-11 21:58:49,962 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:58:49,963 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:58:49,963 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:58:49,964 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 15}, 'count': 17} eeee
+
+2025-07-11 21:59:12,990 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:59:12,991 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:59:12,992 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:59:12,993 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 16}, 'count': 18} eeee
+
+2025-07-11 21:59:27,845 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:59:27,846 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:59:27,846 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:59:27,847 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 17}, 'count': 19} eeee
+
+2025-07-11 21:59:32,947 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 21:59:32,947 - data - INFO - detialindex
+eeee
+
+2025-07-11 21:59:32,948 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 21:59:32,948 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 18}, 'count': 20} eeee
+
+2025-07-11 22:01:32,078 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:01:32,081 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:01:32,082 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:01:32,084 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 19}, 'count': 21} eeee
+
+2025-07-11 22:02:42,672 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:02:42,674 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:02:42,675 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:02:42,675 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 20}, 'count': 22} eeee
+
+2025-07-11 22:05:56,606 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:05:56,608 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:05:56,609 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:05:56,609 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 21}, 'count': 23} eeee
+
+2025-07-11 22:06:16,693 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:06:16,694 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:06:16,694 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:06:16,695 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 22}, 'count': 24} eeee
+
+2025-07-11 22:06:22,456 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:06:22,456 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:06:22,457 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:06:22,457 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 23}, 'count': 25} eeee
+
+2025-07-11 22:07:15,121 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:07:15,123 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:07:15,124 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:07:15,124 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 24}, 'count': 26} eeee
+
+2025-07-11 22:08:07,694 - data - INFO - read detial:eeee information from detialindex
+
+
+2025-07-11 22:08:07,694 - data - INFO - detialindex
+eeee
+
+2025-07-11 22:08:07,695 - data - INFO - update detial:eeee data from detialindex
+
+
+2025-07-11 22:08:07,695 - data - INFO - detialindex
+{'views': {'126': 23, '126636': 25}, 'count': 27} eeee
+
+2025-07-11 22:09:13,903 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:09:13,904 - data - INFO - detialindex
+edee
+
+2025-07-11 22:09:13,919 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:09:13,919 - data - INFO - detialindex
+{'views': {}, 'count': 0} edee
+
+2025-07-11 22:09:13,920 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:09:13,920 - data - INFO - detialindex
+{'views': {'126636': 1}, 'count': 1} edee
+
+2025-07-11 22:09:33,808 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:09:33,809 - data - INFO - detialindex
+edee
+
+2025-07-11 22:09:33,809 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:09:33,810 - data - INFO - detialindex
+{'views': {'126636': 2}, 'count': 2} edee
+
+2025-07-11 22:09:59,666 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:09:59,669 - data - INFO - detialindex
+edee
+
+2025-07-11 22:09:59,669 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:09:59,670 - data - INFO - detialindex
+{'views': {'126636': 3}, 'count': 3} edee
+
+2025-07-11 22:10:09,647 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:10:09,649 - data - INFO - detialindex
+edee
+
+2025-07-11 22:10:09,649 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:10:09,650 - data - INFO - detialindex
+{'views': {'126636': 4}, 'count': 4} edee
+
+2025-07-11 22:10:12,631 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:10:12,632 - data - INFO - detialindex
+edee
+
+2025-07-11 22:10:12,633 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:10:12,633 - data - INFO - detialindex
+{'views': {'126636': 5}, 'count': 5} edee
+
+2025-07-11 22:10:50,540 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:10:50,541 - data - INFO - detialindex
+edee
+
+2025-07-11 22:10:50,542 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:10:50,542 - data - INFO - detialindex
+{'views': {'126636': 6}, 'count': 6} edee
+
+2025-07-11 22:11:03,123 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:11:03,124 - data - INFO - detialindex
+edee
+
+2025-07-11 22:11:03,124 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:11:03,125 - data - INFO - detialindex
+{'views': {'126636': 7}, 'count': 7} edee
+
+2025-07-11 22:12:08,396 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:12:08,398 - data - INFO - detialindex
+edee
+
+2025-07-11 22:12:08,400 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:12:08,401 - data - INFO - detialindex
+{'views': {'126636': 8}, 'count': 8} edee
+
+2025-07-11 22:12:31,301 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:12:31,302 - data - INFO - detialindex
+edee
+
+2025-07-11 22:12:31,302 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:12:31,303 - data - INFO - detialindex
+{'views': {'126636': 9}, 'count': 9} edee
+
+2025-07-11 22:14:31,878 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:14:31,879 - data - INFO - detialindex
+edee
+
+2025-07-11 22:14:31,880 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:14:31,880 - data - INFO - detialindex
+{'views': {'126636': 10}, 'count': 10} edee
+
+2025-07-11 22:14:40,002 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:14:40,003 - data - INFO - detialindex
+edee
+
+2025-07-11 22:14:40,003 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:14:40,004 - data - INFO - detialindex
+{'views': {'126636': 11}, 'count': 11} edee
+
+2025-07-11 22:16:02,942 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:16:02,942 - data - INFO - detialindex
+edee
+
+2025-07-11 22:16:02,943 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:16:02,943 - data - INFO - detialindex
+{'views': {'126636': 12}, 'count': 12} edee
+
+2025-07-11 22:16:43,597 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:16:43,599 - data - INFO - detialindex
+edee
+
+2025-07-11 22:16:43,599 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:16:43,600 - data - INFO - detialindex
+{'views': {'126636': 13}, 'count': 13} edee
+
+2025-07-11 22:16:59,447 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:16:59,448 - data - INFO - detialindex
+edee
+
+2025-07-11 22:16:59,449 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:16:59,449 - data - INFO - detialindex
+{'views': {'126636': 14}, 'count': 14} edee
+
+2025-07-11 22:22:35,124 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:22:35,126 - data - INFO - detialindex
+edee
+
+2025-07-11 22:22:35,126 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:22:35,126 - data - INFO - detialindex
+{'views': {'126636': 15}, 'count': 15} edee
+
+2025-07-11 22:25:39,073 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:25:39,075 - data - INFO - detialindex
+edee
+
+2025-07-11 22:25:39,076 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:25:39,077 - data - INFO - detialindex
+{'views': {'126636': 16}, 'count': 16} edee
+
+2025-07-11 22:28:24,685 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:28:24,687 - data - INFO - detialindex
+edee
+
+2025-07-11 22:28:24,689 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:28:24,690 - data - INFO - detialindex
+{'views': {'126636': 17}, 'count': 17} edee
+
+2025-07-11 22:35:33,417 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:35:33,420 - data - INFO - detialindex
+edee
+
+2025-07-11 22:35:33,421 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:35:33,421 - data - INFO - detialindex
+{'views': {'126636': 18}, 'count': 18} edee
+
+2025-07-11 22:36:46,092 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:36:46,093 - data - INFO - detialindex
+edee
+
+2025-07-11 22:36:46,094 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:36:46,094 - data - INFO - detialindex
+{'views': {'126636': 19}, 'count': 19} edee
+
+2025-07-11 22:36:52,175 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:36:52,176 - data - INFO - detialindex
+edee
+
+2025-07-11 22:36:52,176 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:36:52,177 - data - INFO - detialindex
+{'views': {'126636': 20}, 'count': 20} edee
+
+2025-07-11 22:38:14,947 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:38:14,949 - data - INFO - detialindex
+edee
+
+2025-07-11 22:38:14,950 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:38:14,950 - data - INFO - detialindex
+{'views': {'126636': 21}, 'count': 21} edee
+
+2025-07-11 22:38:50,830 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:38:50,832 - data - INFO - detialindex
+edee
+
+2025-07-11 22:38:50,833 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:38:50,834 - data - INFO - detialindex
+{'views': {'126636': 22}, 'count': 22} edee
+
+2025-07-11 22:38:55,601 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:38:55,602 - data - INFO - detialindex
+edee
+
+2025-07-11 22:38:55,602 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:38:55,603 - data - INFO - detialindex
+{'views': {'126636': 23}, 'count': 23} edee
+
+2025-07-11 22:38:56,501 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:38:56,502 - data - INFO - detialindex
+edee
+
+2025-07-11 22:38:56,503 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:38:56,504 - data - INFO - detialindex
+{'views': {'126636': 24}, 'count': 24} edee
+
+2025-07-11 22:40:14,301 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:40:14,304 - data - INFO - detialindex
+edee
+
+2025-07-11 22:40:14,305 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:40:14,306 - data - INFO - detialindex
+{'views': {'126636': 25}, 'count': 25} edee
+
+2025-07-11 22:41:06,657 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:41:06,659 - data - INFO - detialindex
+edee
+
+2025-07-11 22:41:06,660 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:41:06,661 - data - INFO - detialindex
+{'views': {'126636': 26}, 'count': 26} edee
+
+2025-07-11 22:44:15,984 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:44:15,986 - data - INFO - detialindex
+edee
+
+2025-07-11 22:44:15,987 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:44:15,988 - data - INFO - detialindex
+{'views': {'126636': 27}, 'count': 27} edee
+
+2025-07-11 22:44:33,323 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:44:33,326 - data - INFO - detialindex
+edee
+
+2025-07-11 22:44:33,327 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:44:33,328 - data - INFO - detialindex
+{'views': {'126636': 28}, 'count': 28} edee
+
+2025-07-11 22:47:00,564 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:47:00,567 - data - INFO - detialindex
+edee
+
+2025-07-11 22:47:00,568 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:47:00,569 - data - INFO - detialindex
+{'views': {'126636': 29}, 'count': 29} edee
+
+2025-07-11 22:47:35,273 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:47:35,276 - data - INFO - detialindex
+edee
+
+2025-07-11 22:47:35,277 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:47:35,278 - data - INFO - detialindex
+{'views': {'126636': 30}, 'count': 30} edee
+
+2025-07-11 22:47:41,617 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:47:41,619 - data - INFO - detialindex
+edee
+
+2025-07-11 22:47:41,619 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:47:41,620 - data - INFO - detialindex
+{'views': {'126636': 31}, 'count': 31} edee
+
+2025-07-11 22:47:43,388 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:47:43,389 - data - INFO - detialindex
+edee
+
+2025-07-11 22:47:43,389 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:47:43,390 - data - INFO - detialindex
+{'views': {'126636': 32}, 'count': 32} edee
+
+2025-07-11 22:49:14,408 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:49:14,410 - data - INFO - detialindex
+edee
+
+2025-07-11 22:49:14,411 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:49:14,411 - data - INFO - detialindex
+{'views': {'126636': 33}, 'count': 33} edee
+
+2025-07-11 22:49:17,587 - data - INFO - read detial:edee information from detialindex
+
+
+2025-07-11 22:49:17,587 - data - INFO - detialindex
+edee
+
+2025-07-11 22:49:17,589 - data - INFO - update detial:edee data from detialindex
+
+
+2025-07-11 22:49:17,589 - data - INFO - detialindex
+{'views': {'126636': 34}, 'count': 34} edee
+

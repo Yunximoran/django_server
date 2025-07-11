@@ -1,10 +1,11 @@
 from django.http import HttpRequest, HttpResponse
 from lib.database import Redis as Cache
+import asyncio
 
 
 from ._form import data
 from ._actions import Count
-cache = Cache()
+
 count = Count()
 
 def realtime(request:HttpRequest):

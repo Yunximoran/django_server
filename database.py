@@ -1,26 +1,22 @@
 import json
-import asyncio
+import time
 from lib.database import Redis, MySQL
 from lib.database.mysql import Condition
 from lib.database.mysql import Field, constant
+from lib.sys.processing import Process
+from lib.sys.processing import Queue
 
 from lib import Logger, Catch
 
 logger = Logger("data")
 catch = Catch(logger)
+mysql_update_queue: Queue =  Queue()
 
 class DataBase:
-    __SAVEDATA = [      # 需要保存的数据表
-        "userdata",
-        "detialindex"
-    ]
 
-    usrtable = {
-        "uname": "",
-        "usrid": ""
-    }
     cache = Redis(connect=False, timeout=False, data=False)
     database = MySQL()
+
     def __init__(self):
         # 定义文章数据表
         if not self.__check_tables("detialindex"):
@@ -32,16 +28,15 @@ class DataBase:
     def __check_tables(self, table):
         return table in self.database.tables()
     
-        
     def get_detial_message(self, detial) -> dict:
         logger.record(1, f"read detial:{detial} information from detialindex")
-        detialdata = self.cache.hget("detialindex", detial)
+        detialdata = self._get_cache_("detialindex", detial)
         if detialdata is None:
             # 缓存相关数据时，该从MySQL读取数据
             detialdata = self._get_detial_message(detial)
 
             # 将数据写入缓存, 供下次读取使用
-            self.update_detial_message(detial, detialdata)
+            self.set_detial_message(detial, detialdata)
 
         return self.jsonloads(detialdata)
     
@@ -70,28 +65,33 @@ class DataBase:
                 "count": count if count else 0          # count为假，新文章，无浏览
             }
 
-    def update_detial_message(self, detial, data):
+    def set_detial_message(self, detial, data):
         # 获取当前数据
         logger.record(1, f"update detial:{detial} data from detialindex")
         data = self._set_cache_("detialindex", data, detial)
         # 异步 更新MYSQL 保存数据到磁盘
-        self._set_detial_data(detial, data)
-
+        mysql_update_queue.put((detial, data))
+        # self._set_detial_data(detial, data)
 
     def _set_detial_data(self, detial, data):        # 异步更新数据策略 redis 数据 写入 mysql
         # 获取view链接表
+        print("LOGGER UPDATE MYSQL")
         viewlink = f"{detial}_views"
         viewdata = data['views'].items()
         count = data['count']
 
-
         # 更新索引数据
-        self.table_detialindex.insert((detial, viewlink, count), ignore=True)
-
+        try:
+            self.table_detialindex.insert((detial, viewlink, count))
+        except Exception:
+            self.table_detialindex.update((detial, viewlink, count))
         # 更新链接表数据
         viewtable = self.database.workbook(viewlink)
         for item in viewdata:
-            viewtable.insert(tuple(item), ignore=True)
+            try:
+                viewtable.insert(tuple(item))
+            except Exception:
+                viewtable.update(tuple(item))
 
     def __create_viewlink(self, viewslink):
         return self.database.create(
@@ -122,7 +122,9 @@ class DataBase:
             status = self.cache.set(label, self.jsondumps(data))
         else:
             status = self.cache.hset(label, name, self.jsondumps(data))
-        return data
+        return status
+    
+    
     def hitrate(self):            # 缓存命中率
         info = self.cache.info("stats")
         hits = info['keyspace_hits']

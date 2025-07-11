@@ -3,6 +3,9 @@
 import os
 import sys
 from lib import resolver
+from lib.sys.processing import Process, Queue
+from view._actions.config import usedb
+from database import mysql_update_queue
 
 def main(argv=sys.argv):
     """Run administrative tasks."""
@@ -17,7 +20,11 @@ def main(argv=sys.argv):
         ) from exc
     execute_from_command_line(argv)
 
-
+def updataserver(queue:Queue):
+    while True:
+        detial, data = queue.get()
+        print(f"run update {detial} ....")
+        usedb._set_detial_data(detial, data)
 
 if __name__ == "__main__":
     """ 场景
@@ -89,7 +96,8 @@ if __name__ == "__main__":
     _conf = resolver("services")
     _host = _conf.search("host").data
     _port = _conf.search('port').data
-
+        
+    Process(target=updataserver, args=(mysql_update_queue,)).start()
     sys.argv = [sys.argv[0], "runserver", "{}:{}".format(_host, _port)]
     main(sys.argv)
 
