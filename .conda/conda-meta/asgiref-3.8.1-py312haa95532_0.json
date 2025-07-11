@@ -1,0 +1,265 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\asgiref-3.8.1-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/asgiref-3.8.1.dist-info/INSTALLER",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/LICENSE",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/METADATA",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/RECORD",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/REQUESTED",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/WHEEL",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/direct_url.json",
+    "Lib/site-packages/asgiref-3.8.1.dist-info/top_level.txt",
+    "Lib/site-packages/asgiref/__init__.py",
+    "Lib/site-packages/asgiref/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/compatibility.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/current_thread_executor.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/local.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/server.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/sync.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/testing.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/timeout.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/typing.cpython-312.pyc",
+    "Lib/site-packages/asgiref/__pycache__/wsgi.cpython-312.pyc",
+    "Lib/site-packages/asgiref/compatibility.py",
+    "Lib/site-packages/asgiref/current_thread_executor.py",
+    "Lib/site-packages/asgiref/local.py",
+    "Lib/site-packages/asgiref/py.typed",
+    "Lib/site-packages/asgiref/server.py",
+    "Lib/site-packages/asgiref/sync.py",
+    "Lib/site-packages/asgiref/testing.py",
+    "Lib/site-packages/asgiref/timeout.py",
+    "Lib/site-packages/asgiref/typing.py",
+    "Lib/site-packages/asgiref/wsgi.py"
+  ],
+  "fn": "asgiref-3.8.1-py312haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\asgiref-3.8.1-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "521e13984eac093209308c87c7b32cce",
+  "name": "asgiref",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\asgiref-3.8.1-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "sha256_in_prefix": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5b99aa0585c7e8ea59b3d757cb77e12fcf78f3fb4d2b160fe835f53a6652443f",
+        "sha256_in_prefix": "5b99aa0585c7e8ea59b3d757cb77e12fcf78f3fb4d2b160fe835f53a6652443f",
+        "size_in_bytes": 9505
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d905fe86699ebe74a018c6b34abdb77e49a2322fb4cef14a4e7ae2a73f6e035",
+        "sha256_in_prefix": "2d905fe86699ebe74a018c6b34abdb77e49a2322fb4cef14a4e7ae2a73f6e035",
+        "size_in_bytes": 1987
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "sha256_in_prefix": "4749dceaa4f1ba82e4ed2840dbf63e51690df1975f0c11b607a12aa73d965dbb",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7df3fa6d3e573d3af55b9925ad51b9d74f6ffa401175c179a0625afbeb22990b",
+        "sha256_in_prefix": "7df3fa6d3e573d3af55b9925ad51b9d74f6ffa401175c179a0625afbeb22990b",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/asgiref-3.8.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6e89108c2cf0c0446174188f76f60465ae1c1f14f83427807df40d52a27cb2c8",
+        "sha256_in_prefix": "6e89108c2cf0c0446174188f76f60465ae1c1f14f83427807df40d52a27cb2c8",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "919cc6a7158a638ad60d0aebae533b6cded8291023cb5ed6bf8c3ffdd8ef5585",
+        "sha256_in_prefix": "919cc6a7158a638ad60d0aebae533b6cded8291023cb5ed6bf8c3ffdd8ef5585",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "47e8eb5f6a824fa86eaf51e72dfd29a790481f1463c9f1b25230d943cfac107a",
+        "sha256_in_prefix": "47e8eb5f6a824fa86eaf51e72dfd29a790481f1463c9f1b25230d943cfac107a",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/compatibility.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1958d315828b3fd7437d5ca97e3d2dddd390bd9b56ec2041120e27840825b401",
+        "sha256_in_prefix": "1958d315828b3fd7437d5ca97e3d2dddd390bd9b56ec2041120e27840825b401",
+        "size_in_bytes": 1744
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/current_thread_executor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5caad70e6ae48f1ca31f583d3713502f8b400e8ac9dccc1eba9de5a088e38b87",
+        "sha256_in_prefix": "5caad70e6ae48f1ca31f583d3713502f8b400e8ac9dccc1eba9de5a088e38b87",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/local.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "90c6eba6cde659a5308ff9f28b7b362bc5cf8a44a145234448201bc2821086c3",
+        "sha256_in_prefix": "90c6eba6cde659a5308ff9f28b7b362bc5cf8a44a145234448201bc2821086c3",
+        "size_in_bytes": 5796
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/server.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "693dcd3afc8aad9c9e876664b51bbad1448900763cb3b1cc46234446842e8fce",
+        "sha256_in_prefix": "693dcd3afc8aad9c9e876664b51bbad1448900763cb3b1cc46234446842e8fce",
+        "size_in_bytes": 7913
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/sync.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f999a3a208f4907f05593856066a1c06d248e8c89f10b1ef6328386fe10c619a",
+        "sha256_in_prefix": "f999a3a208f4907f05593856066a1c06d248e8c89f10b1ef6328386fe10c619a",
+        "size_in_bytes": 22902
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/testing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fdca3d336ca8783d990fc97463bee503bff8195c8d0649194f3aa18f42f2f63",
+        "sha256_in_prefix": "2fdca3d336ca8783d990fc97463bee503bff8195c8d0649194f3aa18f42f2f63",
+        "size_in_bytes": 6049
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/timeout.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb5b431c1a22d4bd03765b25243f02a3cd79b72cdbb3fcb7d68d75ae3b4a6d75",
+        "sha256_in_prefix": "cb5b431c1a22d4bd03765b25243f02a3cd79b72cdbb3fcb7d68d75ae3b4a6d75",
+        "size_in_bytes": 4843
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/typing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f970af793e43da1d64381f22172be21ff1a426cbddbeae231024be74dedd7832",
+        "sha256_in_prefix": "f970af793e43da1d64381f22172be21ff1a426cbddbeae231024be74dedd7832",
+        "size_in_bytes": 9857
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/__pycache__/wsgi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc38f6e5433505b0b4a92d4e7591136a48573678fe47cf37baac6a7bf3a3222f",
+        "sha256_in_prefix": "fc38f6e5433505b0b4a92d4e7591136a48573678fe47cf37baac6a7bf3a3222f",
+        "size_in_bytes": 7267
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "0e163548ea4ebcec346359521230aa83ece745440a79c1b72d3695e3c3198baf",
+        "sha256_in_prefix": "0e163548ea4ebcec346359521230aa83ece745440a79c1b72d3695e3c3198baf",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/current_thread_executor.py",
+        "path_type": "hardlink",
+        "sha256": "12ea306d3d282ff3f816af0a4d7354c84824dfe938621e04f05fda9c455d7812",
+        "sha256_in_prefix": "12ea306d3d282ff3f816af0a4d7354c84824dfe938621e04f05fda9c455d7812",
+        "size_in_bytes": 3977
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/local.py",
+        "path_type": "hardlink",
+        "sha256": "6cd78447f4087f0dbe3c03d86a7a8066aeb2000109f9a8a8edef68f14a7e9a02",
+        "sha256_in_prefix": "6cd78447f4087f0dbe3c03d86a7a8066aeb2000109f9a8a8edef68f14a7e9a02",
+        "size_in_bytes": 4808
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/server.py",
+        "path_type": "hardlink",
+        "sha256": "7a04d0859a359381b417b492050369fd539e92919c8c12595369240a88860bf3",
+        "sha256_in_prefix": "7a04d0859a359381b417b492050369fd539e92919c8c12595369240a88860bf3",
+        "size_in_bytes": 6005
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/sync.py",
+        "path_type": "hardlink",
+        "sha256": "5a1cb461057ce2f4a9ec8041afe2436f1602b9af889cb8018ee8823258fd5a02",
+        "sha256_in_prefix": "5a1cb461057ce2f4a9ec8041afe2436f1602b9af889cb8018ee8823258fd5a02",
+        "size_in_bytes": 21444
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/testing.py",
+        "path_type": "hardlink",
+        "sha256": "4206605caaf076ae71ce166aca7af59ac58e8934b72a96acb63ef01d4d9e3d16",
+        "sha256_in_prefix": "4206605caaf076ae71ce166aca7af59ac58e8934b72a96acb63ef01d4d9e3d16",
+        "size_in_bytes": 3481
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/timeout.py",
+        "path_type": "hardlink",
+        "sha256": "2ed18bfb14291bc247a6b76c11408c12b27490d5a3e2ac1666110727788abb8b",
+        "sha256_in_prefix": "2ed18bfb14291bc247a6b76c11408c12b27490d5a3e2ac1666110727788abb8b",
+        "size_in_bytes": 3627
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/typing.py",
+        "path_type": "hardlink",
+        "sha256": "acb177cbff4e82f95031a0e6f32330f104e0b0ef4cbfd60073a0a3f318ef5a8d",
+        "sha256_in_prefix": "acb177cbff4e82f95031a0e6f32330f104e0b0ef4cbfd60073a0a3f318ef5a8d",
+        "size_in_bytes": 6264
+      },
+      {
+        "_path": "Lib/site-packages/asgiref/wsgi.py",
+        "path_type": "hardlink",
+        "sha256": "7f104b81413fd0f11581ca75ded89ccfa1877f7abe68a59c0797853e177acb1a",
+        "sha256_in_prefix": "7f104b81413fd0f11581ca75ded89ccfa1877f7abe68a59c0797853e177acb1a",
+        "size_in_bytes": 6753
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2b785ebee4576d03a798fd94e30612210615d9f1fb53e257fbc1c21dd483b247",
+  "size": 52547,
+  "subdir": "win-64",
+  "timestamp": 1724072569000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/asgiref-3.8.1-py312haa95532_0.conda",
+  "version": "3.8.1"
+}

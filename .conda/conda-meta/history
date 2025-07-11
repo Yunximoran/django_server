@@ -20,3 +20,20 @@
 +defaults/win-64::xz-5.6.4-h4754444_1
 +defaults/win-64::zlib-1.2.13-h8cc25b3_1
 # update specs: ['python=3.12.9']
+==> 2025-07-11 11:07:38 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install django
+# conda version: 24.11.3
++defaults/win-64::asgiref-3.8.1-py312haa95532_0
++defaults/win-64::django-5.2-py312haa95532_0
++defaults/win-64::sqlparse-0.5.2-py312haa95532_0
+# update specs: ['django']
+==> 2025-07-11 11:52:10 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install redis
+# conda version: 24.11.3
++defaults/noarch::redis-3.5.3-pyhd3eb1b0_0
+# update specs: ['redis']
+==> 2025-07-11 12:09:17 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install pymysql
+# conda version: 24.11.3
++defaults/win-64::pymysql-1.1.1-py312haa95532_0
+# update specs: ['pymysql']
