@@ -19,9 +19,10 @@ from django.contrib import admin
 from django.urls import path
 import view
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     # path("demo/", view.get.count_checknum, name="统计测试"),
     path("realtime/", view.core.realtime, name="实时数据"),
-    path("demopage/<str:detailname>/", view.demopage, name="测试页面")    
+    path("demopage/<str:detialname>/", view.demopage, name="测试页面")    
 ]

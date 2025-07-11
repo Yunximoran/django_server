@@ -50,14 +50,14 @@ if __name__ == "__main__":
 
     数据表：
     文章信息表: 文章基本信息、用户浏览数据
-    detialtable: {
+    detailtables: {
         detial_1: {
             views {
                 usrid: count
                 ......
             }        
         }
-        ......
+        
     }
     # redis 实现： 使用Hash表： 表， 名， 数据
     # mysql 实现

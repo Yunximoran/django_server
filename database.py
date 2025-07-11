@@ -1,5 +1,5 @@
 import json
-
+import asyncio
 from lib.database import Redis, MySQL
 from lib.database.mysql import Condition
 from lib.database.mysql import Field, constant
@@ -8,48 +8,52 @@ from lib import Logger, Catch
 
 logger = Logger("data")
 catch = Catch(logger)
+
 class DataBase:
     __SAVEDATA = [      # 需要保存的数据表
         "userdata",
-        "detial"
+        "detialindex"
     ]
 
     usrtable = {
         "uname": "",
         "usrid": ""
     }
+    cache = Redis(connect=False, timeout=False, data=False)
+    database = MySQL()
     def __init__(self):
-        self.cache = Redis()
-        self.database = MySQL()
-
         # 定义文章数据表
         if not self.__check_tables("detialindex"):
             logger.record(3, "MYSQL detialindex 表 不存在")
             raise "MYSQL detialindex 表 不存在"
-        self.table_detialtables = self.database.workbook("detialindex")
+        
+        self.table_detialindex = self.database.workbook("detialindex")
 
     def __check_tables(self, table):
         return table in self.database.tables()
-
-    def get_detial_message(self, detial):
-        logger.record(1, f"read detial:{detial} information from detialtables")
-        detialdata = self.cache.hget("detialtables", detial)
+    
+        
+    def get_detial_message(self, detial) -> dict:
+        logger.record(1, f"read detial:{detial} information from detialindex")
+        detialdata = self.cache.hget("detialindex", detial)
         if detialdata is None:
             # 缓存相关数据时，该从MySQL读取数据
             detialdata = self._get_detial_message(detial)
 
             # 将数据写入缓存, 供下次读取使用
-            self.hset("detialindex", detial, detialdata)
-        return detialdata
+            self.update_detial_message(detial, detialdata)
+
+        return self.jsonloads(detialdata)
     
     def _get_detial_message(self, detial):
         # 设置检索条件
-        condition = Condition(self.table_detialtables.detial == detial)
+        condition = Condition(self.table_detialindex.detial == detial)
 
         try:
             # 获取文章名称、预览数据连接、同浏览量
-            detial, viewslink, count = self.table_detialtables.select(condition=condition)[0]
-        except ValueError:
+            detial, viewslink, count = self.table_detialindex.select(condition=condition)[0]
+
+        except (TypeError, ValueError):
             # 处理查询不到文章时的异常
             detial, viewlink, count = detial, None, None
 
@@ -57,21 +61,37 @@ class DataBase:
         if viewlink and self.__check_tables(viewslink):
             viewdata = self.database.workbook(viewslink)
         else:
-            viewdata = self.__create_viewlink(f"{detial}_{viewslink}")
+            viewdata = self.__create_viewlink(f"{detial}_views")
 
         # 读取view表数据
         viewdata = viewdata.select()
-        return {
-            detial: {
-                "views": {usrid: times for usrid, times in viewdata} if viewdata else {},
+        return  {
+                "views": {usrid: times for usrid, times in viewdata} if viewdata else dict(),
                 "count": count if count else 0          # count为假，新文章，无浏览
             }
-        }
 
     def update_detial_message(self, detial, data):
         # 获取当前数据
-        logger.record(1, f"update detial:{detial} data from detialtables")
-        self.hset("detialtables", detial, data)
+        logger.record(1, f"update detial:{detial} data from detialindex")
+        data = self._set_cache_("detialindex", data, detial)
+        # 异步 更新MYSQL 保存数据到磁盘
+        self._set_detial_data(detial, data)
+
+
+    def _set_detial_data(self, detial, data):        # 异步更新数据策略 redis 数据 写入 mysql
+        # 获取view链接表
+        viewlink = f"{detial}_views"
+        viewdata = data['views'].items()
+        count = data['count']
+
+
+        # 更新索引数据
+        self.table_detialindex.insert((detial, viewlink, count), ignore=True)
+
+        # 更新链接表数据
+        viewtable = self.database.workbook(viewlink)
+        for item in viewdata:
+            viewtable.insert(tuple(item), ignore=True)
 
     def __create_viewlink(self, viewslink):
         return self.database.create(
@@ -82,59 +102,51 @@ class DataBase:
                     )
                 )
 
-    def hset(self, name, key, val):
-        rval = self.jsondumps(val)
-        self.cache.hset(name, key, rval)
-
-    def hget(self, name, key):
-        # detialtables
-        cache_data = self.cache.hget(name, key)
-        if cache_data is None:
-            # 处理无缓存事件
-            cache_data = {
-
-            }
-            if name not in self.database.tables():
-                self.database.create(name, key)
-                raise KeyError(f"没有MySQL表 {name}")
-            
-
-            tabel = self.database.workbook(name)
-            data = tabel.select()
-            fields = tabel.fields.copy()
-            for item in data:
-                for field, val in zip(fields, item):
-                    pass
-
-        return self.jsonloads(data)
-    
-
     def jsonloads(self, strdata):
         return self.cache.loads(strdata)
 
     def jsondumps(self, data):
         return json.dumps(data, ensure_ascii=False, indent=4)
     
-
+    @catch.DataBase(cache=cache, disk=database, error_callback=_get_detial_message)
+    def _get_cache_(self, label, name=None):
+        if name is None:
+            data = self.cache.get(label)
+        else:
+            data = self.cache.hget(label, name)
+        return self.jsonloads(data)
+    
+    @catch.DataBase(cache=cache, disk=database, error_callback=_set_detial_data)
+    def _set_cache_(self, label, data, name=None):
+        if name is None:
+            status = self.cache.set(label, self.jsondumps(data))
+        else:
+            status = self.cache.hset(label, name, self.jsondumps(data))
+        return data
     def hitrate(self):            # 缓存命中率
         info = self.cache.info("stats")
         hits = info['keyspace_hits']
         misses = info['keyspace_misses']
         return round(hits / (hits + misses), 2) * 100
+    
 if __name__ == "__main__":
-    # db = DataBase()
+    db = DataBase()
     # data = db.hget("userdata", "uname")
 
     # print("", data)
-    db = MySQL("djangodata")
-    table = db.workbook("userdata")
-    # print(table.usrid)
-    # print(table.uname)
-    name = table.select(condition=Condition("usrid = 66"))
+    # db = MySQL("djangodata")
+    # table = db.workbook("userdata")
+    # # print(table.usrid)
+    # # print(table.uname)
+    # name = table.select(condition=Condition("usrid = 66"))
 
+    # d = {1: 2}
+    # if name:
+    #     print(d)
     d = {1: 2}
-    if name:
-        print(d)
+    print(tuple(d.items()))
+
+    print(db.cache.keys())
     # print(type(name[0][0]))
     # print(name)
     # # ls = db.tables()

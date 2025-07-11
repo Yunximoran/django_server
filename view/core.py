@@ -20,9 +20,6 @@ def demopage(request:HttpRequest, detialname:str):
         文章名称
     """
     if request.method == "GET":
-        uname = request.GET.get("uname")
         usrid = request.GET.get('usrid')
-        count.add_count(detialname, uname, usrid)
-        # count.add_user_count(uname)
-        print(detialname, uname, usrid)
+        count.add_count(detialname, usrid)
     return HttpResponse("这是一个文章详情页")

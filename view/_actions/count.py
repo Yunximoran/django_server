@@ -7,34 +7,31 @@ class Count:
         self.usedb = DataBase()
         self.count = 0
 
-    def init_userdata(self, usrid):
-        pass
 
-    def init_detialdata(self, detial):
-        pass
-
-    def getinfo(self, detial, usrid):              # 读取缓存中的用户数据
+    def add_count(self, detial:str, usrid:int):            # 更新用户浏览次数
         # 获取数据
-        detialdata = self.usedb.hget("detialtable", detial)
-        return detialdata
-        # 校验数据是否存在
-        # 初始化数据
-        # 返回数据模板
-
-    def add_count(self, detial, uname, usrid):            # 更新用户浏览次数
-        # 获取数据
-        detialdata = self.getinfo(detial, usrid)
+        detialdata = self.usedb.get_detial_message(detial)
         # 更新浏览次数
-        detialdata['view'][usrid] += 1
+        views_data = detialdata['views']
+        # print("view_data", views_data, type(views_data))
+        # for usridi in views_data:
+        #     print("usrid", usridi, type(usrid))
+        # print("bool", usrid in views_data)
+        if usrid in views_data:
+            views_data[usrid] += 1
+        else:
+            views_data[usrid] = 1
+        detialdata['count'] += 1
         # 更新redis数据
-        self.usedb.hset("detialtable", detial, detialdata)
+        print("hit rate: ", self.usedb.hitrate())
+        self.usedb.update_detial_message(detial, detialdata)
 
     def count_usernums(self):                               # 统计所有用户人数
         alluserdata = self.usedb.get(USERDATA)
         return len(alluserdata)
     
     def count_detial_all_readtimes(self, detial):           # 统计文章总阅读次数
-        detialdata = self.usedb.get("detialtable")
+        detialdata = self.usedb.get("detialindex")
         count = 0
 
         for detial in detialdata:
