@@ -50,16 +50,30 @@ if __name__ == "__main__":
 
     数据表：
     文章信息表: 文章基本信息、用户浏览数据
-    detail: {
-        views {
-            uname: count
+    detialtable: {
+        detial_1: {
+            views {
+                usrid: count
+                ......
+            }        
         }
+        ......
     }
+    # redis 实现： 使用Hash表： 表， 名， 数据
+    # mysql 实现
+        文章索引表：保存文章索引
+        文章信息表：保存文章信息
+        浏览信息表：保存对应文章浏览信息
+
     用户数据表: 用户名称、用户ID
     userdata: {
         "usrid": 用户唯一标识
         "uname": 用户名
     }
+
+    缓存策略：
+        hash表存储数据
+        常规键值对做过期处理
 
     系统：
         监控redis缓存命中率（redis统计、接口查询命中 [百分比]）
@@ -76,5 +90,7 @@ if __name__ == "__main__":
     _host = _conf.search("host").data
     _port = _conf.search('port').data
 
-    sys.argv = [sys.argv[0], "runserver" "{}:{}".format(_host, _port)]
+    sys.argv = [sys.argv[0], "runserver", "{}:{}".format(_host, _port)]
     main(sys.argv)
+
+    # http://localhost:8000/demopage/eeee/?uname=yumo&usrid=123
