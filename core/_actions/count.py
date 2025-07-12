@@ -38,7 +38,7 @@ class Count:
     def count_detial_one_user_readtimes(self, detial, usrid:int):  # 统计单用户阅读次数
         detial = self.usedb.get_detial_message(detial)
         try:
-            count = detial['views'][str(usrid)]
+            count = detial['views'][usrid]
         except KeyError:
             count = 0
         return count

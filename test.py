@@ -32,7 +32,7 @@ def realtime():
 
 if __name__ == "__main__":
     with Pool(10) as pool:
-        results = pool.map_async(test_api, range(0, 100)).get()
+        results = pool.map_async(test_api, range(0, 1000)).get()
     
     for res in results:
         print(res.text)
