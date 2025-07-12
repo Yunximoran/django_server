@@ -46,3 +46,27 @@
   * userdata: 用户信息
     * userid: 用户唯一标识，提高查询准确性
     * 
+
+
+
+### 环境配置
+* 数据库配置路径
+  ./lib/_init/.config.xml
+
+* python 依赖
+```bash
+pip install django uvicorn redis pymysql psutil channels websocket requests
+```
+
+* 目录结构
+* core: 后端工作核心模块： 定义视图 -> 事件
+* lib: 项目依赖库， 异常捕获、日志输出、数据库原始操作台，自定义多进程，配置文件解析
+* redis：编译后的redis， 运行./redis/bin/redis-server ./redis/redis.conf 端口 6369
+* service: Django配置模块， 配置路由，agsi服务器
+* static: 静态资源目录
+* clean.py: 清理数据库
+* database.py: 数据库操作模块，根据项目需求定制的多数据复合应用
+* init.py: 初始化操作，第一次部署时运行，初始化MySQL表，也可以自定义
+* manage.py: 项目启动入口， 启动Django服务器， 和数据更新服务
+* realtime.py: 测试实时数据
+* test.py: 测试高并发

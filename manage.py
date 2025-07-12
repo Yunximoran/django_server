@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
-import sys
+import sys, time
 from lib import resolver
 from lib.sys.processing import Process, Pool, Queue
 from database import mysql_update_queue, DataBase
@@ -22,10 +22,16 @@ def main(argv=sys.argv):
         ) from exc
     execute_from_command_line(argv)
 
+
 def dispose_updateserver(param):
     detial, data = param
     usedb._set_detial_data(detial, data)
     return detial
+
+def disposing(tasks:dict):
+        with Pool() as pool:
+            pool.map_async(dispose_updateserver, tasks.items()).get()
+        return 0, {}, {}
 
 def updataserver(queue:Queue):
     tasks = {}  # 参数表
@@ -34,8 +40,12 @@ def updataserver(queue:Queue):
     items = 0
     while True:
         # 添加时间戳校验，防止写入旧的数据
-        detial, data, time = queue.get()
-        items += 1
+        try:
+            detial, data, time = queue.get(10)
+            items += 1
+        except TimeoutError:
+            items, tasks, tasktimes = disposing(tasks=tasks)
+            
         if detial in tasktimes and time > tasktimes[detial]:
             tasktimes[detial] = time
             tasks[detial] = data
@@ -43,10 +53,15 @@ def updataserver(queue:Queue):
             tasktimes[detial] = time
             tasks[detial] = data
 
-        if items >= 30:
-            with Pool() as pool:
-                pool.map_async(dispose_updateserver, tasks.items()).get()
-            items = 0
+        if items >= 30 or len(tasks) >= 10:
+            disposing(tasks=tasks)
+            # with Pool() as pool:
+            #     pool.map_async(dispose_updateserver, tasks.items()).get()
+
+            # # 重置状态
+            # items = 0
+            # tasks = {}  # 参数表
+            # tasktimes = {}  # 时间戳
         
 
 
