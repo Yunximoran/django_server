@@ -903,9 +903,9 @@ class HTTPPasswordMgrWithDefaultRealm(HTTPPasswordMgr):
 
 class HTTPPasswordMgrWithPriorAuth(HTTPPasswordMgrWithDefaultRealm):
 
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         self.authenticated = {}
-        super().__init__()
+        super().__init__(*args, **kwargs)
 
     def add_password(self, realm, uri, user, passwd, is_authenticated=False):
         self.update_authenticated(uri, is_authenticated)
@@ -1681,27 +1681,12 @@ else:
     def url2pathname(pathname):
         """OS-specific conversion from a relative URL of the 'file' scheme
         to a file system path; not recommended for general use."""
-        if pathname[:3] == '///':
-            # URL has an empty authority section, so the path begins on the
-            # third character.
-            pathname = pathname[2:]
-        elif pathname[:12] == '//localhost/':
-            # Skip past 'localhost' authority.
-            pathname = pathname[11:]
-        encoding = sys.getfilesystemencoding()
-        errors = sys.getfilesystemencodeerrors()
-        return unquote(pathname, encoding=encoding, errors=errors)
+        return unquote(pathname)
 
     def pathname2url(pathname):
         """OS-specific conversion from a file system path to a relative URL
         of the 'file' scheme; not recommended for general use."""
-        if pathname[:2] == '//':
-            # Add explicitly empty authority to avoid interpreting the path
-            # as authority.
-            pathname = '//' + pathname
-        encoding = sys.getfilesystemencoding()
-        errors = sys.getfilesystemencodeerrors()
-        return quote(pathname, encoding=encoding, errors=errors)
+        return quote(pathname)
 
 
 ftpcache = {}

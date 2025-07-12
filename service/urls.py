@@ -16,13 +16,14 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+import routing
 import core
 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # path("demo/", view.get.count_checknum, name="统计测试"),
-    path("realtime/", core._core.realtime, name="实时数据"),
+    path("", include(routing.weburlpatterns)),
     path("demopage/<str:detialname>/", core.demopage, name="测试页面")    
 ]
+

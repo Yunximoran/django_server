@@ -1,0 +1,154 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\certifi-2025.7.9-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/certifi-2025.7.9.dist-info/INSTALLER",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/LICENSE",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/METADATA",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/RECORD",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/REQUESTED",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/WHEEL",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/direct_url.json",
+    "Lib/site-packages/certifi-2025.7.9.dist-info/top_level.txt",
+    "Lib/site-packages/certifi/__init__.py",
+    "Lib/site-packages/certifi/__main__.py",
+    "Lib/site-packages/certifi/cacert.pem",
+    "Lib/site-packages/certifi/core.py",
+    "Lib/site-packages/certifi/py.typed",
+    "Lib/site-packages/certifi/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/certifi/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/certifi/__pycache__/core.cpython-312.pyc"
+  ],
+  "fn": "certifi-2025.7.9-pyhd8ed1ab_0.conda",
+  "license": "ISC",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\certifi-2025.7.9-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "fac657ab965a05f69ba777a7b934255a",
+  "name": "certifi",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\certifi-2025.7.9-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+        "sha256_in_prefix": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0e46a44febe4e56f8d96b82a2f00250ce659ae07b02247bb645e9797e9f522ae",
+        "sha256_in_prefix": "0e46a44febe4e56f8d96b82a2f00250ce659ae07b02247bb645e9797e9f522ae",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0bacd5fc2c1d97efc37e8e9bc9c68292dc6864493535ae5b111e9974ad8d983f",
+        "sha256_in_prefix": "0bacd5fc2c1d97efc37e8e9bc9c68292dc6864493535ae5b111e9974ad8d983f",
+        "size_in_bytes": 1195
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6c7b5da61b5cc185178a95e0e3a7177c12dca39a9640819577a999bd9ac2af08",
+        "sha256_in_prefix": "6c7b5da61b5cc185178a95e0e3a7177c12dca39a9640819577a999bd9ac2af08",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/certifi-2025.7.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5",
+        "sha256_in_prefix": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/certifi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b9dd789680c53806d3e4361a1bb6a9b5959d43f771dfe5564091c9ad255a9f29",
+        "sha256_in_prefix": "b9dd789680c53806d3e4361a1bb6a9b5959d43f771dfe5564091c9ad255a9f29",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/certifi/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758",
+        "sha256_in_prefix": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "site-packages/certifi/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "2b7b1026f18a297e2148189ca0cbe7d3e7f9efc36f7231ccc2820a404feb5596",
+        "sha256_in_prefix": "2b7b1026f18a297e2148189ca0cbe7d3e7f9efc36f7231ccc2820a404feb5596",
+        "size_in_bytes": 283771
+      },
+      {
+        "_path": "site-packages/certifi/core.py",
+        "path_type": "hardlink",
+        "sha256": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad",
+        "sha256_in_prefix": "5c55f2727746e697f7edac9e17c377d8752e0da7ecca191531b3b80403d61dad",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "site-packages/certifi/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/certifi/__pycache__/core.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d5bcebb3748005b50479055b69bd6a19753219effcf921b9158ef3ff588c752b",
+  "size": 156733,
+  "subdir": "noarch",
+  "timestamp": 1752115379000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/certifi-2025.7.9-pyhd8ed1ab_0.conda",
+  "version": "2025.7.9"
+}

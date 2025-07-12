@@ -26,9 +26,13 @@ def test_api(x=0):
     print(params)
     return requests.get(f"{baseurl}demopage/eeee", params=params)
 
+
+def realtime():
+    requests.get()
+
 if __name__ == "__main__":
-    with Pool() as pool:
-        results = pool.map_async(test_api, range(0, 50)).get()
+    with Pool(10) as pool:
+        results = pool.map_async(test_api, range(0, 100)).get()
     
     for res in results:
         print(res.text)

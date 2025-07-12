@@ -1,0 +1,3142 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "setuptools",
+    "python >=3.9",
+    "hyperlink >=21.0.0",
+    "cryptography >=3.4.6",
+    "txaio >=21.2.1"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\autobahn-24.4.2-pyhd8ed1ab_1",
+  "files": [
+    "Scripts/xbrnetwork",
+    "Scripts/xbrnetwork-ui",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/INSTALLER",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/LICENSE",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/METADATA",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/RECORD",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/REQUESTED",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/WHEEL",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/direct_url.json",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/entry_points.txt",
+    "Lib/site-packages/autobahn-24.4.2.dist-info/top_level.txt",
+    "Lib/site-packages/autobahn/__init__.py",
+    "Lib/site-packages/autobahn/__main__.py",
+    "Lib/site-packages/autobahn/_version.py",
+    "Lib/site-packages/autobahn/asset/xbr_gray.svg",
+    "Lib/site-packages/autobahn/asset/xbr_white.svg",
+    "Lib/site-packages/autobahn/asyncio/__init__.py",
+    "Lib/site-packages/autobahn/asyncio/component.py",
+    "Lib/site-packages/autobahn/asyncio/rawsocket.py",
+    "Lib/site-packages/autobahn/asyncio/test/README_NO_INIT_PY",
+    "Lib/site-packages/autobahn/asyncio/test/test_aio_rawsocket.py",
+    "Lib/site-packages/autobahn/asyncio/test/test_aio_websocket.py",
+    "Lib/site-packages/autobahn/asyncio/test/test_wamp_runner.py",
+    "Lib/site-packages/autobahn/asyncio/util.py",
+    "Lib/site-packages/autobahn/asyncio/wamp.py",
+    "Lib/site-packages/autobahn/asyncio/websocket.py",
+    "Lib/site-packages/autobahn/asyncio/xbr/__init__.py",
+    "Lib/site-packages/autobahn/exception.py",
+    "Lib/site-packages/autobahn/nvx/__init__.py",
+    "Lib/site-packages/autobahn/nvx/_utf8validator.c",
+    "Lib/site-packages/autobahn/nvx/_utf8validator.py",
+    "Lib/site-packages/autobahn/nvx/test/__init__.py",
+    "Lib/site-packages/autobahn/nvx/test/test_nvx_utf8validator.py",
+    "Lib/site-packages/autobahn/rawsocket/__init__.py",
+    "Lib/site-packages/autobahn/rawsocket/test/__init__.py",
+    "Lib/site-packages/autobahn/rawsocket/test/test_rawsocket_url.py",
+    "Lib/site-packages/autobahn/rawsocket/util.py",
+    "Lib/site-packages/autobahn/test/__init__.py",
+    "Lib/site-packages/autobahn/test/test_rng.py",
+    "Lib/site-packages/autobahn/test/test_util.py",
+    "Lib/site-packages/autobahn/testutil.py",
+    "Lib/site-packages/autobahn/twisted/__init__.py",
+    "Lib/site-packages/autobahn/twisted/choosereactor.py",
+    "Lib/site-packages/autobahn/twisted/component.py",
+    "Lib/site-packages/autobahn/twisted/cryptosign.py",
+    "Lib/site-packages/autobahn/twisted/forwarder.py",
+    "Lib/site-packages/autobahn/twisted/rawsocket.py",
+    "Lib/site-packages/autobahn/twisted/resource.py",
+    "Lib/site-packages/autobahn/twisted/test/__init__.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_application_runner.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_choosereactor.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_component.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_endpoint_plugins.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_protocol.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_rawsocket.py",
+    "Lib/site-packages/autobahn/twisted/test/test_tx_websocket_agent.py",
+    "Lib/site-packages/autobahn/twisted/test/test_wamp_runner.py",
+    "Lib/site-packages/autobahn/twisted/testing/__init__.py",
+    "Lib/site-packages/autobahn/twisted/util.py",
+    "Lib/site-packages/autobahn/twisted/wamp.py",
+    "Lib/site-packages/autobahn/twisted/websocket.py",
+    "Lib/site-packages/autobahn/twisted/xbr/__init__.py",
+    "Lib/site-packages/autobahn/util.py",
+    "Lib/site-packages/autobahn/wamp/__init__.py",
+    "Lib/site-packages/autobahn/wamp/auth.py",
+    "Lib/site-packages/autobahn/wamp/component.py",
+    "Lib/site-packages/autobahn/wamp/cryptobox.py",
+    "Lib/site-packages/autobahn/wamp/cryptosign.py",
+    "Lib/site-packages/autobahn/wamp/exception.py",
+    "Lib/site-packages/autobahn/wamp/gen/__init__.py",
+    "Lib/site-packages/autobahn/wamp/gen/schema/auth.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/pubsub.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/roles.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/rpc.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/session.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/types.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/schema/wamp.bfbs",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/Map.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/Void.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/__init__.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Abort.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AnyMessage.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCraChallenge.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCraRequest.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCraWelcome.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignChallenge.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignRequest.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignWelcome.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthFactor.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthMethod.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthMode.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthScramChallenge.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthScramRequest.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthScramWelcome.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketChallenge.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketRequest.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketWelcome.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Authenticate.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/BrokerFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Call.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/CalleeFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/CallerFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Cancel.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/CancelMode.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Challenge.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/ChannelBinding.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/ClientRoles.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/DealerFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Error.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Event.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/EventReceived.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Goodbye.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Hello.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/HelloNew.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Interrupt.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Invocation.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/InvocationPolicy.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Kdf.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Match.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Message.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/MessageType.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Payload.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Principal.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Publish.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Published.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/PublisherFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Register.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Registered.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Result.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/RouterRoles.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Serializer.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Subscribe.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Subscribed.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/SubscriberFeatures.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/SubscriberReceived.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Unregister.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Unregistered.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Unsubscribe.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Unsubscribed.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Welcome.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/Yield.py",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__init__.py",
+    "Lib/site-packages/autobahn/wamp/interfaces.py",
+    "Lib/site-packages/autobahn/wamp/message.py",
+    "Lib/site-packages/autobahn/wamp/message_fbs.py",
+    "Lib/site-packages/autobahn/wamp/protocol.py",
+    "Lib/site-packages/autobahn/wamp/request.py",
+    "Lib/site-packages/autobahn/wamp/role.py",
+    "Lib/site-packages/autobahn/wamp/serializer.py",
+    "Lib/site-packages/autobahn/wamp/test/__init__.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_auth.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_component.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_component_aio.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_cryptobox.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_cryptosign.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_exception.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_identifiers.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_message.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_protocol.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_protocol_peer.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_scram.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_serializer.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_session_details.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_transport_details.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_uri_pattern.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_user_handler_errors.py",
+    "Lib/site-packages/autobahn/wamp/test/test_wamp_websocket.py",
+    "Lib/site-packages/autobahn/wamp/types.py",
+    "Lib/site-packages/autobahn/wamp/uri.py",
+    "Lib/site-packages/autobahn/wamp/websocket.py",
+    "Lib/site-packages/autobahn/websocket/__init__.py",
+    "Lib/site-packages/autobahn/websocket/compress.py",
+    "Lib/site-packages/autobahn/websocket/compress_base.py",
+    "Lib/site-packages/autobahn/websocket/compress_bzip2.py",
+    "Lib/site-packages/autobahn/websocket/compress_deflate.py",
+    "Lib/site-packages/autobahn/websocket/compress_snappy.py",
+    "Lib/site-packages/autobahn/websocket/interfaces.py",
+    "Lib/site-packages/autobahn/websocket/protocol.py",
+    "Lib/site-packages/autobahn/websocket/test/__init__.py",
+    "Lib/site-packages/autobahn/websocket/test/test_websocket_frame.py",
+    "Lib/site-packages/autobahn/websocket/test/test_websocket_protocol.py",
+    "Lib/site-packages/autobahn/websocket/test/test_websocket_url.py",
+    "Lib/site-packages/autobahn/websocket/types.py",
+    "Lib/site-packages/autobahn/websocket/utf8validator.py",
+    "Lib/site-packages/autobahn/websocket/util.py",
+    "Lib/site-packages/autobahn/websocket/xormasker.py",
+    "Lib/site-packages/autobahn/xbr/__init__.py",
+    "Lib/site-packages/autobahn/xbr/_abi.py",
+    "Lib/site-packages/autobahn/xbr/_blockchain.py",
+    "Lib/site-packages/autobahn/xbr/_buyer.py",
+    "Lib/site-packages/autobahn/xbr/_cli.py",
+    "Lib/site-packages/autobahn/xbr/_config.py",
+    "Lib/site-packages/autobahn/xbr/_dialog.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_api_publish.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_authority_certificate.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_base.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_catalog_create.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_certificate.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_certificate_chain.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_channel_close.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_channel_open.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_consent.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_delegate_certificate.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_domain_create.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_market_create.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_market_join.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_market_leave.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_market_member_login.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_member_login.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_member_register.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_member_unregister.py",
+    "Lib/site-packages/autobahn/xbr/_eip712_node_pair.py",
+    "Lib/site-packages/autobahn/xbr/_frealm.py",
+    "Lib/site-packages/autobahn/xbr/_gui.py",
+    "Lib/site-packages/autobahn/xbr/_interfaces.py",
+    "Lib/site-packages/autobahn/xbr/_mnemonic.py",
+    "Lib/site-packages/autobahn/xbr/_schema.py",
+    "Lib/site-packages/autobahn/xbr/_secmod.py",
+    "Lib/site-packages/autobahn/xbr/_seller.py",
+    "Lib/site-packages/autobahn/xbr/_userkey.py",
+    "Lib/site-packages/autobahn/xbr/_util.py",
+    "Lib/site-packages/autobahn/xbr/_wallet.py",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/enum.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/module.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/obj.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/service.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/test_enum.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/test_module.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/test_obj.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/py-autobahn/test_service.py.jinja2",
+    "Lib/site-packages/autobahn/xbr/templates/sol-eip712/obj-eip712.sol.jinja2",
+    "Lib/site-packages/autobahn/xbr/test/__init__.py",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/demo.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/testsvc1.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/wamp-auth.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/wamp-control.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/wamp-meta.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/catalog/schema/wamp.bfbs",
+    "Lib/site-packages/autobahn/xbr/test/profile/config.ini",
+    "Lib/site-packages/autobahn/xbr/test/profile/default.priv",
+    "Lib/site-packages/autobahn/xbr/test/profile/default.pub",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_argon2.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_config.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_eip712.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_frealm.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_mnemonic.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_schema_demo.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_schema_wamp.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_schema_wamp_control.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_secmod.py",
+    "Lib/site-packages/autobahn/xbr/test/test_xbr_web3.py",
+    "Lib/site-packages/twisted/plugins/autobahn_endpoints.py",
+    "Lib/site-packages/twisted/plugins/autobahn_twistd.py",
+    "Lib/site-packages/autobahn/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/component.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/rawsocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_aio_rawsocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_aio_websocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_wamp_runner.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/wamp.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/asyncio/xbr/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/__pycache__/exception.cpython-312.pyc",
+    "Lib/site-packages/autobahn/nvx/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/nvx/__pycache__/_utf8validator.cpython-312.pyc",
+    "Lib/site-packages/autobahn/nvx/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/nvx/test/__pycache__/test_nvx_utf8validator.cpython-312.pyc",
+    "Lib/site-packages/autobahn/rawsocket/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/rawsocket/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/rawsocket/test/__pycache__/test_rawsocket_url.cpython-312.pyc",
+    "Lib/site-packages/autobahn/rawsocket/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/test/__pycache__/test_rng.cpython-312.pyc",
+    "Lib/site-packages/autobahn/test/__pycache__/test_util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/__pycache__/testutil.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/choosereactor.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/component.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/cryptosign.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/forwarder.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/rawsocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/resource.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_application_runner.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_choosereactor.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_component.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_endpoint_plugins.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_protocol.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_rawsocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_websocket_agent.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/test/__pycache__/test_wamp_runner.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/testing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/wamp.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/twisted/xbr/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/auth.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/component.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/cryptobox.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/cryptosign.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/exception.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/Map.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/Void.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Abort.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AnyMessage.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraChallenge.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraRequest.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraWelcome.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignChallenge.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignRequest.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignWelcome.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthFactor.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthMethod.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthMode.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramChallenge.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramRequest.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramWelcome.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketChallenge.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketRequest.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketWelcome.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Authenticate.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/BrokerFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Call.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CalleeFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CallerFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Cancel.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CancelMode.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Challenge.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/ChannelBinding.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/ClientRoles.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/DealerFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Error.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Event.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/EventReceived.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Goodbye.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Hello.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/HelloNew.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Interrupt.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Invocation.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/InvocationPolicy.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Kdf.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Match.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Message.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/MessageType.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Payload.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Principal.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Publish.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Published.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/PublisherFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Register.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Registered.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Result.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/RouterRoles.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Serializer.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Subscribe.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Subscribed.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/SubscriberFeatures.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/SubscriberReceived.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unregister.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unregistered.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unsubscribe.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unsubscribed.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Welcome.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Yield.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/interfaces.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/message.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/message_fbs.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/protocol.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/request.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/role.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/serializer.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_auth.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_component.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_component_aio.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_cryptobox.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_cryptosign.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_exception.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_identifiers.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_message.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_protocol.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_protocol_peer.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_scram.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_serializer.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_session_details.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_transport_details.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_uri_pattern.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_user_handler_errors.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_websocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/types.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/uri.cpython-312.pyc",
+    "Lib/site-packages/autobahn/wamp/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/compress.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/compress_base.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/compress_bzip2.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/compress_deflate.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/compress_snappy.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/interfaces.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/protocol.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_frame.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_protocol.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_url.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/types.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/utf8validator.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/websocket/__pycache__/xormasker.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_abi.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_blockchain.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_buyer.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_cli.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_config.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_dialog.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_api_publish.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_authority_certificate.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_base.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_catalog_create.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_certificate.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_certificate_chain.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_channel_close.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_channel_open.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_consent.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_delegate_certificate.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_domain_create.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_create.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_join.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_leave.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_member_login.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_login.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_register.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_unregister.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_node_pair.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_frealm.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_gui.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_interfaces.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_mnemonic.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_schema.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_secmod.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_seller.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_userkey.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_util.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/__pycache__/_wallet.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_argon2.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_config.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_eip712.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_frealm.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_mnemonic.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_demo.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_wamp.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_wamp_control.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_secmod.cpython-312.pyc",
+    "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_web3.cpython-312.pyc",
+    "Lib/site-packages/twisted/plugins/__pycache__/autobahn_endpoints.cpython-312.pyc",
+    "Lib/site-packages/twisted/plugins/__pycache__/autobahn_twistd.cpython-312.pyc",
+    "Scripts/wamp-script.py",
+    "Scripts/wamp.exe"
+  ],
+  "fn": "autobahn-24.4.2-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\autobahn-24.4.2-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "bea8285109c0ef9c92b17c5605b67edd",
+  "name": "autobahn",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\autobahn-24.4.2-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/xbrnetwork",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/autobahn_1734407400591/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "6468987ac075c4c1970a0c4d2e9e56c9dc24af72ae641a1cfa53ce434753d1a4",
+        "sha256_in_prefix": "3eb39506d4aacee1d074c6340f362e0f0b4f4b278c47773cfc7b4d57597acfd1",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "python-scripts/xbrnetwork-ui",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/autobahn_1734407400591/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "8db47aed021199cd3b7378c44c701e51f57deb5632e9903385c0dbfd7f78f719",
+        "sha256_in_prefix": "cfc9578707d58cdfab3328bd1e87ce3ff4b086646045d6df4b5cd41826b8a474",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "49c90822821c78934079a4bfed0a880790a868bc6dba90ea8fe8274e0f985ada",
+        "sha256_in_prefix": "49c90822821c78934079a4bfed0a880790a868bc6dba90ea8fe8274e0f985ada",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dfe3617edb5b44a0a6c0d2919e5dedb3c9a7d6a509dbdfbe9c7a735eecbabf8d",
+        "sha256_in_prefix": "dfe3617edb5b44a0a6c0d2919e5dedb3c9a7d6a509dbdfbe9c7a735eecbabf8d",
+        "size_in_bytes": 19545
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7e8386a0279663f293f5ddde43dbf2f28d4bef20fe44350bde87d6912ea4532c",
+        "sha256_in_prefix": "7e8386a0279663f293f5ddde43dbf2f28d4bef20fe44350bde87d6912ea4532c",
+        "size_in_bytes": 37502
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b42d9a6dec37d21979bea07dabecb7d5278175e6be0d16b1d9a7ed5ef308c912",
+        "sha256_in_prefix": "b42d9a6dec37d21979bea07dabecb7d5278175e6be0d16b1d9a7ed5ef308c912",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "d4a95e77ce70e3035c76c0d8d559a4d03a9c253e166c6f043548c7810fd4e875",
+        "sha256_in_prefix": "d4a95e77ce70e3035c76c0d8d559a4d03a9c253e166c6f043548c7810fd4e875",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "site-packages/autobahn-24.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8baec7ebf14e127642b9a7c22a8af6fb8b1c328a63d81e15662a86fcadbbd3d8",
+        "sha256_in_prefix": "8baec7ebf14e127642b9a7c22a8af6fb8b1c328a63d81e15662a86fcadbbd3d8",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/autobahn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "968e872f9711a5e7457d3e11bff5465a257d3b8a0886bb59e4c9c144113b6498",
+        "sha256_in_prefix": "968e872f9711a5e7457d3e11bff5465a257d3b8a0886bb59e4c9c144113b6498",
+        "size_in_bytes": 1908
+      },
+      {
+        "_path": "site-packages/autobahn/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "500af47a2053606f99ecff0da20ce575fe6e8e3c14e0d7d6d7f71b3a44230a21",
+        "sha256_in_prefix": "500af47a2053606f99ecff0da20ce575fe6e8e3c14e0d7d6d7f71b3a44230a21",
+        "size_in_bytes": 11022
+      },
+      {
+        "_path": "site-packages/autobahn/_version.py",
+        "path_type": "hardlink",
+        "sha256": "89a60ef30bfd0554541d5771df3f660e50cc08d82b9223645d82e989f11230ff",
+        "sha256_in_prefix": "89a60ef30bfd0554541d5771df3f660e50cc08d82b9223645d82e989f11230ff",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "site-packages/autobahn/asset/xbr_gray.svg",
+        "path_type": "hardlink",
+        "sha256": "b2563af95ac55d4d20793bc101f92cc26123f4fd253b5046d85554a052b59860",
+        "sha256_in_prefix": "b2563af95ac55d4d20793bc101f92cc26123f4fd253b5046d85554a052b59860",
+        "size_in_bytes": 3246
+      },
+      {
+        "_path": "site-packages/autobahn/asset/xbr_white.svg",
+        "path_type": "hardlink",
+        "sha256": "3500483d8d521ffc285d66bf0269a2e1b98fda7417b69350dc620f7761917c17",
+        "sha256_in_prefix": "3500483d8d521ffc285d66bf0269a2e1b98fda7417b69350dc620f7761917c17",
+        "size_in_bytes": 3466
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c9d0b0c35cddcec29d02ef35a3ea892a747e714a9aad8d485446c5b11292c53c",
+        "sha256_in_prefix": "c9d0b0c35cddcec29d02ef35a3ea892a747e714a9aad8d485446c5b11292c53c",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/component.py",
+        "path_type": "hardlink",
+        "sha256": "544cc6a25b32da6b9322e0a045a92d3de9a6079376a070d44a9e49de2332dd7c",
+        "sha256_in_prefix": "544cc6a25b32da6b9322e0a045a92d3de9a6079376a070d44a9e49de2332dd7c",
+        "size_in_bytes": 15940
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/rawsocket.py",
+        "path_type": "hardlink",
+        "sha256": "891f718866206b99cff27d85536a740f4a01e2198041d9af9297a829b8feaccf",
+        "sha256_in_prefix": "891f718866206b99cff27d85536a740f4a01e2198041d9af9297a829b8feaccf",
+        "size_in_bytes": 17995
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/test/README_NO_INIT_PY",
+        "path_type": "hardlink",
+        "sha256": "2c1f6a737ef2ae98b5e6698778ec3db09ef2bbd073a34c71717243d88bcd6233",
+        "sha256_in_prefix": "2c1f6a737ef2ae98b5e6698778ec3db09ef2bbd073a34c71717243d88bcd6233",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/test/test_aio_rawsocket.py",
+        "path_type": "hardlink",
+        "sha256": "eb9c9ce397cb2f108b8c84c4d9129f1a26d19e6b73887f4ccc4b3c3b7c71ddc0",
+        "sha256_in_prefix": "eb9c9ce397cb2f108b8c84c4d9129f1a26d19e6b73887f4ccc4b3c3b7c71ddc0",
+        "size_in_bytes": 7801
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/test/test_aio_websocket.py",
+        "path_type": "hardlink",
+        "sha256": "474c86568e88205727b4e773e95da7d98528667260ea66b2230b0f7b40a6b34b",
+        "sha256_in_prefix": "474c86568e88205727b4e773e95da7d98528667260ea66b2230b0f7b40a6b34b",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/test/test_wamp_runner.py",
+        "path_type": "hardlink",
+        "sha256": "e56cdae1febb62f3fb885feb676a5420ecdff6a61c420b1af1d09f2313b16cdf",
+        "sha256_in_prefix": "e56cdae1febb62f3fb885feb676a5420ecdff6a61c420b1af1d09f2313b16cdf",
+        "size_in_bytes": 6228
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/util.py",
+        "path_type": "hardlink",
+        "sha256": "79a9de96804c62c63cfdabea5fe02bc2193d2a57eb4b2485a23c6ff17c42258b",
+        "sha256_in_prefix": "79a9de96804c62c63cfdabea5fe02bc2193d2a57eb4b2485a23c6ff17c42258b",
+        "size_in_bytes": 6026
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/wamp.py",
+        "path_type": "hardlink",
+        "sha256": "2055e515fcdfca90881371ba858526a66c2bd50773962dee0ffd6d319315f553",
+        "sha256_in_prefix": "2055e515fcdfca90881371ba858526a66c2bd50773962dee0ffd6d319315f553",
+        "size_in_bytes": 11355
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "98a7941e068466ab1ee71081f1ff875acb004ee551e7ef3f08a120bf90206ea0",
+        "sha256_in_prefix": "98a7941e068466ab1ee71081f1ff875acb004ee551e7ef3f08a120bf90206ea0",
+        "size_in_bytes": 11950
+      },
+      {
+        "_path": "site-packages/autobahn/asyncio/xbr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6fd4a246326d71739f657f08912ef629e5925720588b082d15549d4be07f8f50",
+        "sha256_in_prefix": "6fd4a246326d71739f657f08912ef629e5925720588b082d15549d4be07f8f50",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "site-packages/autobahn/exception.py",
+        "path_type": "hardlink",
+        "sha256": "cd98ed06b890f35dea497085edc7e067db9d4421b3ddeb22eb62823695b699a6",
+        "sha256_in_prefix": "cd98ed06b890f35dea497085edc7e067db9d4421b3ddeb22eb62823695b699a6",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "site-packages/autobahn/nvx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4f1a1523905ebbc92dc1ebedcaef26a5213ab173fec155dd7cd58a14ac25bb3f",
+        "sha256_in_prefix": "4f1a1523905ebbc92dc1ebedcaef26a5213ab173fec155dd7cd58a14ac25bb3f",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "site-packages/autobahn/nvx/_utf8validator.c",
+        "path_type": "hardlink",
+        "sha256": "3b3bfcbdb86446a39c8a061c5a769142ae69a5d92522da367a45ca87e464963a",
+        "sha256_in_prefix": "3b3bfcbdb86446a39c8a061c5a769142ae69a5d92522da367a45ca87e464963a",
+        "size_in_bytes": 17102
+      },
+      {
+        "_path": "site-packages/autobahn/nvx/_utf8validator.py",
+        "path_type": "hardlink",
+        "sha256": "93523879e43a97be50dc9d5bba50f5b8269d35064b7eb1e04afcb61e39852d5f",
+        "sha256_in_prefix": "93523879e43a97be50dc9d5bba50f5b8269d35064b7eb1e04afcb61e39852d5f",
+        "size_in_bytes": 2712
+      },
+      {
+        "_path": "site-packages/autobahn/nvx/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/nvx/test/test_nvx_utf8validator.py",
+        "path_type": "hardlink",
+        "sha256": "7c11949c65ddca718ecb04b45dc7593ced4332e867913029c967e6ce7fe3c3ea",
+        "sha256_in_prefix": "7c11949c65ddca718ecb04b45dc7593ced4332e867913029c967e6ce7fe3c3ea",
+        "size_in_bytes": 14273
+      },
+      {
+        "_path": "site-packages/autobahn/rawsocket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/rawsocket/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/rawsocket/test/test_rawsocket_url.py",
+        "path_type": "hardlink",
+        "sha256": "7af62643e2d399b82342d722e0977477ad752e7622eb4a9d4254265b53e7143c",
+        "sha256_in_prefix": "7af62643e2d399b82342d722e0977477ad752e7622eb4a9d4254265b53e7143c",
+        "size_in_bytes": 4929
+      },
+      {
+        "_path": "site-packages/autobahn/rawsocket/util.py",
+        "path_type": "hardlink",
+        "sha256": "1a136f87483fb82899d0afda57d9951f324578c95d982e110df6114883b0269c",
+        "sha256_in_prefix": "1a136f87483fb82899d0afda57d9951f324578c95d982e110df6114883b0269c",
+        "size_in_bytes": 5648
+      },
+      {
+        "_path": "site-packages/autobahn/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/test/test_rng.py",
+        "path_type": "hardlink",
+        "sha256": "d279d7ef2fd50a679536287a40d6705df3505650938d8008c400d175e0e2c660",
+        "sha256_in_prefix": "d279d7ef2fd50a679536287a40d6705df3505650938d8008c400d175e0e2c660",
+        "size_in_bytes": 4061
+      },
+      {
+        "_path": "site-packages/autobahn/test/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "bfe80f8c23b400979b6fbb92535648e2022811b5360065d9a640c006a4132e03",
+        "sha256_in_prefix": "bfe80f8c23b400979b6fbb92535648e2022811b5360065d9a640c006a4132e03",
+        "size_in_bytes": 2668
+      },
+      {
+        "_path": "site-packages/autobahn/testutil.py",
+        "path_type": "hardlink",
+        "sha256": "7671300b684b93dc1c9c9ae2ed94426c7c2706bae0fa10624badbf4af4af86bf",
+        "sha256_in_prefix": "7671300b684b93dc1c9c9ae2ed94426c7c2706bae0fa10624badbf4af4af86bf",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9029cfe803a9f78969e32f4b220dce7a2b54411bb7ebff8d6a0ca10626caaec7",
+        "sha256_in_prefix": "9029cfe803a9f78969e32f4b220dce7a2b54411bb7ebff8d6a0ca10626caaec7",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/choosereactor.py",
+        "path_type": "hardlink",
+        "sha256": "1234f265c0ff71df96413b128548cab58f383a9fd21aaf69740dd05fc031b830",
+        "sha256_in_prefix": "1234f265c0ff71df96413b128548cab58f383a9fd21aaf69740dd05fc031b830",
+        "size_in_bytes": 8989
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/component.py",
+        "path_type": "hardlink",
+        "sha256": "c2f94d94b5e06c6db2bd16a91c9e637c834f88b57c06a0f2d1ca3fe21aac9c14",
+        "sha256_in_prefix": "c2f94d94b5e06c6db2bd16a91c9e637c834f88b57c06a0f2d1ca3fe21aac9c14",
+        "size_in_bytes": 15120
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/cryptosign.py",
+        "path_type": "hardlink",
+        "sha256": "df8fa73a9299f7a0e50ef5b08ab4936d9cd67f6c132a4bd53fb03a0ba56de3e8",
+        "sha256_in_prefix": "df8fa73a9299f7a0e50ef5b08ab4936d9cd67f6c132a4bd53fb03a0ba56de3e8",
+        "size_in_bytes": 5825
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/forwarder.py",
+        "path_type": "hardlink",
+        "sha256": "e8ad8008453288814ff23c09ac5a5b9b1e7260e4bb719b7ed7cf1862e5a00af9",
+        "sha256_in_prefix": "e8ad8008453288814ff23c09ac5a5b9b1e7260e4bb719b7ed7cf1862e5a00af9",
+        "size_in_bytes": 4642
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/rawsocket.py",
+        "path_type": "hardlink",
+        "sha256": "c39f1417d9bd516b11f9a9498e5ce4457c581048a02b680e794d5821968e5ac3",
+        "sha256_in_prefix": "c39f1417d9bd516b11f9a9498e5ce4457c581048a02b680e794d5821968e5ac3",
+        "size_in_bytes": 24091
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/resource.py",
+        "path_type": "hardlink",
+        "sha256": "01daa3bf25ceffed4b579785db215ae699702613cb6c75c111c1305a5823b954",
+        "sha256_in_prefix": "01daa3bf25ceffed4b579785db215ae699702613cb6c75c111c1305a5823b954",
+        "size_in_bytes": 7208
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_application_runner.py",
+        "path_type": "hardlink",
+        "sha256": "e7615582fe38c9cca01fe99af80bd21d93d22b9d682666a737bd6145b2777ecf",
+        "sha256_in_prefix": "e7615582fe38c9cca01fe99af80bd21d93d22b9d682666a737bd6145b2777ecf",
+        "size_in_bytes": 5051
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_choosereactor.py",
+        "path_type": "hardlink",
+        "sha256": "2eec53e4b49b81e41b6b2b66decacf913eebea5e7c5ff71c32ed032e6bef8cb6",
+        "sha256_in_prefix": "2eec53e4b49b81e41b6b2b66decacf913eebea5e7c5ff71c32ed032e6bef8cb6",
+        "size_in_bytes": 4706
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_component.py",
+        "path_type": "hardlink",
+        "sha256": "1da8ff1f81d4e86bcf4d6a962baa081c81de8183124e73f671c7324bae9262f9",
+        "sha256_in_prefix": "1da8ff1f81d4e86bcf4d6a962baa081c81de8183124e73f671c7324bae9262f9",
+        "size_in_bytes": 16852
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_endpoint_plugins.py",
+        "path_type": "hardlink",
+        "sha256": "f265200839d1c9a024cacb73854986980cbeee45bb7dcaa9307f85d2a2279381",
+        "sha256_in_prefix": "f265200839d1c9a024cacb73854986980cbeee45bb7dcaa9307f85d2a2279381",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "3429cb422b691e012e12383236257832ba1ad26ad33cd8e63ecc6e26e52e15ce",
+        "sha256_in_prefix": "3429cb422b691e012e12383236257832ba1ad26ad33cd8e63ecc6e26e52e15ce",
+        "size_in_bytes": 16570
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_rawsocket.py",
+        "path_type": "hardlink",
+        "sha256": "d2b8f022604b13eb1e59b93fed80e8fa059c9c4ef69382aeda8534873f4a010b",
+        "sha256_in_prefix": "d2b8f022604b13eb1e59b93fed80e8fa059c9c4ef69382aeda8534873f4a010b",
+        "size_in_bytes": 2739
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_tx_websocket_agent.py",
+        "path_type": "hardlink",
+        "sha256": "25a05b4ab7ae8affdc551d38395d596c5be0933cad32cdd4edbae0a71dda2bc7",
+        "sha256_in_prefix": "25a05b4ab7ae8affdc551d38395d596c5be0933cad32cdd4edbae0a71dda2bc7",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/test/test_wamp_runner.py",
+        "path_type": "hardlink",
+        "sha256": "b41ed6388a8c800dd9bedae2f3ffb59630fce8a9181e0c938d32a48191ee71ee",
+        "sha256_in_prefix": "b41ed6388a8c800dd9bedae2f3ffb59630fce8a9181e0c938d32a48191ee71ee",
+        "size_in_bytes": 3412
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f1a5e35cdec37efc7c2873d28c3f80953487d103ee8ca96c90ffa65c9e6306d5",
+        "sha256_in_prefix": "f1a5e35cdec37efc7c2873d28c3f80953487d103ee8ca96c90ffa65c9e6306d5",
+        "size_in_bytes": 10065
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/util.py",
+        "path_type": "hardlink",
+        "sha256": "c1452d97b1f8d3e0c0dbf57b792ea56b9c553d80ffec02cf20d4c1941a07e193",
+        "sha256_in_prefix": "c1452d97b1f8d3e0c0dbf57b792ea56b9c553d80ffec02cf20d4c1941a07e193",
+        "size_in_bytes": 13627
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/wamp.py",
+        "path_type": "hardlink",
+        "sha256": "8dd2c64cd4972c9ed9ed8cfc0374dc57463a25e01f96b3aef3e7bcb17e539b5c",
+        "sha256_in_prefix": "8dd2c64cd4972c9ed9ed8cfc0374dc57463a25e01f96b3aef3e7bcb17e539b5c",
+        "size_in_bytes": 34578
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "d061fd82580d4c32427325142c91c4fdd549cd306122a93249e7933022bb9c2b",
+        "sha256_in_prefix": "d061fd82580d4c32427325142c91c4fdd549cd306122a93249e7933022bb9c2b",
+        "size_in_bytes": 32842
+      },
+      {
+        "_path": "site-packages/autobahn/twisted/xbr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "06b832fb4eb92e333ac8944dfd39efac1ed70e29d0b3a26580adfb658b631eb9",
+        "sha256_in_prefix": "06b832fb4eb92e333ac8944dfd39efac1ed70e29d0b3a26580adfb658b631eb9",
+        "size_in_bytes": 3924
+      },
+      {
+        "_path": "site-packages/autobahn/util.py",
+        "path_type": "hardlink",
+        "sha256": "ff11160645f55d4b118d95342fbce82f4fa2127606609279ebd4146e0be4da30",
+        "sha256_in_prefix": "ff11160645f55d4b118d95342fbce82f4fa2127606609279ebd4146e0be4da30",
+        "size_in_bytes": 32800
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a38a359dfb66347dffa18c9dc9985abf591242de25a4fd307a9788974046eb8",
+        "sha256_in_prefix": "6a38a359dfb66347dffa18c9dc9985abf591242de25a4fd307a9788974046eb8",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/auth.py",
+        "path_type": "hardlink",
+        "sha256": "83158658aeb3e5e433cb69ab03b753786336f938ec8130639bc416f70991598b",
+        "sha256_in_prefix": "83158658aeb3e5e433cb69ab03b753786336f938ec8130639bc416f70991598b",
+        "size_in_bytes": 22913
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/component.py",
+        "path_type": "hardlink",
+        "sha256": "ff0c42e217604353937986faf56f23f4c581e7d675631118043dad5d08d199d1",
+        "sha256_in_prefix": "ff0c42e217604353937986faf56f23f4c581e7d675631118043dad5d08d199d1",
+        "size_in_bytes": 38613
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/cryptobox.py",
+        "path_type": "hardlink",
+        "sha256": "60cfe5cb9ab77c63b4bb1ced70e144632f37e6fba51d0779d71cd04ac1f54dac",
+        "sha256_in_prefix": "60cfe5cb9ab77c63b4bb1ced70e144632f37e6fba51d0779d71cd04ac1f54dac",
+        "size_in_bytes": 10518
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/cryptosign.py",
+        "path_type": "hardlink",
+        "sha256": "4f3f0ccf1109c6455d401d1cc5c079af8dae0ae9933fbd2dd5e585d868e12a00",
+        "sha256_in_prefix": "4f3f0ccf1109c6455d401d1cc5c079af8dae0ae9933fbd2dd5e585d868e12a00",
+        "size_in_bytes": 39393
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/exception.py",
+        "path_type": "hardlink",
+        "sha256": "d5d0fe979033adad03595f6104a37908549307287d834a1845c72ab3dde19cb0",
+        "sha256_in_prefix": "d5d0fe979033adad03595f6104a37908549307287d834a1845c72ab3dde19cb0",
+        "size_in_bytes": 10445
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/auth.bfbs",
+        "path_type": "hardlink",
+        "sha256": "f3ac45ea8b6fa3b6cac879b9ab5c909da016d76495b54324dca72d52bbc58bb5",
+        "sha256_in_prefix": "f3ac45ea8b6fa3b6cac879b9ab5c909da016d76495b54324dca72d52bbc58bb5",
+        "size_in_bytes": 12664
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/pubsub.bfbs",
+        "path_type": "hardlink",
+        "sha256": "358d6db52f419a210084ac982d01c45581e01f18e077b11ac5b326023aa8c027",
+        "sha256_in_prefix": "358d6db52f419a210084ac982d01c45581e01f18e077b11ac5b326023aa8c027",
+        "size_in_bytes": 8760
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/roles.bfbs",
+        "path_type": "hardlink",
+        "sha256": "1d729ffb7cd665e0f91af4f29e3c99c088ca89ae6f640758e5a591c7d0bbfb67",
+        "sha256_in_prefix": "1d729ffb7cd665e0f91af4f29e3c99c088ca89ae6f640758e5a591c7d0bbfb67",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/rpc.bfbs",
+        "path_type": "hardlink",
+        "sha256": "a9d5b1f45e602a674df00f3d159c02955b8c7c869450d7ea66cb5c41347ee7b1",
+        "sha256_in_prefix": "a9d5b1f45e602a674df00f3d159c02955b8c7c869450d7ea66cb5c41347ee7b1",
+        "size_in_bytes": 9456
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/session.bfbs",
+        "path_type": "hardlink",
+        "sha256": "285349619cd9392724fd77ba39a67a724904675558ee98433ce6972fac058bb6",
+        "sha256_in_prefix": "285349619cd9392724fd77ba39a67a724904675558ee98433ce6972fac058bb6",
+        "size_in_bytes": 16112
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/types.bfbs",
+        "path_type": "hardlink",
+        "sha256": "128daeacf41106554e659ba0e664844f74d3d4564093a461edf844a42afe8373",
+        "sha256_in_prefix": "128daeacf41106554e659ba0e664844f74d3d4564093a461edf844a42afe8373",
+        "size_in_bytes": 3600
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/schema/wamp.bfbs",
+        "path_type": "hardlink",
+        "sha256": "a6532fd1c48ac1f61e61e83e2053b5b3508438d6845105154a06eb8b268e0ed0",
+        "sha256_in_prefix": "a6532fd1c48ac1f61e61e83e2053b5b3508438d6845105154a06eb8b268e0ed0",
+        "size_in_bytes": 28648
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/Map.py",
+        "path_type": "hardlink",
+        "sha256": "14ac6bb501e1e4e24fbceb5d11c291bff8e85de0c2bed37b051dab252c150f68",
+        "sha256_in_prefix": "14ac6bb501e1e4e24fbceb5d11c291bff8e85de0c2bed37b051dab252c150f68",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/Void.py",
+        "path_type": "hardlink",
+        "sha256": "cc00e72487c666bfed0da4fd751f78f41010a8714d6bfd409e4dcba53db21090",
+        "sha256_in_prefix": "cc00e72487c666bfed0da4fd751f78f41010a8714d6bfd409e4dcba53db21090",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Abort.py",
+        "path_type": "hardlink",
+        "sha256": "886b7bd3bc53c43a0276c130912d35be7c652ccc0e28ee96e9555b948e9f06e1",
+        "sha256_in_prefix": "886b7bd3bc53c43a0276c130912d35be7c652ccc0e28ee96e9555b948e9f06e1",
+        "size_in_bytes": 2134
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AnyMessage.py",
+        "path_type": "hardlink",
+        "sha256": "ce24673e8945d03926e397d1cdee401233c8ccad2bb2d55efbaf339c1d1e4886",
+        "sha256_in_prefix": "ce24673e8945d03926e397d1cdee401233c8ccad2bb2d55efbaf339c1d1e4886",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCraChallenge.py",
+        "path_type": "hardlink",
+        "sha256": "c271ff2a6cd870b4e57b41f740eebf802b88767916d4d5934fc66a2e78b03cfc",
+        "sha256_in_prefix": "c271ff2a6cd870b4e57b41f740eebf802b88767916d4d5934fc66a2e78b03cfc",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCraRequest.py",
+        "path_type": "hardlink",
+        "sha256": "a25719aca11d0709b6271d996c4afc12cce47356dec4cddcb8bd024a012e8085",
+        "sha256_in_prefix": "a25719aca11d0709b6271d996c4afc12cce47356dec4cddcb8bd024a012e8085",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCraWelcome.py",
+        "path_type": "hardlink",
+        "sha256": "35d92c3937ea517880b6d04daf1a7447bdae0fbb555aa483cc237659a15fb7a0",
+        "sha256_in_prefix": "35d92c3937ea517880b6d04daf1a7447bdae0fbb555aa483cc237659a15fb7a0",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignChallenge.py",
+        "path_type": "hardlink",
+        "sha256": "11a322c7922396e4602d8e2c2fce84c627ea82703996f14dbb4c63e15bc08700",
+        "sha256_in_prefix": "11a322c7922396e4602d8e2c2fce84c627ea82703996f14dbb4c63e15bc08700",
+        "size_in_bytes": 1540
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignRequest.py",
+        "path_type": "hardlink",
+        "sha256": "769400ec4ffa30df0bb2780770d6efed128ee6a43f06cc1fbe4098e5520c4f83",
+        "sha256_in_prefix": "769400ec4ffa30df0bb2780770d6efed128ee6a43f06cc1fbe4098e5520c4f83",
+        "size_in_bytes": 1985
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthCryptosignWelcome.py",
+        "path_type": "hardlink",
+        "sha256": "2e6c78a4c1655d97b9c06fa6905a40986525ac1cdebc1b2c00a691c8ffd6264e",
+        "sha256_in_prefix": "2e6c78a4c1655d97b9c06fa6905a40986525ac1cdebc1b2c00a691c8ffd6264e",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthFactor.py",
+        "path_type": "hardlink",
+        "sha256": "69235d4cd19d88e3c3cd16a179fb72dc67b9c06a287ba885abcea1a0885f76a7",
+        "sha256_in_prefix": "69235d4cd19d88e3c3cd16a179fb72dc67b9c06a287ba885abcea1a0885f76a7",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthMethod.py",
+        "path_type": "hardlink",
+        "sha256": "c170624c1a734670fa8f586f166e85b443a928b9ce4f64f948685e53b726228a",
+        "sha256_in_prefix": "c170624c1a734670fa8f586f166e85b443a928b9ce4f64f948685e53b726228a",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthMode.py",
+        "path_type": "hardlink",
+        "sha256": "6f1b5f41082c934b6169ab86193e2b6d1c331993a06d4e1b24a50f9b549fea52",
+        "sha256_in_prefix": "6f1b5f41082c934b6169ab86193e2b6d1c331993a06d4e1b24a50f9b549fea52",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthScramChallenge.py",
+        "path_type": "hardlink",
+        "sha256": "e204538ece357d423e477b235e4da56694ac02e00658265895f88876e6cee7a9",
+        "sha256_in_prefix": "e204538ece357d423e477b235e4da56694ac02e00658265895f88876e6cee7a9",
+        "size_in_bytes": 3682
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthScramRequest.py",
+        "path_type": "hardlink",
+        "sha256": "02ac5218af23c6292b5c33fc63af047f1dcc22145591a1994b9dbaf8bf938ff1",
+        "sha256_in_prefix": "02ac5218af23c6292b5c33fc63af047f1dcc22145591a1994b9dbaf8bf938ff1",
+        "size_in_bytes": 1907
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthScramWelcome.py",
+        "path_type": "hardlink",
+        "sha256": "5f94849de28aa102b31d8070bc5ac9d76268dfb72cf5e6d6a3a503e7924d1cbe",
+        "sha256_in_prefix": "5f94849de28aa102b31d8070bc5ac9d76268dfb72cf5e6d6a3a503e7924d1cbe",
+        "size_in_bytes": 1443
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketChallenge.py",
+        "path_type": "hardlink",
+        "sha256": "b8ec9da8fec0b99a1115f0a685433b8d68042fd99b26e0a2e29a6af30307b01b",
+        "sha256_in_prefix": "b8ec9da8fec0b99a1115f0a685433b8d68042fd99b26e0a2e29a6af30307b01b",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketRequest.py",
+        "path_type": "hardlink",
+        "sha256": "71632800ea50b851e86a3ff0a504e0c8f2741c12794419ce266a69e58621238c",
+        "sha256_in_prefix": "71632800ea50b851e86a3ff0a504e0c8f2741c12794419ce266a69e58621238c",
+        "size_in_bytes": 983
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/AuthTicketWelcome.py",
+        "path_type": "hardlink",
+        "sha256": "699fe2f442fa7b33a02e3f8dea58b8b4f672a1304aae8a774c9465f3516f0cc2",
+        "sha256_in_prefix": "699fe2f442fa7b33a02e3f8dea58b8b4f672a1304aae8a774c9465f3516f0cc2",
+        "size_in_bytes": 983
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Authenticate.py",
+        "path_type": "hardlink",
+        "sha256": "fa06a6f44598629112f870c02955808f91f3ce81d4faea83a95c227491d368ec",
+        "sha256_in_prefix": "fa06a6f44598629112f870c02955808f91f3ce81d4faea83a95c227491d368ec",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/BrokerFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "e8400f4c9055330934048e9deea49b37b71e98892b717ac2f8008ba3a30a4d7f",
+        "sha256_in_prefix": "e8400f4c9055330934048e9deea49b37b71e98892b717ac2f8008ba3a30a4d7f",
+        "size_in_bytes": 8611
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Call.py",
+        "path_type": "hardlink",
+        "sha256": "9ccd2d7d0d98b228eb72af7e6d6f491b461d8128f9e78f6dd1c00cc0df1e1fee",
+        "sha256_in_prefix": "9ccd2d7d0d98b228eb72af7e6d6f491b461d8128f9e78f6dd1c00cc0df1e1fee",
+        "size_in_bytes": 9460
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/CalleeFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "05781649682532a2deac293133b8daa17d55595c8a8c5a0255e8e8b064b5e3f8",
+        "sha256_in_prefix": "05781649682532a2deac293133b8daa17d55595c8a8c5a0255e8e8b064b5e3f8",
+        "size_in_bytes": 6267
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/CallerFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "6837801a10141780aa0b949468903156474f3bfc73878e422cf128cf1d96d760",
+        "sha256_in_prefix": "6837801a10141780aa0b949468903156474f3bfc73878e422cf128cf1d96d760",
+        "size_in_bytes": 4118
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Cancel.py",
+        "path_type": "hardlink",
+        "sha256": "26ec11747b573e7df867ddfffc9ff8dcc15026e4d1e14482e211fe44f5765720",
+        "sha256_in_prefix": "26ec11747b573e7df867ddfffc9ff8dcc15026e4d1e14482e211fe44f5765720",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/CancelMode.py",
+        "path_type": "hardlink",
+        "sha256": "7ae1e22fa3f7ede9f764af295e5d4e59f2b1c2b9f3f5663ed7515c8e1ca2f29c",
+        "sha256_in_prefix": "7ae1e22fa3f7ede9f764af295e5d4e59f2b1c2b9f3f5663ed7515c8e1ca2f29c",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Challenge.py",
+        "path_type": "hardlink",
+        "sha256": "06fc2ea779051f3f37fb0b2ca91fdab0f894954e78e7290c25033ba8ad82af2c",
+        "sha256_in_prefix": "06fc2ea779051f3f37fb0b2ca91fdab0f894954e78e7290c25033ba8ad82af2c",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/ChannelBinding.py",
+        "path_type": "hardlink",
+        "sha256": "5391692a5de836954cc9cb4c34c3b0be6edd12f219c37dd05f9e89d33ecb824a",
+        "sha256_in_prefix": "5391692a5de836954cc9cb4c34c3b0be6edd12f219c37dd05f9e89d33ecb824a",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/ClientRoles.py",
+        "path_type": "hardlink",
+        "sha256": "a77737bb740651ccb909ec3414334fcc2fe297264ced5b08015231f137d364a9",
+        "sha256_in_prefix": "a77737bb740651ccb909ec3414334fcc2fe297264ced5b08015231f137d364a9",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/DealerFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "0ef718ed2bca7450ce3f1a6bc96208775ce7842f41b952acfc312967f37dc150",
+        "sha256_in_prefix": "0ef718ed2bca7450ce3f1a6bc96208775ce7842f41b952acfc312967f37dc150",
+        "size_in_bytes": 7799
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Error.py",
+        "path_type": "hardlink",
+        "sha256": "9c2661708dae473735a061f6347ff198d08f729ee2a7fe551b550561c8fe8acb",
+        "sha256_in_prefix": "9c2661708dae473735a061f6347ff198d08f729ee2a7fe551b550561c8fe8acb",
+        "size_in_bytes": 6004
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Event.py",
+        "path_type": "hardlink",
+        "sha256": "b44d0da87786e547312cc8df65dd66798e7209354106932f483d5fadd8d199f4",
+        "sha256_in_prefix": "b44d0da87786e547312cc8df65dd66798e7209354106932f483d5fadd8d199f4",
+        "size_in_bytes": 12820
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/EventReceived.py",
+        "path_type": "hardlink",
+        "sha256": "aab380bacb8703a604ba41afc6db18c0c97957b0a8c28b0ebb3042ee0f0f6b4b",
+        "sha256_in_prefix": "aab380bacb8703a604ba41afc6db18c0c97957b0a8c28b0ebb3042ee0f0f6b4b",
+        "size_in_bytes": 5475
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Goodbye.py",
+        "path_type": "hardlink",
+        "sha256": "0dd387f2168c971f542692ed902e6d209e8fd027d5ccb6ee78153b5fec7a58b2",
+        "sha256_in_prefix": "0dd387f2168c971f542692ed902e6d209e8fd027d5ccb6ee78153b5fec7a58b2",
+        "size_in_bytes": 2598
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Hello.py",
+        "path_type": "hardlink",
+        "sha256": "f690c2c5748b3137a32d8a886caaad14ca17dbbbcd266a1bcc3f6b00e24c65f4",
+        "sha256_in_prefix": "f690c2c5748b3137a32d8a886caaad14ca17dbbbcd266a1bcc3f6b00e24c65f4",
+        "size_in_bytes": 6397
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/HelloNew.py",
+        "path_type": "hardlink",
+        "sha256": "0281d4a06c501664d58682f11dc3404f1cb140f407d5d491167ff2e21bfa9c5f",
+        "sha256_in_prefix": "0281d4a06c501664d58682f11dc3404f1cb140f407d5d491167ff2e21bfa9c5f",
+        "size_in_bytes": 7663
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Interrupt.py",
+        "path_type": "hardlink",
+        "sha256": "d30d54972f36736c7e501060a01fcc969c7ab7aac62b60c61a2a421c4b9b8206",
+        "sha256_in_prefix": "d30d54972f36736c7e501060a01fcc969c7ab7aac62b60c61a2a421c4b9b8206",
+        "size_in_bytes": 3797
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Invocation.py",
+        "path_type": "hardlink",
+        "sha256": "3927757fd62ff6d6b232c63898d883a0768b2f5d919546d7ccb9749fd3589042",
+        "sha256_in_prefix": "3927757fd62ff6d6b232c63898d883a0768b2f5d919546d7ccb9749fd3589042",
+        "size_in_bytes": 10302
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/InvocationPolicy.py",
+        "path_type": "hardlink",
+        "sha256": "7ea2ef5c613f49e0350c2516fc050ba75b156d82bc278fef8dba46845d84fcce",
+        "sha256_in_prefix": "7ea2ef5c613f49e0350c2516fc050ba75b156d82bc278fef8dba46845d84fcce",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Kdf.py",
+        "path_type": "hardlink",
+        "sha256": "b2fe47d6539aee8e376230fc44b8e43d966c2f433660c6effeea8ee7ae63963b",
+        "sha256_in_prefix": "b2fe47d6539aee8e376230fc44b8e43d966c2f433660c6effeea8ee7ae63963b",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Match.py",
+        "path_type": "hardlink",
+        "sha256": "708793bdeaaac3a4bf6709ad4232e9a3f4546284d3a21df7df016750c5392b1d",
+        "sha256_in_prefix": "708793bdeaaac3a4bf6709ad4232e9a3f4546284d3a21df7df016750c5392b1d",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Message.py",
+        "path_type": "hardlink",
+        "sha256": "68f915011a29ed805817a3f7b1012fcb9d8dd4df25628740d2609ddde348063a",
+        "sha256_in_prefix": "68f915011a29ed805817a3f7b1012fcb9d8dd4df25628740d2609ddde348063a",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/MessageType.py",
+        "path_type": "hardlink",
+        "sha256": "2762d6fcdb9660ab15c27c226b92fbdbd6b49eca54d92d0bbbb4151bb995dc0f",
+        "sha256_in_prefix": "2762d6fcdb9660ab15c27c226b92fbdbd6b49eca54d92d0bbbb4151bb995dc0f",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Payload.py",
+        "path_type": "hardlink",
+        "sha256": "fa89c9d59cd823b861856b1b09e273abf728b56845c2441959d2ba6373268070",
+        "sha256_in_prefix": "fa89c9d59cd823b861856b1b09e273abf728b56845c2441959d2ba6373268070",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Principal.py",
+        "path_type": "hardlink",
+        "sha256": "7db5ebd8774a39ba600eab9521d038fd89303ea3f110150bfe2269b92f33d857",
+        "sha256_in_prefix": "7db5ebd8774a39ba600eab9521d038fd89303ea3f110150bfe2269b92f33d857",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Publish.py",
+        "path_type": "hardlink",
+        "sha256": "8e703f30957f0799cf750212be2c718a6771a6d60bdde750a4a9868eb0087c76",
+        "sha256_in_prefix": "8e703f30957f0799cf750212be2c718a6771a6d60bdde750a4a9868eb0087c76",
+        "size_in_bytes": 18774
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Published.py",
+        "path_type": "hardlink",
+        "sha256": "9697a5d194a7e4ba308bfca28f69e191359f0ccbf5c5ecf5b3012f9ed928a5de",
+        "sha256_in_prefix": "9697a5d194a7e4ba308bfca28f69e191359f0ccbf5c5ecf5b3012f9ed928a5de",
+        "size_in_bytes": 2190
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/PublisherFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "acb60821059fd06a9aae81e9c4f20274eeda8511aaad99c07eefd2c9d2eaa81c",
+        "sha256_in_prefix": "acb60821059fd06a9aae81e9c4f20274eeda8511aaad99c07eefd2c9d2eaa81c",
+        "size_in_bytes": 4404
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Register.py",
+        "path_type": "hardlink",
+        "sha256": "ecfe21e266241388470f6d0eace7c61a75e31760aff60e898ca91ac83c481b28",
+        "sha256_in_prefix": "ecfe21e266241388470f6d0eace7c61a75e31760aff60e898ca91ac83c481b28",
+        "size_in_bytes": 3901
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Registered.py",
+        "path_type": "hardlink",
+        "sha256": "61cc1193bd7aedc7309bc3c436c22bcc4096b13c6106023f8db2d21a4053222a",
+        "sha256_in_prefix": "61cc1193bd7aedc7309bc3c436c22bcc4096b13c6106023f8db2d21a4053222a",
+        "size_in_bytes": 2215
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Result.py",
+        "path_type": "hardlink",
+        "sha256": "b7c7458c2a82492ddf4e94fb6d6263d85b98408a07ef4b8b2c38bc5a98d0f11b",
+        "sha256_in_prefix": "b7c7458c2a82492ddf4e94fb6d6263d85b98408a07ef4b8b2c38bc5a98d0f11b",
+        "size_in_bytes": 8179
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/RouterRoles.py",
+        "path_type": "hardlink",
+        "sha256": "9978b236da1d8a381f46a70b6385431c8acb5eed67097e3dd49bfb72fc49be9d",
+        "sha256_in_prefix": "9978b236da1d8a381f46a70b6385431c8acb5eed67097e3dd49bfb72fc49be9d",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Serializer.py",
+        "path_type": "hardlink",
+        "sha256": "b4473b7bd4e9dbb2ec383bee63de9aaaf57cb589b3489a6d0664e173324b1377",
+        "sha256_in_prefix": "b4473b7bd4e9dbb2ec383bee63de9aaaf57cb589b3489a6d0664e173324b1377",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Subscribe.py",
+        "path_type": "hardlink",
+        "sha256": "a465f0a6482779e9b69a7f089200c48185d370de01c60137ff14d56f82a1ed68",
+        "sha256_in_prefix": "a465f0a6482779e9b69a7f089200c48185d370de01c60137ff14d56f82a1ed68",
+        "size_in_bytes": 3016
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Subscribed.py",
+        "path_type": "hardlink",
+        "sha256": "5a21a344777883aed478ae7e6bd43a464b6f5fb13bd6b6c8396648c7fc7f6914",
+        "sha256_in_prefix": "5a21a344777883aed478ae7e6bd43a464b6f5fb13bd6b6c8396648c7fc7f6914",
+        "size_in_bytes": 2215
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/SubscriberFeatures.py",
+        "path_type": "hardlink",
+        "sha256": "697b2550e5671f1d1bbbdee2255618b304950562b02284318c17f5fb8c973094",
+        "sha256_in_prefix": "697b2550e5671f1d1bbbdee2255618b304950562b02284318c17f5fb8c973094",
+        "size_in_bytes": 5532
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/SubscriberReceived.py",
+        "path_type": "hardlink",
+        "sha256": "8d4dda343a94abd3eff1f51ce7ca12dcab604619096af92114cc2a174dd49db0",
+        "sha256_in_prefix": "8d4dda343a94abd3eff1f51ce7ca12dcab604619096af92114cc2a174dd49db0",
+        "size_in_bytes": 6776
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Unregister.py",
+        "path_type": "hardlink",
+        "sha256": "fc0b2b82e4aedb869e7476ed65a27d9e625f219d3302819033e3069b59b40be3",
+        "sha256_in_prefix": "fc0b2b82e4aedb869e7476ed65a27d9e625f219d3302819033e3069b59b40be3",
+        "size_in_bytes": 2215
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Unregistered.py",
+        "path_type": "hardlink",
+        "sha256": "cd6b975ce73a2316c4bc48c7083f59be85057139f6051632cd711805bea8f5bf",
+        "sha256_in_prefix": "cd6b975ce73a2316c4bc48c7083f59be85057139f6051632cd711805bea8f5bf",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Unsubscribe.py",
+        "path_type": "hardlink",
+        "sha256": "e2526bebc0c8c805d6672253eac448336174fd9858830ad147c04362977afcff",
+        "sha256_in_prefix": "e2526bebc0c8c805d6672253eac448336174fd9858830ad147c04362977afcff",
+        "size_in_bytes": 2232
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Unsubscribed.py",
+        "path_type": "hardlink",
+        "sha256": "1c23af640fdb189d252035a7e10ee6206ad292eb5ed83f8a2c2a17b4f1512283",
+        "sha256_in_prefix": "1c23af640fdb189d252035a7e10ee6206ad292eb5ed83f8a2c2a17b4f1512283",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Welcome.py",
+        "path_type": "hardlink",
+        "sha256": "0501a7ace960563cfa50360b4a52404eea61159c50642ba2a9d3dec2caf8f6bb",
+        "sha256_in_prefix": "0501a7ace960563cfa50360b4a52404eea61159c50642ba2a9d3dec2caf8f6bb",
+        "size_in_bytes": 5956
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/Yield.py",
+        "path_type": "hardlink",
+        "sha256": "008912beaf9f3a10cf802536f2b7f153fbc52b4e6c88ea788db7006095ffd320",
+        "sha256_in_prefix": "008912beaf9f3a10cf802536f2b7f153fbc52b4e6c88ea788db7006095ffd320",
+        "size_in_bytes": 8124
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/gen/wamp/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "62832b0953c6f40f211e57067e86ef2f31bd1bd6d8c69ae4b95c5bb680f76fd2",
+        "sha256_in_prefix": "62832b0953c6f40f211e57067e86ef2f31bd1bd6d8c69ae4b95c5bb680f76fd2",
+        "size_in_bytes": 39242
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/message.py",
+        "path_type": "hardlink",
+        "sha256": "66ad425bc3f05e832c5de22f95977e9f452e15a1b1a989b4b391942f8b662604",
+        "sha256_in_prefix": "66ad425bc3f05e832c5de22f95977e9f452e15a1b1a989b4b391942f8b662604",
+        "size_in_bytes": 213842
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/message_fbs.py",
+        "path_type": "hardlink",
+        "sha256": "9c6835586b9d2d14ac84977d59d3e694c673bced2ae5b648c893d73b753429e0",
+        "sha256_in_prefix": "9c6835586b9d2d14ac84977d59d3e694c673bced2ae5b648c893d73b753429e0",
+        "size_in_bytes": 4598
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "bf15198c95d54b9c56e4604a989f54ad7a5402a9259117bbc224af4b5a4f6dad",
+        "sha256_in_prefix": "bf15198c95d54b9c56e4604a989f54ad7a5402a9259117bbc224af4b5a4f6dad",
+        "size_in_bytes": 92340
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/request.py",
+        "path_type": "hardlink",
+        "sha256": "129ca0dd12c0db2c4194f682465788bff845c28d10efa6b00d82c79d020f5e7c",
+        "sha256_in_prefix": "129ca0dd12c0db2c4194f682465788bff845c28d10efa6b00d82c79d020f5e7c",
+        "size_in_bytes": 9645
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/role.py",
+        "path_type": "hardlink",
+        "sha256": "7f9a35c7df161e5719661aa163d78027c34869e50df4397880e35c1ba5b96264",
+        "sha256_in_prefix": "7f9a35c7df161e5719661aa163d78027c34869e50df4397880e35c1ba5b96264",
+        "size_in_bytes": 10917
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "4179f52c1396a686a9ac9009e10714ed5715e288112283253181004df30cf9e0",
+        "sha256_in_prefix": "4179f52c1396a686a9ac9009e10714ed5715e288112283253181004df30cf9e0",
+        "size_in_bytes": 36486
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_auth.py",
+        "path_type": "hardlink",
+        "sha256": "5ea3a5d43c8a7146003bd1e40fac78b87aa3a68c021f57c5db21d3e2646c5b83",
+        "sha256_in_prefix": "5ea3a5d43c8a7146003bd1e40fac78b87aa3a68c021f57c5db21d3e2646c5b83",
+        "size_in_bytes": 9849
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_component.py",
+        "path_type": "hardlink",
+        "sha256": "1fad2911ab2e42095bf3fa3d814d606070d38166800affd6874b52630dce034a",
+        "sha256_in_prefix": "1fad2911ab2e42095bf3fa3d814d606070d38166800affd6874b52630dce034a",
+        "size_in_bytes": 7558
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_component_aio.py",
+        "path_type": "hardlink",
+        "sha256": "f4db08b8beae40aeb1ad822701a031a528975e70b9f4fdfbfc34ed27c6d88f66",
+        "sha256_in_prefix": "f4db08b8beae40aeb1ad822701a031a528975e70b9f4fdfbfc34ed27c6d88f66",
+        "size_in_bytes": 6154
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_cryptobox.py",
+        "path_type": "hardlink",
+        "sha256": "5828aaaae4d792d33248a343c0a64f260aa2328476bda897e94a322e89007c32",
+        "sha256_in_prefix": "5828aaaae4d792d33248a343c0a64f260aa2328476bda897e94a322e89007c32",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_cryptosign.py",
+        "path_type": "hardlink",
+        "sha256": "f4c864a936d2a3bdce788398e0868bbf2dc89bc687c7a778cb7bbaceccefe95d",
+        "sha256_in_prefix": "f4c864a936d2a3bdce788398e0868bbf2dc89bc687c7a778cb7bbaceccefe95d",
+        "size_in_bytes": 12970
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_exception.py",
+        "path_type": "hardlink",
+        "sha256": "50b438725bf0531d5aae8d10bcf810a9c0523a8c6694b7eefca15e0fbdf98205",
+        "sha256_in_prefix": "50b438725bf0531d5aae8d10bcf810a9c0523a8c6694b7eefca15e0fbdf98205",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_identifiers.py",
+        "path_type": "hardlink",
+        "sha256": "babf37ad80a297fc136e689607e3daf3719db0822b6df646f121639b608e4528",
+        "sha256_in_prefix": "babf37ad80a297fc136e689607e3daf3719db0822b6df646f121639b608e4528",
+        "size_in_bytes": 3587
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_message.py",
+        "path_type": "hardlink",
+        "sha256": "9e4b930de2b4cdbfd46d54ab9e238bbdbc679f1933e62ae9c1b37d755c3d9f46",
+        "sha256_in_prefix": "9e4b930de2b4cdbfd46d54ab9e238bbdbc679f1933e62ae9c1b37d755c3d9f46",
+        "size_in_bytes": 48032
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "d936ab5cb8ada732312386c0558fbc3d7f1b7f8b5d356e60c936d6316d98e0ca",
+        "sha256_in_prefix": "d936ab5cb8ada732312386c0558fbc3d7f1b7f8b5d356e60c936d6316d98e0ca",
+        "size_in_bytes": 41896
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_protocol_peer.py",
+        "path_type": "hardlink",
+        "sha256": "2775774a5c2f4585853e6fa284d91ee735566e3d13b19be5f1f668e5972c8099",
+        "sha256_in_prefix": "2775774a5c2f4585853e6fa284d91ee735566e3d13b19be5f1f668e5972c8099",
+        "size_in_bytes": 4289
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_scram.py",
+        "path_type": "hardlink",
+        "sha256": "ce8463927faf0b216310a57fe4434600f186492786627391a5b2a60b689b0efb",
+        "sha256_in_prefix": "ce8463927faf0b216310a57fe4434600f186492786627391a5b2a60b689b0efb",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_serializer.py",
+        "path_type": "hardlink",
+        "sha256": "d932dae4289d361f384e500b8b6e572e54ff2fc5fceea27ca57b226eacc0973c",
+        "sha256_in_prefix": "d932dae4289d361f384e500b8b6e572e54ff2fc5fceea27ca57b226eacc0973c",
+        "size_in_bytes": 23164
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_session_details.py",
+        "path_type": "hardlink",
+        "sha256": "45a4f06fddc98e8c1527bf934653ab4bd86bc48284dcfc3183427d75201c4635",
+        "sha256_in_prefix": "45a4f06fddc98e8c1527bf934653ab4bd86bc48284dcfc3183427d75201c4635",
+        "size_in_bytes": 3305
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_transport_details.py",
+        "path_type": "hardlink",
+        "sha256": "7d1b3b808eb764d20ab16531c2eac1ae1b132f84e696aa6fab00b24c6d2eb246",
+        "sha256_in_prefix": "7d1b3b808eb764d20ab16531c2eac1ae1b132f84e696aa6fab00b24c6d2eb246",
+        "size_in_bytes": 5950
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_uri_pattern.py",
+        "path_type": "hardlink",
+        "sha256": "aa5ac38321791ba417a5cefbc089acd89dcf831826a140ffee8b854fbfc1b9ce",
+        "sha256_in_prefix": "aa5ac38321791ba417a5cefbc089acd89dcf831826a140ffee8b854fbfc1b9ce",
+        "size_in_bytes": 24907
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_user_handler_errors.py",
+        "path_type": "hardlink",
+        "sha256": "91b9d2dc595f37ae02229265700e5230f6be4e65d8ec29d4990afd7d41e050a3",
+        "sha256_in_prefix": "91b9d2dc595f37ae02229265700e5230f6be4e65d8ec29d4990afd7d41e050a3",
+        "size_in_bytes": 16218
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/test/test_wamp_websocket.py",
+        "path_type": "hardlink",
+        "sha256": "7a2891aef4dcd113edcff6e044385c65f8a77d2e17d2530b98b6c00f5429900c",
+        "sha256_in_prefix": "7a2891aef4dcd113edcff6e044385c65f8a77d2e17d2530b98b6c00f5429900c",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/types.py",
+        "path_type": "hardlink",
+        "sha256": "5a566ee964a2226484862903da23052333e273278ee76f64a8bc582dff31a0d8",
+        "sha256_in_prefix": "5a566ee964a2226484862903da23052333e273278ee76f64a8bc582dff31a0d8",
+        "size_in_bytes": 85598
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/uri.py",
+        "path_type": "hardlink",
+        "sha256": "6350f9623c0814434968285e9e058ecf41b1cc2fdcf4fd3a17a8cbd780b44a7d",
+        "sha256_in_prefix": "6350f9623c0814434968285e9e058ecf41b1cc2fdcf4fd3a17a8cbd780b44a7d",
+        "size_in_bytes": 13713
+      },
+      {
+        "_path": "site-packages/autobahn/wamp/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "b25843926cf8eee9d05825eb9cf526292e0aebf1256c114ded79ff10677d1a20",
+        "sha256_in_prefix": "b25843926cf8eee9d05825eb9cf526292e0aebf1256c114ded79ff10677d1a20",
+        "size_in_bytes": 12907
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5362d794d4a80180597e29802b01165aa9dca5c87c0b96ba98c3ee7981b7132",
+        "sha256_in_prefix": "f5362d794d4a80180597e29802b01165aa9dca5c87c0b96ba98c3ee7981b7132",
+        "size_in_bytes": 1698
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/compress.py",
+        "path_type": "hardlink",
+        "sha256": "7a1a582f32fbf9bbe6d4d284f9b3750f94fe6ba0c4d2da3b21ee60bd20b887fe",
+        "sha256_in_prefix": "7a1a582f32fbf9bbe6d4d284f9b3750f94fe6ba0c4d2da3b21ee60bd20b887fe",
+        "size_in_bytes": 4553
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/compress_base.py",
+        "path_type": "hardlink",
+        "sha256": "7d027155380b7fb4a508870beeaf06a61d58ddbca409300450d18d68b066ebac",
+        "sha256_in_prefix": "7d027155380b7fb4a508870beeaf06a61d58ddbca409300450d18d68b066ebac",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/compress_bzip2.py",
+        "path_type": "hardlink",
+        "sha256": "820b03f6a28dbaa42c77def2748b5ac6b921eb1ae0e5946c56de3dcd97103619",
+        "sha256_in_prefix": "820b03f6a28dbaa42c77def2748b5ac6b921eb1ae0e5946c56de3dcd97103619",
+        "size_in_bytes": 18315
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/compress_deflate.py",
+        "path_type": "hardlink",
+        "sha256": "6ec411303bf9542fbcb14ca2aaf2392f4c2c42f22189cf5fcae2fb9ba2a194bf",
+        "sha256_in_prefix": "6ec411303bf9542fbcb14ca2aaf2392f4c2c42f22189cf5fcae2fb9ba2a194bf",
+        "size_in_bytes": 29874
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/compress_snappy.py",
+        "path_type": "hardlink",
+        "sha256": "fe6fecd3482c57e7df44bc046f52d84d691e434219b9a9db527d254dbb3f0e48",
+        "sha256_in_prefix": "fe6fecd3482c57e7df44bc046f52d84d691e434219b9a9db527d254dbb3f0e48",
+        "size_in_bytes": 16926
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "9bdb1bf700413f21c4edc78601f8ddaf751dcbb5b6d83b4d9e6fcfca9fa7ea6e",
+        "sha256_in_prefix": "9bdb1bf700413f21c4edc78601f8ddaf751dcbb5b6d83b4d9e6fcfca9fa7ea6e",
+        "size_in_bytes": 31338
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "007dafe992408bdae0c4f44b88d6fe11338212a3a7cc419490f72ab4bf7f3a01",
+        "sha256_in_prefix": "007dafe992408bdae0c4f44b88d6fe11338212a3a7cc419490f72ab4bf7f3a01",
+        "size_in_bytes": 168445
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/test/test_websocket_frame.py",
+        "path_type": "hardlink",
+        "sha256": "0d1b79d66c1f01d6442b81640576335abdf30370f15cdcb3ef0a9081040411c9",
+        "sha256_in_prefix": "0d1b79d66c1f01d6442b81640576335abdf30370f15cdcb3ef0a9081040411c9",
+        "size_in_bytes": 13930
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/test/test_websocket_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "03d1676eae9e138509e8a394f54adf18805f3d12e73296353993dc99bb5a9100",
+        "sha256_in_prefix": "03d1676eae9e138509e8a394f54adf18805f3d12e73296353993dc99bb5a9100",
+        "size_in_bytes": 10010
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/test/test_websocket_url.py",
+        "path_type": "hardlink",
+        "sha256": "13313022833e0e774ebbadd8891b60c23d459f6f076a9d6ba7b02e0be956b48e",
+        "sha256_in_prefix": "13313022833e0e774ebbadd8891b60c23d459f6f076a9d6ba7b02e0be956b48e",
+        "size_in_bytes": 5402
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/types.py",
+        "path_type": "hardlink",
+        "sha256": "f1987d7772d0af980a5bd71583c227bae18b3e48238cd41f897b5a41c33ad3a1",
+        "sha256_in_prefix": "f1987d7772d0af980a5bd71583c227bae18b3e48238cd41f897b5a41c33ad3a1",
+        "size_in_bytes": 14109
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/utf8validator.py",
+        "path_type": "hardlink",
+        "sha256": "2944b52ad4969828cb93801b0e7a6c1ab5d9a6d359f67f95bbde061061b20141",
+        "sha256_in_prefix": "2944b52ad4969828cb93801b0e7a6c1ab5d9a6d359f67f95bbde061061b20141",
+        "size_in_bytes": 6627
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/util.py",
+        "path_type": "hardlink",
+        "sha256": "552e34fb709f078ad8e37479ea35a52af0f79d1a92d075d9b6678ce36110bcf9",
+        "sha256_in_prefix": "552e34fb709f078ad8e37479ea35a52af0f79d1a92d075d9b6678ce36110bcf9",
+        "size_in_bytes": 6409
+      },
+      {
+        "_path": "site-packages/autobahn/websocket/xormasker.py",
+        "path_type": "hardlink",
+        "sha256": "f9e39d7570c981a53f3c1bc12450142b1d1ec6dc7a7f65d753db5f40e42536c9",
+        "sha256_in_prefix": "f9e39d7570c981a53f3c1bc12450142b1d1ec6dc7a7f65d753db5f40e42536c9",
+        "size_in_bytes": 3978
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4113cc8b0e2e77b0e62b2cd1fba2b5cb5daa61bf9a9bbdde27f088425a60a883",
+        "sha256_in_prefix": "4113cc8b0e2e77b0e62b2cd1fba2b5cb5daa61bf9a9bbdde27f088425a60a883",
+        "size_in_bytes": 16211
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_abi.py",
+        "path_type": "hardlink",
+        "sha256": "5e1ddf3bde175bc6a925493536efd7e0468feb83c64bb4416ade2398b77abe6f",
+        "sha256_in_prefix": "5e1ddf3bde175bc6a925493536efd7e0468feb83c64bb4416ade2398b77abe6f",
+        "size_in_bytes": 6311
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_blockchain.py",
+        "path_type": "hardlink",
+        "sha256": "e14e45cd3f61ba1011ba291413ca8319d5fcb7467be7cb697da1dfff0f153686",
+        "sha256_in_prefix": "e14e45cd3f61ba1011ba291413ca8319d5fcb7467be7cb697da1dfff0f153686",
+        "size_in_bytes": 7325
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_buyer.py",
+        "path_type": "hardlink",
+        "sha256": "ca16dab746fc3105939fd391bd8d6d05d3bdb7109f65c8da37882ef7440678d0",
+        "sha256_in_prefix": "ca16dab746fc3105939fd391bd8d6d05d3bdb7109f65c8da37882ef7440678d0",
+        "size_in_bytes": 27913
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_cli.py",
+        "path_type": "hardlink",
+        "sha256": "aced6a247361bcffa86dadecc6c5038818fbafd120fa28a7c731d7bf553805b6",
+        "sha256_in_prefix": "aced6a247361bcffa86dadecc6c5038818fbafd120fa28a7c731d7bf553805b6",
+        "size_in_bytes": 52522
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_config.py",
+        "path_type": "hardlink",
+        "sha256": "c7eb9c278d76f26ae63ea4dc84f3e70ed406a32b6a7d792cd0334463be9680c0",
+        "sha256_in_prefix": "c7eb9c278d76f26ae63ea4dc84f3e70ed406a32b6a7d792cd0334463be9680c0",
+        "size_in_bytes": 20411
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_dialog.py",
+        "path_type": "hardlink",
+        "sha256": "e946f09dd01b1ce1e901206711c77b3a8e64506919180bb8695bd677351f3cb6",
+        "sha256_in_prefix": "e946f09dd01b1ce1e901206711c77b3a8e64506919180bb8695bd677351f3cb6",
+        "size_in_bytes": 3225
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_api_publish.py",
+        "path_type": "hardlink",
+        "sha256": "74216a5805c1abfd6cac94cea3035e4d0648847e915ff823f61bffaa88ab3136",
+        "sha256_in_prefix": "74216a5805c1abfd6cac94cea3035e4d0648847e915ff823f61bffaa88ab3136",
+        "size_in_bytes": 5189
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_authority_certificate.py",
+        "path_type": "hardlink",
+        "sha256": "60689d734a1a85030e4856c96da6a3b35b046003d2799c0fb2dc1880691a9071",
+        "sha256_in_prefix": "60689d734a1a85030e4856c96da6a3b35b046003d2799c0fb2dc1880691a9071",
+        "size_in_bytes": 19320
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_base.py",
+        "path_type": "hardlink",
+        "sha256": "043ff77cf4d711196b359d309d193d4c2781192cd6cce1403bf1f7e319996f1e",
+        "sha256_in_prefix": "043ff77cf4d711196b359d309d193d4c2781192cd6cce1403bf1f7e319996f1e",
+        "size_in_bytes": 5092
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_catalog_create.py",
+        "path_type": "hardlink",
+        "sha256": "1e8d0f63d6f8fa5c1142b9ce120ed4c34fd3b4a9efd899213d291a893ca0796c",
+        "sha256_in_prefix": "1e8d0f63d6f8fa5c1142b9ce120ed4c34fd3b4a9efd899213d291a893ca0796c",
+        "size_in_bytes": 4729
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_certificate.py",
+        "path_type": "hardlink",
+        "sha256": "64c74b902ed6452709c312a6140df35d41135a5666001f65e157f994d5fd0d19",
+        "sha256_in_prefix": "64c74b902ed6452709c312a6140df35d41135a5666001f65e157f994d5fd0d19",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_certificate_chain.py",
+        "path_type": "hardlink",
+        "sha256": "ccfdf6b49b1e1636287ab1562aa4195825dbf1aa57c12bbd19f68d01a38121ba",
+        "sha256_in_prefix": "ccfdf6b49b1e1636287ab1562aa4195825dbf1aa57c12bbd19f68d01a38121ba",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_channel_close.py",
+        "path_type": "hardlink",
+        "sha256": "d1d1629e987fbb0db06660ee23f7e134a4f5a2b9b8eef50d623a7919febe6135",
+        "sha256_in_prefix": "d1d1629e987fbb0db06660ee23f7e134a4f5a2b9b8eef50d623a7919febe6135",
+        "size_in_bytes": 4945
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_channel_open.py",
+        "path_type": "hardlink",
+        "sha256": "e5d9addf6c668935ddd3cc72bda103a7189180cf5e694d1288b084b100d8faaa",
+        "sha256_in_prefix": "e5d9addf6c668935ddd3cc72bda103a7189180cf5e694d1288b084b100d8faaa",
+        "size_in_bytes": 5754
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_consent.py",
+        "path_type": "hardlink",
+        "sha256": "bef65a8dd95d70e126c106470d9784bf7c0802b1b3dc773d24f2d5416033b643",
+        "sha256_in_prefix": "bef65a8dd95d70e126c106470d9784bf7c0802b1b3dc773d24f2d5416033b643",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_delegate_certificate.py",
+        "path_type": "hardlink",
+        "sha256": "c1ad76d998e3c5f0f4c074bd83ebc52a96fd63be7fc2b47e1e882c3ef6dacf2b",
+        "sha256_in_prefix": "c1ad76d998e3c5f0f4c074bd83ebc52a96fd63be7fc2b47e1e882c3ef6dacf2b",
+        "size_in_bytes": 16018
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_domain_create.py",
+        "path_type": "hardlink",
+        "sha256": "2ab24596c55661dae14a9831b20ac7379c1e7c5f09b0bf0a700635c2e0f08e6a",
+        "sha256_in_prefix": "2ab24596c55661dae14a9831b20ac7379c1e7c5f09b0bf0a700635c2e0f08e6a",
+        "size_in_bytes": 5408
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_market_create.py",
+        "path_type": "hardlink",
+        "sha256": "175d5ef5c7d8d85fa799cd77c5b14e531382ed92ebca5e5266d1d352a76d8710",
+        "sha256_in_prefix": "175d5ef5c7d8d85fa799cd77c5b14e531382ed92ebca5e5266d1d352a76d8710",
+        "size_in_bytes": 5904
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_market_join.py",
+        "path_type": "hardlink",
+        "sha256": "dad6fe7ba81af926bd1aed2fde9e4a26705ac01e5dacbf7f3edab351ac18e37b",
+        "sha256_in_prefix": "dad6fe7ba81af926bd1aed2fde9e4a26705ac01e5dacbf7f3edab351ac18e37b",
+        "size_in_bytes": 4827
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_market_leave.py",
+        "path_type": "hardlink",
+        "sha256": "459ce373bc1a4445d0412c5867e857ac29bd5b15baeab4babe606e13f897440b",
+        "sha256_in_prefix": "459ce373bc1a4445d0412c5867e857ac29bd5b15baeab4babe606e13f897440b",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_market_member_login.py",
+        "path_type": "hardlink",
+        "sha256": "4ff364ad63369afe935f55a22b4c6ed469b96f1d3150be12f542d91b8fd6e5e1",
+        "sha256_in_prefix": "4ff364ad63369afe935f55a22b4c6ed469b96f1d3150be12f542d91b8fd6e5e1",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_member_login.py",
+        "path_type": "hardlink",
+        "sha256": "0310d53e7e6c56048111fc9364950d6bd5a1dc0a60cd3c56f72bece988b2b8ee",
+        "sha256_in_prefix": "0310d53e7e6c56048111fc9364950d6bd5a1dc0a60cd3c56f72bece988b2b8ee",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_member_register.py",
+        "path_type": "hardlink",
+        "sha256": "08c64c4715285c584faa9041aa994d2ac51d9750375cf0d76129cc70fb2a92d9",
+        "sha256_in_prefix": "08c64c4715285c584faa9041aa994d2ac51d9750375cf0d76129cc70fb2a92d9",
+        "size_in_bytes": 4625
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_member_unregister.py",
+        "path_type": "hardlink",
+        "sha256": "6e9664b97a5c708021e98ca8af948622fe245d1aea37b4b34591107da1db3a84",
+        "sha256_in_prefix": "6e9664b97a5c708021e98ca8af948622fe245d1aea37b4b34591107da1db3a84",
+        "size_in_bytes": 4047
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_eip712_node_pair.py",
+        "path_type": "hardlink",
+        "sha256": "1248d56dcc1523f19a89e3debb04c635d9a163d7e1dd579031a85ae5d6f925c1",
+        "sha256_in_prefix": "1248d56dcc1523f19a89e3debb04c635d9a163d7e1dd579031a85ae5d6f925c1",
+        "size_in_bytes": 5743
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_frealm.py",
+        "path_type": "hardlink",
+        "sha256": "e275b0214293526be221b7294156ac43a49b025bba73ead7a2bdd8f8d67640f3",
+        "sha256_in_prefix": "e275b0214293526be221b7294156ac43a49b025bba73ead7a2bdd8f8d67640f3",
+        "size_in_bytes": 15693
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_gui.py",
+        "path_type": "hardlink",
+        "sha256": "bb2b788056d13f556da83aa3081155bf2561b6bd144eefb1f1c7b0ecfc78b838",
+        "sha256_in_prefix": "bb2b788056d13f556da83aa3081155bf2561b6bd144eefb1f1c7b0ecfc78b838",
+        "size_in_bytes": 40135
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "cebf2bf9f05722fb19127178fc68ac9404e2dfd47268270168c719a18064563f",
+        "sha256_in_prefix": "cebf2bf9f05722fb19127178fc68ac9404e2dfd47268270168c719a18064563f",
+        "size_in_bytes": 4473
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_mnemonic.py",
+        "path_type": "hardlink",
+        "sha256": "3eff5b41b84cecc63ac5e4f5de5711630173374a3b0770d7fe28e7b4dacc84cb",
+        "sha256_in_prefix": "3eff5b41b84cecc63ac5e4f5de5711630173374a3b0770d7fe28e7b4dacc84cb",
+        "size_in_bytes": 6210
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_schema.py",
+        "path_type": "hardlink",
+        "sha256": "0c07b3df9925579e865fd39eb6d1f4fbed0d624ac51476b63b9a871663d04851",
+        "sha256_in_prefix": "0c07b3df9925579e865fd39eb6d1f4fbed0d624ac51476b63b9a871663d04851",
+        "size_in_bytes": 76435
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_secmod.py",
+        "path_type": "hardlink",
+        "sha256": "fd8d883217144ff1ccb74e6e46d7f1c5d2c7a7621e82dc8bf764882529de96b1",
+        "sha256_in_prefix": "fd8d883217144ff1ccb74e6e46d7f1c5d2c7a7621e82dc8bf764882529de96b1",
+        "size_in_bytes": 21428
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_seller.py",
+        "path_type": "hardlink",
+        "sha256": "fea211e14acb1547e9ecfc4393f7b58b9f6094036c5f9af8c75b9f7c88d42010",
+        "sha256_in_prefix": "fea211e14acb1547e9ecfc4393f7b58b9f6094036c5f9af8c75b9f7c88d42010",
+        "size_in_bytes": 33548
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_userkey.py",
+        "path_type": "hardlink",
+        "sha256": "5ee0d50637b6f2652d585adfe11b8bc36916eddba4f543e473d69577c4ad2e8a",
+        "sha256_in_prefix": "5ee0d50637b6f2652d585adfe11b8bc36916eddba4f543e473d69577c4ad2e8a",
+        "size_in_bytes": 9889
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_util.py",
+        "path_type": "hardlink",
+        "sha256": "6a4f8097dece73216c84654c007155423cf0e47f756ac731581edccf4216d588",
+        "sha256_in_prefix": "6a4f8097dece73216c84654c007155423cf0e47f756ac731581edccf4216d588",
+        "size_in_bytes": 5977
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/_wallet.py",
+        "path_type": "hardlink",
+        "sha256": "9204319231ac243e5c47c42a55b9de13696736ae7f3a2e5f0c1af0e0160838c2",
+        "sha256_in_prefix": "9204319231ac243e5c47c42a55b9de13696736ae7f3a2e5f0c1af0e0160838c2",
+        "size_in_bytes": 3784
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/enum.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "7d83a656bdeba035009694f8f937988cddc6a59a1b315768f2732987b6af43e0",
+        "sha256_in_prefix": "7d83a656bdeba035009694f8f937988cddc6a59a1b315768f2732987b6af43e0",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/module.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "363405b3900a41063537c427ef0c0d99ff159d50ee914ce8d03093e8a21f893c",
+        "sha256_in_prefix": "363405b3900a41063537c427ef0c0d99ff159d50ee914ce8d03093e8a21f893c",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/obj.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "8e66026a11643f3f5606e0ff11117a69e07cadb51b1d2ed45af9d766e1dabb72",
+        "sha256_in_prefix": "8e66026a11643f3f5606e0ff11117a69e07cadb51b1d2ed45af9d766e1dabb72",
+        "size_in_bytes": 16768
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/service.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "19b54e570ff924791fc8e4fed8793ecc3ffc6f318e3a3687087cc80c06b9f8b8",
+        "sha256_in_prefix": "19b54e570ff924791fc8e4fed8793ecc3ffc6f318e3a3687087cc80c06b9f8b8",
+        "size_in_bytes": 9896
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/test_enum.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "4b690a8332604e54819073d42520206f0810e9d7f4e6b8b57bf49478d9ca82c6",
+        "sha256_in_prefix": "4b690a8332604e54819073d42520206f0810e9d7f4e6b8b57bf49478d9ca82c6",
+        "size_in_bytes": 265
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/test_module.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "73fe138774c97dfa3c0ec8c0d2c1866bda5139aeb8dad5aff50ed7aa7e78eba4",
+        "sha256_in_prefix": "73fe138774c97dfa3c0ec8c0d2c1866bda5139aeb8dad5aff50ed7aa7e78eba4",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/test_obj.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "5194068a84ab3e95ccc24ccaa929926eb2986f0860988d6e263814fe3293437f",
+        "sha256_in_prefix": "5194068a84ab3e95ccc24ccaa929926eb2986f0860988d6e263814fe3293437f",
+        "size_in_bytes": 8057
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/py-autobahn/test_service.py.jinja2",
+        "path_type": "hardlink",
+        "sha256": "a3bc74772efee236dcc15c7facb283609748d3ae05f06068d12b2a1158eef9fb",
+        "sha256_in_prefix": "a3bc74772efee236dcc15c7facb283609748d3ae05f06068d12b2a1158eef9fb",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/templates/sol-eip712/obj-eip712.sol.jinja2",
+        "path_type": "hardlink",
+        "sha256": "2c518c7f6939892b0318b763ec328e7141ba208f714397b0d946bf4109296135",
+        "sha256_in_prefix": "2c518c7f6939892b0318b763ec328e7141ba208f714397b0d946bf4109296135",
+        "size_in_bytes": 19100
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "sha256_in_prefix": "0cc437c25ae616e268c744fff42520d2a069e68157b0fa745a97616edd8e4734",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/demo.bfbs",
+        "path_type": "hardlink",
+        "sha256": "b9fd54ba640c040d21cc015b0304e1a3072d0c1d249d89029b19c673227928cc",
+        "sha256_in_prefix": "b9fd54ba640c040d21cc015b0304e1a3072d0c1d249d89029b19c673227928cc",
+        "size_in_bytes": 21392
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/testsvc1.bfbs",
+        "path_type": "hardlink",
+        "sha256": "846875d0301ba46cf4f485d4c90bc61b3b29ff88bb55533e5d955822f66317bc",
+        "sha256_in_prefix": "846875d0301ba46cf4f485d4c90bc61b3b29ff88bb55533e5d955822f66317bc",
+        "size_in_bytes": 13416
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/wamp-auth.bfbs",
+        "path_type": "hardlink",
+        "sha256": "7beff42fb2982842f83d37870d539a08aa5a30fc1a3dd2c618b10bb3726f1cd3",
+        "sha256_in_prefix": "7beff42fb2982842f83d37870d539a08aa5a30fc1a3dd2c618b10bb3726f1cd3",
+        "size_in_bytes": 9048
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/wamp-control.bfbs",
+        "path_type": "hardlink",
+        "sha256": "99bc719e6aaacad5b708969b0f9c6e2794d1c5c2841dd1f557d24a2ca72700d6",
+        "sha256_in_prefix": "99bc719e6aaacad5b708969b0f9c6e2794d1c5c2841dd1f557d24a2ca72700d6",
+        "size_in_bytes": 16380
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/wamp-meta.bfbs",
+        "path_type": "hardlink",
+        "sha256": "ff3cb2169daa9a960c58832eaa3a39ecb21bb6381d75d218a8a61259d4b5117b",
+        "sha256_in_prefix": "ff3cb2169daa9a960c58832eaa3a39ecb21bb6381d75d218a8a61259d4b5117b",
+        "size_in_bytes": 19792
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/catalog/schema/wamp.bfbs",
+        "path_type": "hardlink",
+        "sha256": "1b1e5733c2e710d3ae1da9b9af9a5c944b05b0428471cf17511ad378396c2749",
+        "sha256_in_prefix": "1b1e5733c2e710d3ae1da9b9af9a5c944b05b0428471cf17511ad378396c2749",
+        "size_in_bytes": 6844
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/profile/config.ini",
+        "path_type": "hardlink",
+        "sha256": "5a8e68f2a83fc8b7e61377d7af900ead6ec7661b7b1bb278184745a287a645be",
+        "sha256_in_prefix": "5a8e68f2a83fc8b7e61377d7af900ead6ec7661b7b1bb278184745a287a645be",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/profile/default.priv",
+        "path_type": "hardlink",
+        "sha256": "241e083e23d34b3ca1261159198a5525a398ac2500caf392507ff6b50a0d7776",
+        "sha256_in_prefix": "241e083e23d34b3ca1261159198a5525a398ac2500caf392507ff6b50a0d7776",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/profile/default.pub",
+        "path_type": "hardlink",
+        "sha256": "8d88f4743c36b938e3afab60956ff73f9896212ded222b12ef1099c50939695d",
+        "sha256_in_prefix": "8d88f4743c36b938e3afab60956ff73f9896212ded222b12ef1099c50939695d",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_argon2.py",
+        "path_type": "hardlink",
+        "sha256": "a9c27dbd9376902c8b4b44ab894b57dbc5c0058e39742be75a107e7f016f521f",
+        "sha256_in_prefix": "a9c27dbd9376902c8b4b44ab894b57dbc5c0058e39742be75a107e7f016f521f",
+        "size_in_bytes": 2969
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_config.py",
+        "path_type": "hardlink",
+        "sha256": "08e6840f8480e33a507f62508a74148ab87f246e3ae3295027b6eeb5cdad7a56",
+        "sha256_in_prefix": "08e6840f8480e33a507f62508a74148ab87f246e3ae3295027b6eeb5cdad7a56",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_eip712.py",
+        "path_type": "hardlink",
+        "sha256": "fdcd0d65df1d7c4718d2157eb44c52cb25f88572dbb39753a98a162d24571a61",
+        "sha256_in_prefix": "fdcd0d65df1d7c4718d2157eb44c52cb25f88572dbb39753a98a162d24571a61",
+        "size_in_bytes": 29577
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_frealm.py",
+        "path_type": "hardlink",
+        "sha256": "d775ff60dfd4af87fd48b1d26b3d940f58a5317e9a4280a1d5581091df23826b",
+        "sha256_in_prefix": "d775ff60dfd4af87fd48b1d26b3d940f58a5317e9a4280a1d5581091df23826b",
+        "size_in_bytes": 7549
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_mnemonic.py",
+        "path_type": "hardlink",
+        "sha256": "ed00596c62e7f49162c7e2efe8a9f1f0683208cd160affead100ffdb63e5edb5",
+        "sha256_in_prefix": "ed00596c62e7f49162c7e2efe8a9f1f0683208cd160affead100ffdb63e5edb5",
+        "size_in_bytes": 5163
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_schema_demo.py",
+        "path_type": "hardlink",
+        "sha256": "e92ccc0bbf56472c6291f68c1c82ee253256073e5a7dc982cf1ba99411b5b628",
+        "sha256_in_prefix": "e92ccc0bbf56472c6291f68c1c82ee253256073e5a7dc982cf1ba99411b5b628",
+        "size_in_bytes": 3530
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_schema_wamp.py",
+        "path_type": "hardlink",
+        "sha256": "51a2d76fb19e9f1632966829aaecf1ebad5a3120ab336634dc7c071b48587bf8",
+        "sha256_in_prefix": "51a2d76fb19e9f1632966829aaecf1ebad5a3120ab336634dc7c071b48587bf8",
+        "size_in_bytes": 13904
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_schema_wamp_control.py",
+        "path_type": "hardlink",
+        "sha256": "9069b042256c23df6e4b457de82701b5f57be2536dd8da498efc0171e4a0c009",
+        "sha256_in_prefix": "9069b042256c23df6e4b457de82701b5f57be2536dd8da498efc0171e4a0c009",
+        "size_in_bytes": 8393
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_secmod.py",
+        "path_type": "hardlink",
+        "sha256": "63875cd0cef9e37fabee1d38f25398d58140464a77e92c46acc887cabdd56db5",
+        "sha256_in_prefix": "63875cd0cef9e37fabee1d38f25398d58140464a77e92c46acc887cabdd56db5",
+        "size_in_bytes": 19066
+      },
+      {
+        "_path": "site-packages/autobahn/xbr/test/test_xbr_web3.py",
+        "path_type": "hardlink",
+        "sha256": "dab891e4f995fa53cfb432fbfdb4e1a6c426a75a591220dfd63c96ce8ed7f25a",
+        "sha256_in_prefix": "dab891e4f995fa53cfb432fbfdb4e1a6c426a75a591220dfd63c96ce8ed7f25a",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "site-packages/twisted/plugins/autobahn_endpoints.py",
+        "path_type": "hardlink",
+        "sha256": "a3637636d7b0892780490a759aa6f45d82f7a77e920bcbcb73d485f8740262f1",
+        "sha256_in_prefix": "a3637636d7b0892780490a759aa6f45d82f7a77e920bcbcb73d485f8740262f1",
+        "size_in_bytes": 6336
+      },
+      {
+        "_path": "site-packages/twisted/plugins/autobahn_twistd.py",
+        "path_type": "hardlink",
+        "sha256": "3d98e0270f5314a638cb388202a169df99d8a6ffd149a166aac140ffe1d4cd53",
+        "sha256_in_prefix": "3d98e0270f5314a638cb388202a169df99d8a6ffd149a166aac140ffe1d4cd53",
+        "size_in_bytes": 1553
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/component.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/rawsocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_aio_rawsocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_aio_websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/test/__pycache__/test_wamp_runner.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/wamp.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/asyncio/xbr/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/exception.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/nvx/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/nvx/__pycache__/_utf8validator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/nvx/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/nvx/test/__pycache__/test_nvx_utf8validator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/rawsocket/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/rawsocket/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/rawsocket/test/__pycache__/test_rawsocket_url.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/rawsocket/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/test/__pycache__/test_rng.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/test/__pycache__/test_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/testutil.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/choosereactor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/component.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/cryptosign.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/forwarder.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/rawsocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/resource.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_application_runner.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_choosereactor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_component.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_endpoint_plugins.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_rawsocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_tx_websocket_agent.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/test/__pycache__/test_wamp_runner.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/wamp.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/twisted/xbr/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/auth.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/component.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/cryptobox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/cryptosign.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/exception.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/Map.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/Void.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Abort.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AnyMessage.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraChallenge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCraWelcome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignChallenge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthCryptosignWelcome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthFactor.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthMethod.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthMode.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramChallenge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthScramWelcome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketChallenge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/AuthTicketWelcome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Authenticate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/BrokerFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Call.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CalleeFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CallerFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Cancel.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/CancelMode.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Challenge.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/ChannelBinding.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/ClientRoles.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/DealerFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Error.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Event.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/EventReceived.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Goodbye.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Hello.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/HelloNew.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Interrupt.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Invocation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/InvocationPolicy.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Kdf.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Match.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Message.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/MessageType.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Payload.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Principal.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Publish.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Published.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/PublisherFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Register.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Registered.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Result.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/RouterRoles.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Serializer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Subscribe.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Subscribed.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/SubscriberFeatures.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/SubscriberReceived.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unregister.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unregistered.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unsubscribe.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Unsubscribed.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Welcome.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/Yield.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/gen/wamp/proto/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/interfaces.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/message.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/message_fbs.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/request.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/role.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/serializer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_auth.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_component.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_component_aio.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_cryptobox.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_cryptosign.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_exception.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_identifiers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_message.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_protocol_peer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_scram.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_serializer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_session_details.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_transport_details.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_uri_pattern.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_user_handler_errors.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/test/__pycache__/test_wamp_websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/uri.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/wamp/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/compress.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/compress_base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/compress_bzip2.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/compress_deflate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/compress_snappy.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/interfaces.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_frame.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/test/__pycache__/test_websocket_url.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/utf8validator.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/websocket/__pycache__/xormasker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_abi.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_blockchain.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_buyer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_dialog.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_api_publish.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_authority_certificate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_base.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_catalog_create.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_certificate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_certificate_chain.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_channel_close.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_channel_open.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_consent.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_delegate_certificate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_domain_create.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_create.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_join.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_leave.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_market_member_login.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_login.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_register.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_member_unregister.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_eip712_node_pair.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_frealm.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_gui.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_interfaces.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_mnemonic.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_schema.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_secmod.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_seller.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_userkey.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_util.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/__pycache__/_wallet.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_argon2.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_eip712.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_frealm.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_mnemonic.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_demo.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_wamp.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_schema_wamp_control.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_secmod.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/autobahn/xbr/test/__pycache__/test_xbr_web3.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twisted/plugins/__pycache__/autobahn_endpoints.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twisted/plugins/__pycache__/autobahn_twistd.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/wamp-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/wamp.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "04049bc42b46d1b92fefe8d092c955dfd527308df80e880db0ef1fc38f2eb21f",
+  "size": 373141,
+  "subdir": "noarch",
+  "timestamp": 1734407519000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/autobahn-24.4.2-pyhd8ed1ab_1.conda",
+  "version": "24.4.2"
+}

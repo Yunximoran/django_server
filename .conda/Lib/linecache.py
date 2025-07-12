@@ -54,17 +54,14 @@ def checkcache(filename=None):
     (This is not checked upon each call!)"""
 
     if filename is None:
-        # get keys atomically
-        filenames = cache.copy().keys()
-    else:
+        filenames = list(cache.keys())
+    elif filename in cache:
         filenames = [filename]
+    else:
+        return
 
     for filename in filenames:
-        try:
-            entry = cache[filename]
-        except KeyError:
-            continue
-
+        entry = cache[filename]
         if len(entry) == 1:
             # lazy cache entry, leave it lazy.
             continue
@@ -73,7 +70,7 @@ def checkcache(filename=None):
             continue   # no-op for files loaded via a __loader__
         try:
             stat = os.stat(fullname)
-        except (OSError, ValueError):
+        except OSError:
             cache.pop(filename, None)
             continue
         if size != stat.st_size or mtime != stat.st_mtime:
@@ -131,12 +128,10 @@ def updatecache(filename, module_globals=None):
             try:
                 stat = os.stat(fullname)
                 break
-            except (OSError, ValueError):
+            except OSError:
                 pass
         else:
             return []
-    except ValueError:  # may be raised by os.stat()
-        return []
     try:
         with tokenize.open(fullname) as fp:
             lines = fp.readlines()

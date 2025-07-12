@@ -1,0 +1,170 @@
+{
+  "build": "pyha770c72_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "service_identity >=24.2.0,<24.2.1.0a0"
+  ],
+  "depends": [
+    "cryptography",
+    "pyasn1",
+    "pyasn1-modules",
+    "python >=3.9",
+    "attrs >=19.1.0"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\service-identity-24.2.0-pyha770c72_1",
+  "files": [
+    "Lib/site-packages/service_identity-24.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/METADATA",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/RECORD",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/WHEEL",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/service_identity-24.2.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/service_identity/__init__.py",
+    "Lib/site-packages/service_identity/cryptography.py",
+    "Lib/site-packages/service_identity/exceptions.py",
+    "Lib/site-packages/service_identity/hazmat.py",
+    "Lib/site-packages/service_identity/py.typed",
+    "Lib/site-packages/service_identity/pyopenssl.py",
+    "Lib/site-packages/service_identity/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/service_identity/__pycache__/cryptography.cpython-312.pyc",
+    "Lib/site-packages/service_identity/__pycache__/exceptions.cpython-312.pyc",
+    "Lib/site-packages/service_identity/__pycache__/hazmat.cpython-312.pyc",
+    "Lib/site-packages/service_identity/__pycache__/pyopenssl.cpython-312.pyc"
+  ],
+  "fn": "service-identity-24.2.0-pyha770c72_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\service-identity-24.2.0-pyha770c72_1",
+    "type": 1
+  },
+  "md5": "019e3e9f833650d6607b8f3120d5e972",
+  "name": "service-identity",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\service-identity-24.2.0-pyha770c72_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7ad6d6c453b1e2c1913a267a0e3a10da8aca8712ac160a75f7566123b848c005",
+        "sha256_in_prefix": "7ad6d6c453b1e2c1913a267a0e3a10da8aca8712ac160a75f7566123b848c005",
+        "size_in_bytes": 5111
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "85de3f5c3a7dd392222abe73673d5ec6ade1dad59834fa9386b1d59f0761f7b5",
+        "sha256_in_prefix": "85de3f5c3a7dd392222abe73673d5ec6ade1dad59834fa9386b1d59f0761f7b5",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "sha256_in_prefix": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d804fff780ac1dc668a8c8d19dfb9699303a5ca605caa98f213aee85d4f37700",
+        "sha256_in_prefix": "d804fff780ac1dc668a8c8d19dfb9699303a5ca605caa98f213aee85d4f37700",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/service_identity-24.2.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "24bd0a9ba7d0eae08a3a6e32a1b09f8e6871fa0325520a2fcb00e1539eaa602a",
+        "sha256_in_prefix": "24bd0a9ba7d0eae08a3a6e32a1b09f8e6871fa0325520a2fcb00e1539eaa602a",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "site-packages/service_identity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b8de02b5875649aba030004b4882671cce703b7dfacdc48ef960e3b919469397",
+        "sha256_in_prefix": "b8de02b5875649aba030004b4882671cce703b7dfacdc48ef960e3b919469397",
+        "size_in_bytes": 708
+      },
+      {
+        "_path": "site-packages/service_identity/cryptography.py",
+        "path_type": "hardlink",
+        "sha256": "fa15f25296fd9e0c96e4bc6b8736107b354f28ef4bf87f8c08f9abdab18ed8ec",
+        "sha256_in_prefix": "fa15f25296fd9e0c96e4bc6b8736107b354f28ef4bf87f8c08f9abdab18ed8ec",
+        "size_in_bytes": 5277
+      },
+      {
+        "_path": "site-packages/service_identity/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "88ad97af05620253faaf27bc400478224026a8f50138fbca936c338883678fe2",
+        "sha256_in_prefix": "88ad97af05620253faaf27bc400478224026a8f50138fbca936c338883678fe2",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "site-packages/service_identity/hazmat.py",
+        "path_type": "hardlink",
+        "sha256": "def4b1a5a82aa539d73cb7e04a51dd683a5940049903266a587a29d2629136e2",
+        "sha256_in_prefix": "def4b1a5a82aa539d73cb7e04a51dd683a5940049903266a587a29d2629136e2",
+        "size_in_bytes": 12739
+      },
+      {
+        "_path": "site-packages/service_identity/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/service_identity/pyopenssl.py",
+        "path_type": "hardlink",
+        "sha256": "fb90b3d2294c69a5251c6891ebfbf59392f3c171b174bcd01c3446bca6228652",
+        "sha256_in_prefix": "fb90b3d2294c69a5251c6891ebfbf59392f3c171b174bcd01c3446bca6228652",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "Lib/site-packages/service_identity/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/service_identity/__pycache__/cryptography.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/service_identity/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/service_identity/__pycache__/hazmat.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/service_identity/__pycache__/pyopenssl.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7d99c6f72ed8a883fba3a04c108288f4e7320e86ea7e86d8821f071cb33190af",
+  "size": 16095,
+  "subdir": "noarch",
+  "timestamp": 1733366837000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/service-identity-24.2.0-pyha770c72_1.conda",
+  "version": "24.2.0"
+}

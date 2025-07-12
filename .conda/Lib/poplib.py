@@ -309,7 +309,7 @@ class POP3:
     # optional commands:
 
     def rpop(self, user):
-        """Send RPOP command to access the mailbox with an alternate user."""
+        """Not sure what this does."""
         return self._shortcmd('RPOP %s' % user)
 
 

@@ -56,3 +56,66 @@
 # conda version: 24.11.3
 +defaults/win-64::psutil-5.9.0-py312h827c3e9_1
 # update specs: ['psutil']
+==> 2025-07-12 11:59:14 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install channels
+# conda version: 24.11.3
+-defaults/win-64::ca-certificates-2025.2.25-haa95532_0
+-defaults/win-64::certifi-2025.6.15-py312haa95532_0
+-defaults/win-64::openssl-3.0.16-h3f729d1_0
++conda-forge/noarch::ca-certificates-2025.7.9-h4c7d964_0
++conda-forge/noarch::certifi-2025.7.9-pyhd8ed1ab_0
++conda-forge/noarch::channels-4.2.2-pyhd8ed1ab_0
++conda-forge/win-64::openssl-3.5.1-h725018a_0
+# update specs: ['channels']
+==> 2025-07-12 12:39:03 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install websockets
+# conda version: 24.11.3
+-defaults/win-64::expat-2.7.1-h8ddb27b_0
+-defaults/win-64::python-3.12.9-h14ffc60_0
+-defaults/win-64::zlib-1.2.13-h8cc25b3_1
++conda-forge/noarch::python_abi-3.12-7_cp312
++conda-forge/win-64::expat-2.7.0-he0c23c2_0
++conda-forge/win-64::libexpat-2.7.0-he0c23c2_0
++conda-forge/win-64::libsqlite-3.50.2-hf5d6505_2
++conda-forge/win-64::libzlib-1.2.13-h2466b09_6
++conda-forge/win-64::python-3.12.3-h2628c8c_0_cpython
++conda-forge/win-64::websockets-15.0.1-py312h4389bb4_0
++conda-forge/win-64::zlib-1.2.13-h2466b09_6
+# update specs: ['websockets']
+# neutered specs: ['python==3.12.3']
+==> 2025-07-12 12:55:05 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install uvicorn
+# conda version: 24.11.3
++conda-forge/noarch::click-8.2.1-pyh7428d3b_0
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_1
++conda-forge/noarch::h11-0.16.0-pyhd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.14.1-pyhe01879c_0
++conda-forge/noarch::uvicorn-0.35.0-pyh5737063_0
+# update specs: ['uvicorn']
+==> 2025-07-12 12:57:25 <==
+# cmd: C:\developments\anaconda3\Scripts\conda-script.py install daphne
+# conda version: 24.11.3
++conda-forge/noarch::appdirs-1.4.4-pyhd8ed1ab_1
++conda-forge/noarch::attrs-25.3.0-pyh71513ae_0
++conda-forge/noarch::autobahn-24.4.2-pyhd8ed1ab_1
++conda-forge/noarch::automat-25.4.16-pyhd8ed1ab_0
++conda-forge/noarch::constantly-15.1.0-py_0
++conda-forge/noarch::daphne-4.2.1-pyhd8ed1ab_0
++conda-forge/noarch::hyperlink-21.0.0-pyh29332c3_1
++conda-forge/noarch::incremental-24.7.2-pyhd8ed1ab_1
++conda-forge/noarch::pyasn1-0.6.1-pyhd8ed1ab_2
++conda-forge/noarch::pyasn1-modules-0.4.2-pyhd8ed1ab_0
++conda-forge/noarch::pyopenssl-25.1.0-pyhd8ed1ab_0
++conda-forge/noarch::service-identity-24.2.0-pyha770c72_1
++conda-forge/noarch::service_identity-24.2.0-hd8ed1ab_1
++conda-forge/noarch::six-1.17.0-pyhd8ed1ab_0
++conda-forge/noarch::tomli-2.2.1-pyhd8ed1ab_1
++conda-forge/noarch::txaio-25.6.1-pyhd8ed1ab_0
++conda-forge/noarch::typing-extensions-4.14.1-h4440ef1_0
++conda-forge/win-64::bcrypt-4.3.0-py312h8422cdd_1
++conda-forge/win-64::cryptography-45.0.5-py312h84d000f_0
++conda-forge/win-64::pywin32-307-py312h275cf98_3
++conda-forge/win-64::twisted-25.5.0-py312h4389bb4_0
++conda-forge/win-64::twisted-iocpsupport-1.0.4-py312h4389bb4_2
++conda-forge/win-64::zope.interface-7.2-py312h4389bb4_0
+# update specs: ['daphne']

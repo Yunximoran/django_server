@@ -5,7 +5,7 @@ import sys
 from lib import resolver
 from lib.sys.processing import Process, Pool, Queue
 from database import mysql_update_queue, DataBase
-
+import uvicorn
 
 usedb = DataBase()
 
@@ -122,7 +122,8 @@ if __name__ == "__main__":
     _port = _conf.search('port').data
         
     Process(target=updataserver, args=(mysql_update_queue,)).start()
-    sys.argv = [sys.argv[0], "runserver", "{}:{}".format(_host, _port)]
-    main(sys.argv)
+    uvicorn.run(app="service.asgi:application", host=_host, port=_port)
+    # sys.argv = [sys.argv[0], "runserver", "{}:{}".format(_host, _port)]
+    # main(sys.argv)
 
     # http://localhost:8000/demopage/eeee/?uname=yumo&usrid=123

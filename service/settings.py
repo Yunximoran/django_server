@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # 参考websocket长连接配置
+    "channels"
 ]
 
 MIDDLEWARE = [

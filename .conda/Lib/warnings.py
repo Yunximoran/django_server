@@ -36,9 +36,7 @@ def _formatwarnmsg_impl(msg):
     category = msg.category.__name__
     s =  f"{msg.filename}:{msg.lineno}: {category}: {msg.message}\n"
 
-    # "sys" is a made up file name when we are not able to get the frame
-    # so do not try to get the source line
-    if msg.line is None and msg.filename != "sys":
+    if msg.line is None:
         try:
             import linecache
             line = linecache.getline(msg.filename, msg.lineno)

@@ -1,0 +1,344 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "asgiref >=3.5.2,<4",
+    "idna >=2.4",
+    "autobahn >=22.4.2",
+    "pyopenssl >=16",
+    "service_identity >=18.1",
+    "twisted >=22.4"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\daphne-4.2.1-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/daphne-4.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/daphne-4.2.1.dist-info/METADATA",
+    "Lib/site-packages/daphne-4.2.1.dist-info/RECORD",
+    "Lib/site-packages/daphne-4.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/daphne-4.2.1.dist-info/WHEEL",
+    "Lib/site-packages/daphne-4.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/daphne-4.2.1.dist-info/entry_points.txt",
+    "Lib/site-packages/daphne-4.2.1.dist-info/licenses/LICENSE",
+    "Lib/site-packages/daphne-4.2.1.dist-info/top_level.txt",
+    "Lib/site-packages/daphne/__init__.py",
+    "Lib/site-packages/daphne/__main__.py",
+    "Lib/site-packages/daphne/access.py",
+    "Lib/site-packages/daphne/apps.py",
+    "Lib/site-packages/daphne/checks.py",
+    "Lib/site-packages/daphne/cli.py",
+    "Lib/site-packages/daphne/endpoints.py",
+    "Lib/site-packages/daphne/http_protocol.py",
+    "Lib/site-packages/daphne/management/__init__.py",
+    "Lib/site-packages/daphne/management/commands/__init__.py",
+    "Lib/site-packages/daphne/management/commands/runserver.py",
+    "Lib/site-packages/daphne/server.py",
+    "Lib/site-packages/daphne/testing.py",
+    "Lib/site-packages/daphne/twisted/plugins/fd_endpoint.py",
+    "Lib/site-packages/daphne/utils.py",
+    "Lib/site-packages/daphne/ws_protocol.py",
+    "Lib/site-packages/twisted/plugins/fd_endpoint.py",
+    "Lib/site-packages/daphne/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/access.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/apps.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/checks.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/endpoints.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/http_protocol.cpython-312.pyc",
+    "Lib/site-packages/daphne/management/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/daphne/management/commands/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/daphne/management/commands/__pycache__/runserver.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/server.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/testing.cpython-312.pyc",
+    "Lib/site-packages/daphne/twisted/plugins/__pycache__/fd_endpoint.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/daphne/__pycache__/ws_protocol.cpython-312.pyc",
+    "Lib/site-packages/twisted/plugins/__pycache__/fd_endpoint.cpython-312.pyc",
+    "Scripts/daphne-script.py",
+    "Scripts/daphne.exe"
+  ],
+  "fn": "daphne-4.2.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\daphne-4.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "32e54d62bd120373f0f720f0b22a2ad0",
+  "name": "daphne",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\daphne-4.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "32ee1c57063b75c911d01a12e9c5257b2880cd9d11fcdfc8ac0817d4be5b64ad",
+        "sha256_in_prefix": "32ee1c57063b75c911d01a12e9c5257b2880cd9d11fcdfc8ac0817d4be5b64ad",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ddf98d69bc543a7004875df86d337d0a93e205558f09f98f0cc7ff471f1854ad",
+        "sha256_in_prefix": "ddf98d69bc543a7004875df86d337d0a93e205558f09f98f0cc7ff471f1854ad",
+        "size_in_bytes": 3046
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5a44f655a1a136b59befdf8ccb9804c837806b9c10d79ac198f8c96ca8defffd",
+        "sha256_in_prefix": "5a44f655a1a136b59befdf8ccb9804c837806b9c10d79ac198f8c96ca8defffd",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "95cb1b619d2873ed3483175948c522530a0572ffab23ec44258bbffa9684572c",
+        "sha256_in_prefix": "95cb1b619d2873ed3483175948c522530a0572ffab23ec44258bbffa9684572c",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "sha256_in_prefix": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "site-packages/daphne-4.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "698cfc4c0078adf72ea2f64b0c7d3e2b46e7fb9d22d48e4799c5578c46bad1e4",
+        "sha256_in_prefix": "698cfc4c0078adf72ea2f64b0c7d3e2b46e7fb9d22d48e4799c5578c46bad1e4",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/daphne/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b57efbf97d6d53baea1ba5e0cae4c80126c0a6acd78550c05b4c983b36771fd2",
+        "sha256_in_prefix": "b57efbf97d6d53baea1ba5e0cae4c80126c0a6acd78550c05b4c983b36771fd2",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/daphne/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "5e5488a48fb49860b9a8ad7473069c2a86873bb2ac15b47114fd42a3ef79f3e1",
+        "sha256_in_prefix": "5e5488a48fb49860b9a8ad7473069c2a86873bb2ac15b47114fd42a3ef79f3e1",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/daphne/access.py",
+        "path_type": "hardlink",
+        "sha256": "5282013e407e62ecb3924102167135a67c1c12b30ac1f999680ae910fed8a7f9",
+        "sha256_in_prefix": "5282013e407e62ecb3924102167135a67c1c12b30ac1f999680ae910fed8a7f9",
+        "size_in_bytes": 2389
+      },
+      {
+        "_path": "site-packages/daphne/apps.py",
+        "path_type": "hardlink",
+        "sha256": "9122327928e0f6dd14c9799ef2a27389c545742ff02f593cc89782038e0ded75",
+        "sha256_in_prefix": "9122327928e0f6dd14c9799ef2a27389c545742ff02f593cc89782038e0ded75",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "site-packages/daphne/checks.py",
+        "path_type": "hardlink",
+        "sha256": "33204daad8870ccd105013625601047baf171667e3e3574e69a200b2e21eecf1",
+        "sha256_in_prefix": "33204daad8870ccd105013625601047baf171667e3e3574e69a200b2e21eecf1",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "site-packages/daphne/cli.py",
+        "path_type": "hardlink",
+        "sha256": "e88d23457db3772c3bcf073a44337a7bd4b2bcaef7a2807f70fdd8ee9dd42aa1",
+        "sha256_in_prefix": "e88d23457db3772c3bcf073a44337a7bd4b2bcaef7a2807f70fdd8ee9dd42aa1",
+        "size_in_bytes": 10235
+      },
+      {
+        "_path": "site-packages/daphne/endpoints.py",
+        "path_type": "hardlink",
+        "sha256": "dc68b103e5ffc938932c398924b3a8b0c5194f39ed38e3d97d66c1a89bf23160",
+        "sha256_in_prefix": "dc68b103e5ffc938932c398924b3a8b0c5194f39ed38e3d97d66c1a89bf23160",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "site-packages/daphne/http_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "d259afe404cab3ead45ca0375253f73eb46a9c160b955ec1592ccc7def7a08b4",
+        "sha256_in_prefix": "d259afe404cab3ead45ca0375253f73eb46a9c160b955ec1592ccc7def7a08b4",
+        "size_in_bytes": 16424
+      },
+      {
+        "_path": "site-packages/daphne/management/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/daphne/management/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/daphne/management/commands/runserver.py",
+        "path_type": "hardlink",
+        "sha256": "019dedd2045082e46b7fb4c8c6c8583e2cb6a630159d52be6010ff93a3b545e7",
+        "sha256_in_prefix": "019dedd2045082e46b7fb4c8c6c8583e2cb6a630159d52be6010ff93a3b545e7",
+        "size_in_bytes": 8407
+      },
+      {
+        "_path": "site-packages/daphne/server.py",
+        "path_type": "hardlink",
+        "sha256": "13946bd41b602b870927293f3f0135074b1e191f6ca4b31f70f76a4e5b9dee51",
+        "sha256_in_prefix": "13946bd41b602b870927293f3f0135074b1e191f6ca4b31f70f76a4e5b9dee51",
+        "size_in_bytes": 13633
+      },
+      {
+        "_path": "site-packages/daphne/testing.py",
+        "path_type": "hardlink",
+        "sha256": "ddf09eefbdd4a4de3f5a4851ae9adc7ee8c540604efb194a7ad552986ff06c8d",
+        "sha256_in_prefix": "ddf09eefbdd4a4de3f5a4851ae9adc7ee8c540604efb194a7ad552986ff06c8d",
+        "size_in_bytes": 10093
+      },
+      {
+        "_path": "site-packages/daphne/twisted/plugins/fd_endpoint.py",
+        "path_type": "hardlink",
+        "sha256": "06551f58d48d3d5732f3cc7a1cd2af8a77f8c2a50dd04013a69a369e55a0d9cc",
+        "sha256_in_prefix": "06551f58d48d3d5732f3cc7a1cd2af8a77f8c2a50dd04013a69a369e55a0d9cc",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "site-packages/daphne/utils.py",
+        "path_type": "hardlink",
+        "sha256": "dfaf59d5ae81b19a6cf2e93cb88505c435a23f7ff7fa0894240befb7240ddf4a",
+        "sha256_in_prefix": "dfaf59d5ae81b19a6cf2e93cb88505c435a23f7ff7fa0894240befb7240ddf4a",
+        "size_in_bytes": 3318
+      },
+      {
+        "_path": "site-packages/daphne/ws_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "e952d61a80d89ba85b2245c91052fb93decdbf4ffff55385eb172ba3c9b21874",
+        "sha256_in_prefix": "e952d61a80d89ba85b2245c91052fb93decdbf4ffff55385eb172ba3c9b21874",
+        "size_in_bytes": 11899
+      },
+      {
+        "_path": "site-packages/twisted/plugins/fd_endpoint.py",
+        "path_type": "hardlink",
+        "sha256": "06551f58d48d3d5732f3cc7a1cd2af8a77f8c2a50dd04013a69a369e55a0d9cc",
+        "sha256_in_prefix": "06551f58d48d3d5732f3cc7a1cd2af8a77f8c2a50dd04013a69a369e55a0d9cc",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/access.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/apps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/checks.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/endpoints.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/http_protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/management/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/management/commands/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/management/commands/__pycache__/runserver.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/server.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/testing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/twisted/plugins/__pycache__/fd_endpoint.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/daphne/__pycache__/ws_protocol.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/twisted/plugins/__pycache__/fd_endpoint.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/daphne-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/daphne.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "daphne",
+  "sha256": "5c5424b236d68dbc54ec3cdd260cb7de7c0112c5b0f3b8559b03910f57a216c6",
+  "size": 29877,
+  "subdir": "noarch",
+  "timestamp": 1751473037000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/daphne-4.2.1-pyhd8ed1ab_0.conda",
+  "version": "4.2.1"
+}
