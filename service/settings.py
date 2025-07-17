@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "models",
     # 参考websocket长连接配置
     "channels"
 ]
@@ -75,9 +76,14 @@ WSGI_APPLICATION = "service.wsgi.application"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
+    # 配置MySQL数据库连接
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "djangodata",
+        "USER": "root",
+        "PASSWORD": "ranxi",
+        "HOST": "localhost",
+        "PORT": "3306",
     }
 }
 

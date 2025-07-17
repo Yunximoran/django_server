@@ -8,7 +8,7 @@ async def realtime_client():
     base_uri = "ws://localhost:8000/ws/realtime/"
     params = {
         "detial": "eeee",
-        "usrid": "117"
+        "usrid": 123
     }
     query_string = "&".join(f"{k}={v}" for k, v in params.items())
     uri = f"{base_uri}?{query_string}"

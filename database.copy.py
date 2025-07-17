@@ -1,15 +1,13 @@
 import json
 import time
 from typing import Any
-
 from lib.database import Redis, MySQL
 from lib.database.mysql import Condition
 from lib.database.mysql import Field, constant
 from lib.sys.processing import Queue
 from lib import Logger, Catch
 
-from models.detial import *
-from models.userdata import *
+from core._models.detial import DetialIndex, DetialViews
 
 # MYSQL 数据更新队列
 mysql_update_queue: Queue =  Queue()
@@ -45,27 +43,41 @@ class DataBase:
     def get_detial_message(self, detial:str) -> dict:           # 文章数据获取(Redis)
         self.logger.record(1, f"read detial:{detial} information from detialindex")
         detialdata = self._hget_cache_(detial)
-        if not detialdata:
+        if detialdata is None:
             # 缓存相关数据时，该从MySQL读取数据
             detialdata = self._get_detial_message(detial)
-
             # 将数据写入缓存, 供下次读取使用
             self.set_detial_message(detial, detialdata)
         return self.jsonloads(detialdata)
     
     def _get_detial_message(self, detial:str) -> dict:          # 文章数据获取(MYSQL)
+        # 设置检索条件
+        condition = Condition(self.table_detialindex.detial == detial)
+
         try:
             # 获取文章名称、预览数据连接、同浏览量
-            detialindex = DetialIndex.objects.get(detial=detial)
-            views = {data.usrid: data.count for data in DetialViews.objects.filter(detial=detialindex)}
-            count = detialindex.count
-        except DetialIndex.DoesNotExist:
-            detial, views, count = detial, False, False
+            detial, viewslink, count = self.table_detialindex.select(condition=condition)[0]
+        except (TypeError, ValueError):
+            # 处理查询不到文章时的异常(设置默认值)
+            detial, viewlink, count = detial, None, None
+
+        # 查询view表， 读取单个用户浏览次数
+        if viewlink and self.check_tables(viewslink):
+            # 获取view工作簿
+            viewdata = self.database.workbook(viewslink)
+        else:
+            # 创建view工作簿
+            viewdata = self._create_viewlink_(f"{detial}_views")
+
+        # 读取view表数据
+        viewdata = viewdata.select()
+
+        # 返回文章信息，处理空数据状态, 数据兼容缓存格式
         return  {
-                "views": views if views else dict(),
-                "count": count if count else 1
+                "views": {usrid: times for usrid, times in viewdata} if viewdata else dict(),
+                "count": count if count else 0
             }
-    
+
     def set_detial_message(self, detial:str, data:dict):        # 文章数据写入(Redis)
         self.logger.record(1, f"update detial:{detial} data from detialindex")
         self._hset_cache_(detial, data)
@@ -77,50 +89,55 @@ class DataBase:
         self.logger.record(1, f"update detial: {detial} form cache")
         
         # 数据预处理，获取view表链接，提取view表数据，文章统计数据
+        viewlink = f"{detial}_views"
         viewdata = data['views'].items()
         count = data['count']
-        
-        detialtable, created  = DetialIndex.objects.update_or_create(detial=detial, defaults={"count":count})
+
+        # 更新文章数据
+        try:
+            self.table_detialindex.insert((detial, viewlink, count))
+        except Exception:
+            self.table_detialindex.update((detial, viewlink, count))
+
         # 更新view表数据
-        for usrid, count in viewdata:
-            DetialViews.objects.update_or_create(detial=detialtable, usrid=usrid, defaults={"count":count})
-            UserData.objects.update_or_create(usrid=usrid, uname="yumo")
-        
-    def check_detial_views(self, detial:str):
-        self.logger.record(1, f"read detial - user: {detial}")
+        viewtable = self.database.workbook(viewlink)
+        for item in viewdata:
+            try:
+                viewtable.insert(tuple(item))
+            except Exception:
+                viewtable.update(tuple(item))
 
-        count = self.cache.hget(f"check_count_{detial}", "count")
-        if not count:
-            count = DetialIndex.objects.get(detial=detial).count
-            self.cache.hset(f"check_count_{detial}", "count", count)
-            self.cache.expire(f"check_count_{detial}", 3)
-
-        return count
-    
-    def check_detial_user_views(self, detial, usrid):
-        ucount = self.cache.hget(f"check_count_{detial}", usrid)     
-        if not ucount:
-            ucount = DetialViews.objects.filter(detial=detial, usrid=usrid)[0].count
-            self.cache.hset(f"check_count_{detial}", usrid, ucount)
-            self.cache.expire(f"check_count_{detial}", 3)
-        return ucount
-    
     def check_now_userdata(self):                               # 查询全部用户数据
         # 读取缓存用户数据
-        users = self.cache.lrange("usrids")
-        if not users:
+        userids = self.cache.lrange("usrids")
+        if userids is None:
             # 读取MySQL用户数据
-            users = [user.usrid for user in UserData.objects.all()]
-
+            userids = self.table_userdata.select("usrid")
             # 数据写入缓存
-            self.cache.rpush("usrids", *users)
+            self.cache.rpush("usrids", *userids)
             # 设置过期时间，如果十秒没有查询，清理缓存
             self.cache.expire("usrids", 10)
-    
+        
         # 统一数据格式，返回列表类型
-        if not isinstance(users, list):
-            users = list(users)
-        return users
+        if not isinstance(userids, list):
+            userids = list(userids)
+        return self.jsondumps(userids)
+
+    def check_now_detials(self):                                # 查询全部文章索引
+        # 读取缓存文章索引
+        detials = self.cache.lrange("detials")
+        if detials is None:
+            # 查询MySQL文章索引
+            detials = self.table_detialindex.select("detial")
+            # 数据写入缓存
+            self.cache.rpush("detial", *detials)
+            # 设置过期时间，如果十秒没有查询，清理缓存
+            self.cache.expire("detials", 10)
+
+        # 统一数据格式，返回列表类型
+        if not isinstance(detials, list):
+            detials = list(detials)
+        return self.jsonloads(detials)
     
     def check_now_hitrate(self):                                # 查询当前缓存命中率
         info = self.cache.info("stats")
@@ -133,6 +150,16 @@ class DataBase:
 
     def jsondumps(self, data: object):                          # 数据转换模块: Python => JSON
         return json.dumps(data, ensure_ascii=False, indent=4)
+    
+    def _create_viewlink_(self, viewslink):                     # 创建view表模板
+        return self.database.create(
+                    viewslink, 
+                    fetchs=(
+                        # 设置字段名，字段类型，字段属性
+                        Field("usrid", constant.Int, constant.PRIMARY),
+                        Field("count", constant.Int)
+                    )
+                )
     
     # 缓存数据读写， 设置异常捕获，实现异常分级功能
     @catch.DataBase(cache=cache, disk=database, error_callback=_get_detial_message)
@@ -149,7 +176,6 @@ class DataBase:
         # raise TimeoutError("测试分级效果")
         label = "detialindex"
         self.cache.hset(label, name, self.jsondumps(data))
-
 
 
 
