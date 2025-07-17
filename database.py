@@ -67,7 +67,6 @@ class DataBase:
         count = data['count']
         
         detialtable, _  = DetialIndex.objects.update_or_create(detial=detial, defaults={"count":count})
-        
         # 更新view表数据
         for usrid, count in viewdata:
             DetialViews.objects.update_or_create(detial=detialtable, usrid=usrid, defaults={"count":count})
@@ -78,7 +77,9 @@ class DataBase:
     def check_detial_views(self, detial:str):
         self.logger.record(1, f"read detial: {detial}")
 
-        count = self.cache.hget(f"check_count_{detial}", "count")
+        detial_message = self.get_detial_message(detial)
+        count = detial_message['count']
+        # self.get_detial_message(detial)
         if not count:
             try:
                 count = DetialIndex.objects.get(detial=detial).count
@@ -92,8 +93,12 @@ class DataBase:
     
     def check_detial_user_views(self, detial, usrid):
         self.logger.record(1, f"fitter out {usrid} from {detial}")
-        ucount = self.cache.hget(f"check_count_{detial}", usrid)     
-        if not ucount:
+        detial_message = self.get_detial_message(detial)
+        view_data = detial_message['views']
+        if usrid in view_data:
+            ucount = view_data[str(usrid)]
+            # ucount = self.cache.hget(f"check_count_{detial}", usrid)     
+        else:
             try:
                 ucount = DetialViews.objects.get(detial=detial, usrid=usrid).count
             except DetialViews.DoesNotExist:
@@ -108,7 +113,6 @@ class DataBase:
         if not users:
             # 读取MySQL用户数据
             users = [user.usrid for user in UserData.objects.all()]
-            print(users)
             # 数据写入缓存
             self.cache.rpush("usrids", *users)
             # 设置过期时间，如果十秒没有查询，清理缓存
@@ -146,7 +150,6 @@ class DataBase:
         # raise TimeoutError("测试分级效果")
         label = "detialindex"
         self.cache.hset(label, name, self.jsondumps(data))
-        self.cache.expire("detialindex", 3)
 
 
 

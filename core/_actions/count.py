@@ -35,5 +35,5 @@ class Count:
         return self.usedb.check_detial_views(detial)
     
     @sync_to_async
-    def count_detial_one_user_readtimes(self, detial, usrid:int):  # 统计单用户阅读次数
+    def count_detial_one_user_readtimes(self, detial, usrid):  # 统计单用户阅读次数
         return self.usedb.check_detial_user_views(detial, usrid)
