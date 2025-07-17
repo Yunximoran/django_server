@@ -1,4 +1,4 @@
-from lib.database import MySQL, Redis()
+from lib.database import MySQL, Redis
 import re
 
 
