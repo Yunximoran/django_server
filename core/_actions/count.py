@@ -1,6 +1,7 @@
 import json
 from .config import logger
 from database import DataBase
+from asgiref.sync import sync_to_async
 
 class Count:
     usedb = DataBase()
@@ -14,31 +15,25 @@ class Count:
 
         # 更新浏览次数
         views_data = detialdata['views']
+        
         if usrid in views_data:
             views_data[usrid] += 1
         else:
             views_data[usrid] = 1
         detialdata['count'] += 1
 
-        # 缓存查询数据
-
         # 更新redis数据
         self.usedb.set_detial_message(detial, detialdata)
 
+    @sync_to_async
     def count_usernums(self):                               # 统计所有用户人数
         usrids = self.usedb.check_now_userdata()
-        logger.record(1, "统计用户人数")
         return len(usrids)
 
+    @sync_to_async
     def count_detial_all_readtimes(self, detial):           # 统计文章总阅读次数
-        data = self.usedb.get_detial_message(detial)
-        count =  data['count']
-        return count
+        return self.usedb.check_detial_views(detial)
     
+    @sync_to_async
     def count_detial_one_user_readtimes(self, detial, usrid:int):  # 统计单用户阅读次数
-        detial = self.usedb.get_detial_message(detial)
-        try:
-            count = detial['views'][usrid]
-        except KeyError:
-            count = 0
-        return count
+        return self.usedb.check_detial_user_views(detial, usrid)

@@ -4,11 +4,11 @@
   "channel": "https://conda.anaconda.org/conda-forge/win-64",
   "constrains": [],
   "depends": [
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
     "ucrt >=10.0.20348.0",
     "vc >=14.2,<15",
-    "vc14_runtime >=14.29.30139",
-    "python_abi 3.12.* *_cp312",
-    "python >=3.12,<3.13.0a0"
+    "vc14_runtime >=14.29.30139"
   ],
   "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\websockets-15.0.1-py312h4389bb4_0",
   "files": [

@@ -53,15 +53,8 @@ def updataserver(queue:Queue):
             tasktimes[detial] = time
             tasks[detial] = data
 
-        if items >= 30 or len(tasks) >= 10:
+        if items >= 100 or len(tasks) >= 10:
             disposing(tasks=tasks)
-            # with Pool() as pool:
-            #     pool.map_async(dispose_updateserver, tasks.items()).get()
-
-            # # 重置状态
-            # items = 0
-            # tasks = {}  # 参数表
-            # tasktimes = {}  # 时间戳
         
 
 
@@ -135,10 +128,9 @@ if __name__ == "__main__":
     _conf = resolver("services")
     _host = _conf.search("host").data
     _port = _conf.search('port').data
-        
     Process(target=updataserver, args=(mysql_update_queue,)).start()
     uvicorn.run(app="service.asgi:application", host=_host, port=_port)
     # sys.argv = [sys.argv[0], "runserver", "{}:{}".format(_host, _port)]
     # main(sys.argv)
 
-    # http://localhost:8000/demopage/eeee/?uname=yumo&usrid=123
+    # main()

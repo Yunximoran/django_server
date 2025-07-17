@@ -4,8 +4,8 @@
   "channel": "https://conda.anaconda.org/conda-forge/noarch",
   "constrains": [],
   "depends": [
-    "python",
-    "python >=3.9"
+    "python >=3.9",
+    "python"
   ],
   "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\typing_extensions-4.14.1-pyhe01879c_0",
   "files": [

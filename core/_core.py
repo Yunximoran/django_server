@@ -1,18 +1,14 @@
 from django.http import HttpRequest, HttpResponse
-from lib.database import Redis as Cache
-from channels.generic.websocket import WebsocketConsumer, AsyncWebsocketConsumer
-from asgiref.sync import async_to_sync
+from channels.generic.websocket import AsyncWebsocketConsumer
 import asyncio
 import urllib.parse
 
-from ._form import data
 from ._actions import Count, Temp
 
 count = Count()
 temp = Temp()
 
 class WebSock(AsyncWebsocketConsumer):
-    # count = Count()
     async def connect(self):
         query_string = self.scope["query_string"].decode("utf-8")
         query_params = urllib.parse.parse_qs(query_string)
@@ -20,7 +16,6 @@ class WebSock(AsyncWebsocketConsumer):
         self.detial = query_params.get("detial", [""])[0]
         self.usrid = int(query_params.get("usrid", [""])[0] )       
         self.runing = True
-        print(self, self.detial, self.usrid)
         if not self.detial or not self.usrid:
             await self.close(code=400)
             return
@@ -36,10 +31,10 @@ class WebSock(AsyncWebsocketConsumer):
     async def push_real_time_data(self):
         while self.runing:
             try:
-                hitrate = count.usedb.hitrate()
-                all_data = count.count_detial_all_readtimes(self.detial)
-                readt = count.count_detial_one_user_readtimes(self.detial, self.usrid)
-                userslen = count.count_usernums()
+                hitrate = count.usedb.check_now_hitrate()
+                all_data = await count.count_detial_all_readtimes(self.detial)
+                readt = await count.count_detial_one_user_readtimes(self.detial, self.usrid)
+                userslen = await count.count_usernums()
                 msg = count.usedb.jsondumps({
                     "缓存命中率": hitrate,
                     "文章总浏览次数": all_data,
@@ -47,11 +42,11 @@ class WebSock(AsyncWebsocketConsumer):
                     "用户人数": userslen
                 })
                 await self.send(msg)
-            except asyncio.CancelledError:
-                
+            except asyncio.CancelledError as e:
                 break
             except Exception as e:
                 await self.close(code=1011)
+                # 'DetialIndex matching query does not exist.'
                 break
             await asyncio.sleep(1)
 

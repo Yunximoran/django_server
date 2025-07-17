@@ -1,4 +1,4 @@
-from lib.database import MySQL, Redis()
+from lib.database import MySQL, Redis
 import re
 
 
@@ -7,6 +7,7 @@ db = MySQL()
 
 a = db.tables()
 cdb.delete("detialindex")
+
 for tn in a:
     if re.match(r".*?_views", tn):
         print(tn)
