@@ -1,0 +1,428 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "daphne >=4.0.0"
+  ],
+  "depends": [
+    "asgiref >=3.6.0,<4",
+    "django >=4.2",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "C:\\developments\\anaconda3\\pkgs\\channels-4.2.2-pyhd8ed1ab_0",
+  "files": [
+    "Lib/site-packages/channels-4.2.2.dist-info/INSTALLER",
+    "Lib/site-packages/channels-4.2.2.dist-info/LICENSE",
+    "Lib/site-packages/channels-4.2.2.dist-info/METADATA",
+    "Lib/site-packages/channels-4.2.2.dist-info/RECORD",
+    "Lib/site-packages/channels-4.2.2.dist-info/REQUESTED",
+    "Lib/site-packages/channels-4.2.2.dist-info/WHEEL",
+    "Lib/site-packages/channels-4.2.2.dist-info/direct_url.json",
+    "Lib/site-packages/channels-4.2.2.dist-info/top_level.txt",
+    "Lib/site-packages/channels/__init__.py",
+    "Lib/site-packages/channels/apps.py",
+    "Lib/site-packages/channels/auth.py",
+    "Lib/site-packages/channels/consumer.py",
+    "Lib/site-packages/channels/db.py",
+    "Lib/site-packages/channels/exceptions.py",
+    "Lib/site-packages/channels/generic/__init__.py",
+    "Lib/site-packages/channels/generic/http.py",
+    "Lib/site-packages/channels/generic/websocket.py",
+    "Lib/site-packages/channels/layers.py",
+    "Lib/site-packages/channels/management/__init__.py",
+    "Lib/site-packages/channels/management/commands/__init__.py",
+    "Lib/site-packages/channels/management/commands/runworker.py",
+    "Lib/site-packages/channels/middleware.py",
+    "Lib/site-packages/channels/routing.py",
+    "Lib/site-packages/channels/security/__init__.py",
+    "Lib/site-packages/channels/security/websocket.py",
+    "Lib/site-packages/channels/sessions.py",
+    "Lib/site-packages/channels/testing/__init__.py",
+    "Lib/site-packages/channels/testing/application.py",
+    "Lib/site-packages/channels/testing/http.py",
+    "Lib/site-packages/channels/testing/live.py",
+    "Lib/site-packages/channels/testing/websocket.py",
+    "Lib/site-packages/channels/utils.py",
+    "Lib/site-packages/channels/worker.py",
+    "Lib/site-packages/channels/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/apps.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/auth.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/consumer.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/db.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/exceptions.cpython-312.pyc",
+    "Lib/site-packages/channels/generic/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/generic/__pycache__/http.cpython-312.pyc",
+    "Lib/site-packages/channels/generic/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/layers.cpython-312.pyc",
+    "Lib/site-packages/channels/management/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/management/commands/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/management/commands/__pycache__/runworker.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/middleware.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/routing.cpython-312.pyc",
+    "Lib/site-packages/channels/security/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/security/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/sessions.cpython-312.pyc",
+    "Lib/site-packages/channels/testing/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/channels/testing/__pycache__/application.cpython-312.pyc",
+    "Lib/site-packages/channels/testing/__pycache__/http.cpython-312.pyc",
+    "Lib/site-packages/channels/testing/__pycache__/live.cpython-312.pyc",
+    "Lib/site-packages/channels/testing/__pycache__/websocket.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/channels/__pycache__/worker.cpython-312.pyc"
+  ],
+  "fn": "channels-4.2.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\developments\\anaconda3\\pkgs\\channels-4.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "dc6840deb35479370d76b38d92ce69f6",
+  "name": "channels",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\developments\\anaconda3\\pkgs\\channels-4.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "sha256_in_prefix": "b846415d1b514e9c1dff14a22deb906d794bc546ca6129f950a18cd091e2a669",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "64db3f52174e430cd332b759b3b522a684e09ccb75cce6c62740e380db4d0905",
+        "sha256_in_prefix": "64db3f52174e430cd332b759b3b522a684e09ccb75cce6c62740e380db4d0905",
+        "size_in_bytes": 4605
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "47c66397bf687a4eae724897ac169f8dd582a8a1254ec28b033f8a0edd774280",
+        "sha256_in_prefix": "47c66397bf687a4eae724897ac169f8dd582a8a1254ec28b033f8a0edd774280",
+        "size_in_bytes": 4023
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "sha256_in_prefix": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c6b45c6f4511fee86ea37bc9035e0a373ed8d67416aa07e1cdf088a1a44d266c",
+        "sha256_in_prefix": "c6b45c6f4511fee86ea37bc9035e0a373ed8d67416aa07e1cdf088a1a44d266c",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/channels-4.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e7e61a0f664817085f827d318a40d30b06a87c663d4e0fc7572664c36a1c5270",
+        "sha256_in_prefix": "e7e61a0f664817085f827d318a40d30b06a87c663d4e0fc7572664c36a1c5270",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/channels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc3de76129ba3dc2a4c76d44f37e96ebe64c048289946be6228dae36bcdfa046",
+        "sha256_in_prefix": "bc3de76129ba3dc2a4c76d44f37e96ebe64c048289946be6228dae36bcdfa046",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/channels/apps.py",
+        "path_type": "hardlink",
+        "sha256": "507babdae9b6dc5d820b20664cfe65b40d7f52113504dbfce9cd50c2b872ab63",
+        "sha256_in_prefix": "507babdae9b6dc5d820b20664cfe65b40d7f52113504dbfce9cd50c2b872ab63",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/channels/auth.py",
+        "path_type": "hardlink",
+        "sha256": "d4f740d7f14ff5f3b1d562dc26b20928385903d276c005cc60398eddb2549713",
+        "sha256_in_prefix": "d4f740d7f14ff5f3b1d562dc26b20928385903d276c005cc60398eddb2549713",
+        "size_in_bytes": 6547
+      },
+      {
+        "_path": "site-packages/channels/consumer.py",
+        "path_type": "hardlink",
+        "sha256": "67f43567763026e1a7e599a63aab488724245231a8b0866ce565b6aee2311d11",
+        "sha256_in_prefix": "67f43567763026e1a7e599a63aab488724245231a8b0866ce565b6aee2311d11",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "site-packages/channels/db.py",
+        "path_type": "hardlink",
+        "sha256": "72c193c26b76078af6e467caa52757abe47a81e81e22b64cc0e64086da7a8b6a",
+        "sha256_in_prefix": "72c193c26b76078af6e467caa52757abe47a81e81e22b64cc0e64086da7a8b6a",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/channels/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f80272d98b84e2079ab9c8c60e8e7d640efc6be9b964c24d3944bf415cd2012a",
+        "sha256_in_prefix": "f80272d98b84e2079ab9c8c60e8e7d640efc6be9b964c24d3944bf415cd2012a",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "site-packages/channels/generic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/channels/generic/http.py",
+        "path_type": "hardlink",
+        "sha256": "b87f91469b2b8e922a43a06433defeab77a320d40df65867ca781ed2c5745bab",
+        "sha256_in_prefix": "b87f91469b2b8e922a43a06433defeab77a320d40df65867ca781ed2c5745bab",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "site-packages/channels/generic/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "7c19913d8b0777c3cde2679140bc139ea4af7da55e515fdbd6252643511e7b4b",
+        "sha256_in_prefix": "7c19913d8b0777c3cde2679140bc139ea4af7da55e515fdbd6252643511e7b4b",
+        "size_in_bytes": 8971
+      },
+      {
+        "_path": "site-packages/channels/layers.py",
+        "path_type": "hardlink",
+        "sha256": "9286dbb403d9af7d8163be8814c56e06d627e11e987919d4d38d446efb241a9f",
+        "sha256_in_prefix": "9286dbb403d9af7d8163be8814c56e06d627e11e987919d4d38d446efb241a9f",
+        "size_in_bytes": 13785
+      },
+      {
+        "_path": "site-packages/channels/management/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/channels/management/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/channels/management/commands/runworker.py",
+        "path_type": "hardlink",
+        "sha256": "06dca53ce62b69868cb698a1abd015a3e018edd3d5fb6c8769553b5cb97c1cef",
+        "sha256_in_prefix": "06dca53ce62b69868cb698a1abd015a3e018edd3d5fb6c8769553b5cb97c1cef",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "site-packages/channels/middleware.py",
+        "path_type": "hardlink",
+        "sha256": "e8f42e13ffafcc7ed01766c771b8320412589ecc9906184c170454ae3ea1cfba",
+        "sha256_in_prefix": "e8f42e13ffafcc7ed01766c771b8320412589ecc9906184c170454ae3ea1cfba",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/channels/routing.py",
+        "path_type": "hardlink",
+        "sha256": "d52b16dd0b8489234d3838d675355aa09256ba84a7438ce2028a825b7e77b5a7",
+        "sha256_in_prefix": "d52b16dd0b8489234d3838d675355aa09256ba84a7438ce2028a825b7e77b5a7",
+        "size_in_bytes": 6222
+      },
+      {
+        "_path": "site-packages/channels/security/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/channels/security/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "cd9de77e1ad7a982b959b3d16887ac038df5ff9256f8dc1b29ecd0a3f02f3272",
+        "sha256_in_prefix": "cd9de77e1ad7a982b959b3d16887ac038df5ff9256f8dc1b29ecd0a3f02f3272",
+        "size_in_bytes": 5800
+      },
+      {
+        "_path": "site-packages/channels/sessions.py",
+        "path_type": "hardlink",
+        "sha256": "ca9187c63965b59957c10c3ebcbf05e90d3854d434c57743aad958e1911ec91e",
+        "sha256_in_prefix": "ca9187c63965b59957c10c3ebcbf05e90d3854d434c57743aad958e1911ec91e",
+        "size_in_bytes": 10070
+      },
+      {
+        "_path": "site-packages/channels/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "baddf8fab0ee3e169e7efb377cc124e6a734c5e21375b847ef2d7b1bde719785",
+        "sha256_in_prefix": "baddf8fab0ee3e169e7efb377cc124e6a734c5e21375b847ef2d7b1bde719785",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "site-packages/channels/testing/application.py",
+        "path_type": "hardlink",
+        "sha256": "b862ca9617e75537237ecf93c6ca1e28d86ce1595f4a869b81827168de2ce90a",
+        "sha256_in_prefix": "b862ca9617e75537237ecf93c6ca1e28d86ce1595f4a869b81827168de2ce90a",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/channels/testing/http.py",
+        "path_type": "hardlink",
+        "sha256": "d63dc6430e86c1bf4958c2b7f180108443c3eb91502e3d73741429a52c04c6d8",
+        "sha256_in_prefix": "d63dc6430e86c1bf4958c2b7f180108443c3eb91502e3d73741429a52c04c6d8",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "site-packages/channels/testing/live.py",
+        "path_type": "hardlink",
+        "sha256": "15b4bf0b2862c3111fba985c7185a33969736866845274be6940c83e618e20b3",
+        "sha256_in_prefix": "15b4bf0b2862c3111fba985c7185a33969736866845274be6940c83e618e20b3",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "site-packages/channels/testing/websocket.py",
+        "path_type": "hardlink",
+        "sha256": "ded4a9e44625ee6c71ff0caaa51b13cf4d72b20a8476c93eb2aa14e4d4919037",
+        "sha256_in_prefix": "ded4a9e44625ee6c71ff0caaa51b13cf4d72b20a8476c93eb2aa14e4d4919037",
+        "size_in_bytes": 4417
+      },
+      {
+        "_path": "site-packages/channels/utils.py",
+        "path_type": "hardlink",
+        "sha256": "657913012c7e41ff5f7098c21d01499241ffa130eb7077ab8dccb2c8753c8b21",
+        "sha256_in_prefix": "657913012c7e41ff5f7098c21d01499241ffa130eb7077ab8dccb2c8753c8b21",
+        "size_in_bytes": 2177
+      },
+      {
+        "_path": "site-packages/channels/worker.py",
+        "path_type": "hardlink",
+        "sha256": "eb3fd1f2152a943f5bcf6bcd1e2d4d0a0672c4b30dcd4ff4b7ab45f803e4ef22",
+        "sha256_in_prefix": "eb3fd1f2152a943f5bcf6bcd1e2d4d0a0672c4b30dcd4ff4b7ab45f803e4ef22",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/apps.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/auth.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/consumer.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/db.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/generic/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/generic/__pycache__/http.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/generic/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/layers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/management/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/management/commands/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/management/commands/__pycache__/runworker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/middleware.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/routing.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/security/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/security/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/sessions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/testing/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/testing/__pycache__/application.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/testing/__pycache__/http.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/testing/__pycache__/live.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/testing/__pycache__/websocket.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/utils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/channels/__pycache__/worker.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "channels",
+  "sha256": "7f6e71de437c1712037dda246f99664ca4491bdb9fb589cb11ab1df4be42a8ea",
+  "size": 31494,
+  "subdir": "noarch",
+  "timestamp": 1743383220000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/channels-4.2.2-pyhd8ed1ab_0.conda",
+  "version": "4.2.2"
+}

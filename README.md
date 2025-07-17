@@ -55,7 +55,7 @@
 
 * python 依赖
 ```bash
-pip install django uvicorn redis pymysql psutil channels websocket requests
+pip install django uvicorn redis pymysql psutil channels websocket requests asgiref
 ```
 
 * 目录结构

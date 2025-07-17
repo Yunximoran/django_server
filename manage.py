@@ -53,7 +53,7 @@ def updataserver(queue:Queue):
             tasktimes[detial] = time
             tasks[detial] = data
 
-        if items >= 1 or len(tasks) >= 10:
+        if items >= 100 or len(tasks) >= 10:
             disposing(tasks=tasks)
         
 
@@ -134,5 +134,3 @@ if __name__ == "__main__":
     # main(sys.argv)
 
     # main()
-
-    # http://localhost:8000/demopage/eeee/?uname=yumo&usrid=123

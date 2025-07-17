@@ -2,9 +2,7 @@ import json
 import time
 from typing import Any
 
-from lib.database import Redis, MySQL
-from lib.database.mysql import Condition
-from lib.database.mysql import Field, constant
+from lib.database import Redis
 from lib.sys.processing import Queue
 from lib import Logger, Catch
 
@@ -20,7 +18,6 @@ class DataBase:
     """
     logger = Logger("data")             # 导入日志写入模块
     catch = Catch(logger)               # 导入异常捕获模块
-    database = MySQL()                  # 导入MySQL工作台
     cache = Redis(                      # 导入Reids工作台
         # 设置捕获类型
         connect=False, 
@@ -29,18 +26,7 @@ class DataBase:
     ) 
 
     def __init__(self):
-
-        # 检查数据库依赖的MySQL表
-        if not self.check_tables("detialindex"):
-            self.logger.record(3, "MYSQL detialindex 表 不存在")
-            raise "MYSQL detialindex 表 不存在"
-        
-        # 导入索引表
-        self.table_detialindex = self.database.workbook("detialindex")
-        self.table_userdata = self.database.workbook("userdata")
-
-    def check_tables(self, table:str):                          # 校验MySQL表存在
-        return table in self.database.tables()
+        pass
     
     def get_detial_message(self, detial:str) -> dict:           # 文章数据获取(Redis)
         self.logger.record(1, f"read detial:{detial} information from detialindex")
@@ -63,7 +49,7 @@ class DataBase:
             detial, views, count = detial, False, False
         return  {
                 "views": views if views else dict(),
-                "count": count if count else 1
+                "count": count if count else 0
             }
     
     def set_detial_message(self, detial:str, data:dict):        # 文章数据写入(Redis)
@@ -80,27 +66,38 @@ class DataBase:
         viewdata = data['views'].items()
         count = data['count']
         
-        detialtable, created  = DetialIndex.objects.update_or_create(detial=detial, defaults={"count":count})
+        detialtable, _  = DetialIndex.objects.update_or_create(detial=detial, defaults={"count":count})
+        
         # 更新view表数据
         for usrid, count in viewdata:
             DetialViews.objects.update_or_create(detial=detialtable, usrid=usrid, defaults={"count":count})
-            UserData.objects.update_or_create(usrid=usrid, uname="yumo")
+            if not UserData.objects.filter(usrid=usrid).exists():
+                UserData.objects.create(usrid=usrid, uname="yumo")
+
         
     def check_detial_views(self, detial:str):
-        self.logger.record(1, f"read detial - user: {detial}")
+        self.logger.record(1, f"read detial: {detial}")
 
         count = self.cache.hget(f"check_count_{detial}", "count")
         if not count:
-            count = DetialIndex.objects.get(detial=detial).count
+            try:
+                count = DetialIndex.objects.get(detial=detial).count
+            except DetialIndex.DoesNotExist:
+                count = 0
+
             self.cache.hset(f"check_count_{detial}", "count", count)
             self.cache.expire(f"check_count_{detial}", 3)
 
         return count
     
     def check_detial_user_views(self, detial, usrid):
+        self.logger.record(1, f"fitter out {usrid} from {detial}")
         ucount = self.cache.hget(f"check_count_{detial}", usrid)     
         if not ucount:
-            ucount = DetialViews.objects.filter(detial=detial, usrid=usrid)[0].count
+            try:
+                ucount = DetialViews.objects.get(detial=detial, usrid=usrid).count
+            except DetialViews.DoesNotExist:
+                ucount = 0
             self.cache.hset(f"check_count_{detial}", usrid, ucount)
             self.cache.expire(f"check_count_{detial}", 3)
         return ucount
@@ -111,11 +108,11 @@ class DataBase:
         if not users:
             # 读取MySQL用户数据
             users = [user.usrid for user in UserData.objects.all()]
-
+            print(users)
             # 数据写入缓存
             self.cache.rpush("usrids", *users)
             # 设置过期时间，如果十秒没有查询，清理缓存
-            self.cache.expire("usrids", 10)
+            self.cache.expire("usrids", 3)
     
         # 统一数据格式，返回列表类型
         if not isinstance(users, list):
@@ -135,7 +132,7 @@ class DataBase:
         return json.dumps(data, ensure_ascii=False, indent=4)
     
     # 缓存数据读写， 设置异常捕获，实现异常分级功能
-    @catch.DataBase(cache=cache, disk=database, error_callback=_get_detial_message)
+    @catch.DataBase(cache=cache, disk=None, error_callback=_get_detial_message)
     def _hget_cache_(self, name:str):                           # 缓存读取, 设置异常回调函数(_get_detial_message)
         # 设置异常回调函数时，保证 回调函数参数 与 原函数 一致
         # raise TimeoutError("测试分级效果")
@@ -143,12 +140,13 @@ class DataBase:
         data = self.cache.hget(label, name)
         return self.jsonloads(data)
     
-    @catch.DataBase(cache=cache, disk=database, error_callback=_set_detial_data)
+    @catch.DataBase(cache=cache, disk=None, error_callback=_set_detial_data)
     def _hset_cache_(self,name:str, data:dict):                 # 缓存写入，设置异常回调函数(_set_detial_data)
         # 设置异常回调函数时，保证 回调函数参数 与 原函数 一致
         # raise TimeoutError("测试分级效果")
         label = "detialindex"
         self.cache.hset(label, name, self.jsondumps(data))
+        self.cache.expire("detialindex", 3)
 
 
 
