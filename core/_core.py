@@ -14,7 +14,7 @@ class WebSock(AsyncWebsocketConsumer):
         query_params = urllib.parse.parse_qs(query_string)
         
         self.detial = query_params.get("detial", [""])[0]
-        self.usrid = int(query_params.get("usrid", [""])[0] )       
+        self.usrid = query_params.get("usrid", [""])[0]     
         self.runing = True
         if not self.detial or not self.usrid:
             await self.close(code=400)
