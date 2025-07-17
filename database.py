@@ -95,7 +95,6 @@ class DataBase:
         self.logger.record(1, f"fitter out {usrid} from {detial}")
         detial_message = self.get_detial_message(detial)
         view_data = detial_message['views']
-        print(usrid, type(usrid))
         if usrid in view_data:
             ucount = view_data[str(usrid)]
             # ucount = self.cache.hget(f"check_count_{detial}", usrid)     

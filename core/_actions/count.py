@@ -21,7 +21,6 @@ class Count:
         else:
             views_data[usrid] = 1
         detialdata['count'] += 1
-        print(detialdata)
 
         # 更新redis数据
         self.usedb.set_detial_message(detial, detialdata)
